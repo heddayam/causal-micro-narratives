@@ -1,0 +1,52 @@
+State,Region,Abbreviation
+Connecticut,Northeast,ne
+Maine,Northeast,ne
+Massachusetts,Northeast,ne
+New Hampshire,Northeast,ne
+New Jersey,Northeast,ne
+New York,Northeast,ne
+Pennsylvania,Northeast,ne
+Rhode Island,Northeast,ne
+Vermont,Northeast,ne
+Alabama,South,s
+Arkansas,South,s
+Delaware,South,s
+District of Columbia,South,s
+Florida,South,s
+Georgia,South,s
+Kentucky,South,s
+Louisiana,South,s
+Maryland,South,s
+Mississippi,South,s
+North Carolina,South,s
+Oklahoma,South,s
+South Carolina,South,s
+Tennessee,South,s
+Texas,South,s
+Virginia,South,s
+West Virginia,South,s
+Alaska,West,w
+Arizona,West,w
+California,West,w
+Colorado,West,w
+Hawaii,West,w
+Idaho,West,w
+Montana,West,w
+Nevada,West,w
+New Mexico,West,w
+Oregon,West,w
+Utah,West,w
+Washington,West,w
+Wyoming,West,w
+Illinois,North Central,nc
+Indiana,North Central,nc
+Iowa,North Central,nc
+Kansas,North Central,nc
+Michigan,North Central,nc
+Minnesota,North Central,nc
+Missouri,North Central,nc
+Nebraska,North Central,nc
+North Dakota,North Central,nc
+Ohio,North Central,nc
+South Dakota,North Central,nc
+Wisconsin,North Central,nc

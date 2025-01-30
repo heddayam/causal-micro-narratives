@@ -1,0 +1,72 @@
+So there are plenty of reasons why the policymaker has to pay attention to the possibility of rising inflation in the future.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"effect": "govt", "time": "present"}]}}
+
+(Source: measuringworth.com) These figures are inflation-adjusted and consider dividend reinvestment.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The union has proposed a 5% annual raise during the next three years and officials argue that teachers' most recent contract, which expired this summer, didn't keep pace with inflation in the city.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Beset by triple-digit inflation, rolling power cuts and shortages of basic goods, the economy is mired in its worst crisis in a decade, while political opponents say a clampdown on dissent by Mnangagwa's government has revived memories of the Mugabe era.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "purchase", "time": "present"}, {"effect": "uncertain", "time": "present"}, {"effect": "social", "time": "present"}]}}
+
+She has been among the members of the Fed to urge it to use any and all measures that would help maximize employment, even if it meant tolerating a slightly higher rate of inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "wage", "time": "future"}]}}
+
+Interventions The Sudanese Central Bureau of Statistics reported early October that the inflation increased to 35,13 percent in September from 34,61 in August.
+{"foreign": true, "contains-narrative": false, "inflation-narratives": null}
+
+But "several economists and market analysts said there is proof that large firms are using the cover of inflation to raise prices on consumers and increase their profit margins, particularly in beef."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "cost", "time": "present"}]}}
+
+According to FXStreet's Yohay Elam, Powell may indirectly signal a willingness to buy more bonds by calling for increased fiscal (government) spending, in which case inflation hedges like bitcoin and gold could shine.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "monetary", "time": "future"}, {"effect": "savings", "time": "future"}, {"effect": "other-effect", "time": "future"}]}}
+
+With inflation on the rise, the midi was an economic encumbrance, too; the longer length required a higher price point.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "counter-narrative": false, "narratives": [{"effect": "cost", "time": "past"}, {"effect": "cost-push", "time": "past"}]}}
+
+Inflation is ultimately a destructive force for holders of cash and fixed-income instruments.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "redistribution", "time": "general"}, {"effect": "savings", "time": "general"}]}}
+
+With voters tiring of rampant crime, triple-digit inflation and widespread shortages, polls for months had been forecasting an opposition victory.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "social", "time": "future"}]}}
+
+Mello, an educational campaigner who runs Projeto Uere school in one of Rio's most notorious favelas, said discontent over spending on the World Cup had increased, while rising inflation had brought many families back to the poverty line.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "purchase", "time": "present"}]}}
+
+Since the breakdown of the Bretton Woods international monetary system in the early 1970s, most countries have faced bouts of high and volatile inflation as they sought a suitable nominal anchor.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "other-cause", "time": "past"}]}}
+
+At the same time, the world is coming to realize that after seven years (since the financial crisis) of global monetary policies designed to stimulate growth and inflation, there has been very little of either.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": true, "narratives": [{"cause": "monetary", "time": "past"}]}}
+
+The country has been hit by one of the world's highest inflation rates and a currency crisis that has seen the peso depreciate by more than 50 percent so far this year.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "trade", "time": "present"}]}}
+
+"In terms of future policy action, there is certainly scope for further rate move given weak domestic demand conditions and a contained inflation trajectory.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "demand", "time": "present"}, {"effect": "rates", "time": "future"}]}}
+
+After inflation differentials are taken into account the difference between the U.S. dollar and local currency borrowing costs reaches 10.6 percent (and 5.4 percent taking into account currency depreciation).
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+SEIDMAN: Inflation, epidemic - I grew up thinking that apologies are hard, and they felt hard.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+This will trigger cost push inflation as companies will produce at higher cost and pass the cost to the consumer.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "supply", "time": "present"}]}}
+
+Gold, regarded as a hedge against likely inflation and currency debasement, has risen over 22% so far this year amid the unprecedented stimulus unleashed globally.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "savings", "time": "present"}]}}
+
+Soaring Crop Prices Trigger Inflation Fears Crop prices just hit highs not seen in nearly eight years, and investors are taking note.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"cause": "expect", "time": "present"}]}}
+
+Consequently, the "race to debase " will intensify, yielding increased worldwide inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "international", "time": "future"}]}}
+
+The hope is that these projects will spur economic growth in the U.S. and help drive up inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+Today's report is just the sort of ammunition the Fed doves need to argue against additional rate hikes this year or even next year if they don't get confirmation that inflation is headed higher towards the Fed's 2.0 percent target."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "rates", "time": "future"}]}}
+

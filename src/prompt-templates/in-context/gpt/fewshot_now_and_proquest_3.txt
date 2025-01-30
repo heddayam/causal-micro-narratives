@@ -1,0 +1,72 @@
+Another discouraging intrusion has been inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The threat of inflation could force central banks to look at tighter monetary policy sooner rather than later, and financials are well positioned to see profits rise whenever that happens.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "govt", "time": "future"}]}}
+
+Open SIX Days Per Week FIGHT Inflation Prices SHOP AND SAVE RADIOS..
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "other-effect", "time": "present"}]}}
+
+As of last week, only one of the three buildings marked for closing had been rented, and inflation and salary increases for teachers and other personnel were cutting into the cost reduction gained by back the number of district employees.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+The second option would be for the federal government to provide a fixed amount of funding per person enrolled in Medicaid, with future increases tied to inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Such a program is not needed today in view of the declining rate of inflation and furthermore it fails to recognize the role of the marketplace in setting prices or the true cause of inflation in this or any other country, namely, large Federal deficits financed by an excessive rise in the money supply."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"cause": "monetary", "time": "general"}, {"cause": "fiscal", "time": "general"}]}}
+
+The fact that Latinos are overwhelmingly concerned about inflation and the economy is a warning to Democrats who control the White House and Congress.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "social", "time": "present"}]}}
+
+So how much of your sub- stantial savings should be kept in safe, fixed-dollar, depositories, and how much in inflation-resistant invest-?
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+TRADERS AND INVESTORS know that real progress In checking inflation would-like peace-ease demands for credit and let irk Merest rates decline, But many doubt that the author sties here will do the hard things necessary to check the wage-price spiral.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "demand", "time": "future"}]}}
+
+Underscoring uncertainty about the future of inflation, several members of the Governing Council actually suggested that there be a de-linking of tapering plans from inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "rates", "time": "future"}]}}
+
+Finally, I should like topoint out that it is not the stabilizing policies of the IMF that generate political crises in different countries, but the demagoguery of certain politicians who do not hesitate to confuse public opinion and push those countries towards inflation.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "other-cause", "time": "present"}]}}
+
+The MPC said their decision was influenced by oil prices which have fallen by 40% since its November Inflation Report, which would likely mean global inflation would remain low in the near-term.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "supply", "time": "present"}]}}
+
+Cut in Services Generally, Post said. the Reagan b u d g e t while higher in total than current year expen- actually reduces state services by $425 mil- And this. he said. would not include in- creases for state employes or a factor to counteract inflation in school costs.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But the Racheting Tax is the most fearsome of the species, always gobbling up more and more as inflation pushes incomes into higher tax brackets, swallowing up ever-larger slices of the gross national pie.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"effect": "cost", "time": "general"}]}}
+
+On a trade-weighted basis, the dollar has fallen more than enough to offset the U.S. inflation of recent years.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "narratives": [{"effect": "trade", "time": "past"}]}}
+
+They're not an important cause of the current current Inflation, although a wage-price spiral now could be harmful.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "wage", "time": "future"}]}}
+
+He also mentioned the plight of the auto industry and the increase of retail inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The two months taken together seemed to show a small gain in real terms after allowing for inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+As best we can tell, the fall in inflation compensation mainly reflects factors other than a reduction in longer-term inflation expectations.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "expect", "time": "present"}]}}
+
+climate change talks are being held The U.S. dollar hit a nine-month peak in Asia on Monday as the risk of faster domestic inflation and wider budget deficits sent Treasury yields ever higher, a painful mix for assets in many emerging market countries.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "international", "time": "present"}, {"effect": "uncertain", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+Since Biden has taken office, inflation, costs of goods, energy and costs associated with hiring and keeping employees have skyrocketed.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "fiscal", "time": "past"}]}}
+
+Needy states and cities are arguing that it makes little sense for Washington to reduce taxes to stimulate the economy at the same time that federal aid to states and cities is cut, or at least fails to keep pace with inflation, causing local tax increases.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "purchase", "time": "present"}, {"effect": "uncertain", "time": "present"}]}}
+
+"If Greece leaves the euro zone, we'll be looking at a sharp devaluation of the new currency and inflation is going to go through the roof," said Diego Iscaro, senior economist at IHS Global Insight.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "international", "time": "future"}]}}
+
+I LIKE the Ideas here because retired per- sons and the disabled and persons living on pensions and fixed incomes are victimized worst by inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"effect": "redistribution", "time": "general"}]}}
+

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expandable List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .list-item {
+      cursor: pointer;
+      user-select: none;
+      padding: 10px;
+      margin-bottom: 5px;
+      background-color: #f1f1f1;
+    }
+
+    .list-item:hover {
+      background-color: #ddd;
+    }
+
+    .list-content {
+      display: none;
+      padding-left: 20px;
+    }
+
+    .type-flexbox {
+      display: flex;
+      justify-content: space-between;
+      /* flex-direction: column; */
+    }
+
+    .type-flexbox > div {
+        flex-basis: 49%;
+    }
+  </style>
+</head>
+<body>
+
+
+
+<div class="type-flexbox">
+    <div>
+    <h2>Causes of Inflation</h2>
+    <div class="list-item" onclick="toggleList('demandList')">
+    <strong>(demand) Demand-side factors</strong>: Pull-side or demand-pull inflation. Occurs when (aggregate) demand for goods and services exceeds (aggregate) supply. Leads to rise in or upward pressure on prices due to the scarcity (or imbalance) of goods or services relative to demand.
+    </div>
+    <div id="demandList" class="list-content">
+    <p>Sources include:</p>
+    <ul>
+        <li><strong>Consumer spending</strong> - more disposable income, higher employment, higher credit availability, higher household wealth, higher stock market values, or higher real estate property values can lead to higher demand for goods or services, outstripping supply. The increase in asset prices that leads to higher wealth that leads to more spending could be driven by speculation.
+        <br><strong>Example:</strong> strong holiday shopping seasons lead to a surge in consumer spending</li>
+        <li><strong>Investment boom</strong> - large amounts of business investment due to favorable economic conditions, or high marginal productivity, or high Tobin’s q, or technological advancements boost demand for capital goods.
+        <br><strong>Example:</strong> industrial companies investing heavily or expanding in new technologies, raising demand for required resources</li>
+    </ul>
+    </div>
+
+    <div class="list-item" onclick="toggleList('supplyList')">
+        <strong>(supply) Supply-side factors</strong>: Push-side or cost-push inflation. Occurs when the cost of production for goods or services rises, which can result in higher prices for consumers. There’s an increase in prices of important inputs with no suitable alternatives. As businesses face higher prices for underlying inputs, they are forced to increase prices of their outputs.
+    </div>
+    <div id="supplyList" class="list-content">
+    <p>Sources include:</p>
+    <ul>
+        <li><strong>Supply shock</strong> - sudden, unexpected, significant reduction in supply or production capacity due to natural disasters, geopolitical events or conflicts, war, pandemic, can all lead to scarcity, raising the cost of production, and causing prices to rise. Poor productivity growth could also mean firms need to hike prices because labor and materials costs per unit of output rise. Could lead to high capacity utilization
+        <br><strong>Example:</strong> crop failures from bad weather or climate conditions or droughts lead to a shortage of food and increased prices</li>
+        <li><strong>Supply chain disruption</strong> - severe interruption or disturbance to the flow of raw materials, goods, or logistical services along a supply chain or network, disrupting the normal operations of business involved in production, distribution, or delivery of products
+        <br><strong>Example:</strong> Failure or closure of a major supplier or factory forces firms to find an alternative quickly, creating shortages, delays, and price spikes</li>
+        <li><strong>Production cost increases</strong> - rising prices of critical inputs like labor, raw materials, global commodities, or energy can raise production costs and lead businesses to raise prices.
+        <br><strong>Example:</strong> Sharp rise in oil prices or sudden oil shortage leads to higher fuel prices and transportation costs, forcing firms to raise their prices</li>
+    </ul>
+    </div>
+
+    <div class="list-item" onclick="toggleList('wageList')">
+    <strong>(wage) Built-in wage inflation</strong>: Also known as wage inflation or wage-price spiral.
+    </div>
+    <div id="wageList" class="list-content">
+    <p>Sources include:</p>
+    <ul>
+        <li><strong>Wage hikes</strong> - Workers attempt to protect their real wages from falling in response to inflation by advocating for higher nominal wages. If they are successful, this raises the costs faced by their employers. To protect the real value of their profits (or to attain a target profit rate or rate of return on investment), employers then pass the higher costs on to consumers in the form of higher prices. This encourages workers to push for higher nominal wages because these price rises raise their cost of living; so the inflationary cycle reinforces itself. Wage hikes push up costs for businesses
+        <br><strong>Example:</strong> Unions call for substantial wage increases</li>
+        <li><strong>Other labor market factors</strong> - tight labor market and low unemployment can lead to higher wages as employers compete for workers, causing inflation. Could also be from aging demographics that reduce labor supply, forcing firms to raise prices from higher worker pay
+        <br><strong>Example:</strong> low unemployment rates and high worker bargaining power can put pressure on firms to raise wages to hire workers, which increases firm costs that are then passed on as higher prices</li>
+        <li><strong>Cost of living adjustments</strong> - Pay raises, benefits, pensions often include automatic inflation adjustments to protect incomes and profits. But frequent hikes just fuel more inflation.
+        <br><strong>Example:</strong> cost of living adjustments for pensions</li>
+    </ul>
+    </div>
+
+    <!-- (monetary) Monetary factors -->
+    <div class="list-item" onclick="toggleList('monetaryList')">
+    <strong>(monetary) Monetary factors</strong>: Central bank policies that contribute to inflation. There is excessive monetary growth, when there is too much money in the system chasing too few goods. The prices of goods will thus increase. Actions taken by central banks (federal reserve), such as increasing the money supply (printing money) or lowering interest rates, can impact inflation.
+    </div>
+    <div id="monetaryList" class="list-content">
+    <p>Sources include:</p>
+    <ul>
+        <li><strong>Money supply expansion</strong> - The central bank enacts policies that increase the money supply, or the total amount of money in circulation (liquidity), leading to more money chasing relatively fewer goods. Money creation outpaces economic growth. The excess money drives up prices. Includes monetization of debt (when central banks buy interest-bearing debt with non-interest-bearing money as a permanent exchange of debt for cash)
+        <br><strong>Example:</strong> central bank injects cash into the economy through programs like quantitative easing or bond purchasing</li>
+        <li><strong>Lower interest rates</strong> - central bank lowers interest rates to encourage borrowing and spending or investment, with the goal of boosting economic growth. Could also raise asset prices because lower interest rates can encourage risk-taking to seek higher returns. Higher asset prices generate wealth effects that can encourage spending. But higher spending can raise prices as borrowing could allow spending to exceed productive capacity
+        <br><strong>Example:</strong> central bank keeps interest rate low or cuts it to stimulate borrowing and investment</li>
+    </ul>
+    </div>
+
+    <!-- (fiscal) Fiscal factors -->
+    <div class="list-item" onclick="toggleList('fiscalList')">
+    <strong>(fiscal) Fiscal factors</strong>: Government policies that contribute to inflation.
+    </div>
+    <div id="fiscalList" class="list-content">
+    <p>Sources include:</p>
+    <ul>
+        <li><strong>Government spending</strong> - high government expenditures that are not offset or matched or met by tax revenue, creating budget deficits, can raise demand and prices. Loose fiscal policy. Inject excess money into the economy. If excess spending doesn’t coincide with boost to productivity, could lead to inflation
+        <br><strong>Example:</strong> large-scale infrastructure projects or welfare programs financed by government borrowing or debt</li>
+        <li><strong>Tax/revenue policies</strong> - Sudden changes in tax policies, such as reducing taxes without corresponding cuts in spending, can stimulate consumer spending. If this leads to increased demand without a proportional increase in supply, it can contribute to inflation. If tax cuts create large deficits, interest costs may rise on accumulated debt, which diverts more public revenue away from productive activities toward debt holders. And heavy debt burdens threaten confidence in future tax hikes and in the ability to fund public services or in the government to repay its debt, creating inflation. The government may try to inflate away its debt
+        <br><strong>Example:</strong> tax cuts boost business investment and consumer spending that outstrips productive capacity, raising prices</li>
+    </ul>
+    </div>
+
+    <div class="list-item" onclick="toggleList('expectList')">
+    <strong>(expect) Expectations</strong>: The expectation that inflation will rise often leads to a rise in inflation. Workers and firms will increase their prices to “catch up” to inflation. Businesses might preemptively raise prices, and consumers may spend more now to avoid higher prices later
+    </div>
+    <div id="expectList" class="list-content">
+    <p>Sources include:</p>
+    <ul>
+        <li><strong>Adaptive expectations</strong> - Consumers and businesses that experienced high inflation in the past may assume it will persist. So they accept and adapt spending around rising prices. Inflation gets baked into people’s expectations. Inflationary expectations arise because of persistent past experience with inflation.
+        <br><strong>Example:</strong> Previous history of shortages makes people expect shortages in the future, leading to panic buying that raises prices</li>
+        <li><strong>Forward-looking expectations</strong> - anticipated future prices can lead to current spending and investment that drives up prices. Individuals learn from past trends and experiences to make the best possible prediction about what will happen. People may also anticipate changes in government or central bank policy that affects their spending and drives prices up. Expectations could become self-fulfilling because if people expect prices to rise, they may make purchases sooner, creating a self-fulfilling prophecy.
+        <br><strong>Example:</strong> people stocking up on goods due to expectations of future shortages or price hikes</li>
+        <li><strong>Consumer confidence</strong> - positive sentiment among consumers or firms lead them to increase spending or investment. Could be overly optimistic assumptions about future productivity, leading to excess spending, contributing to inflation
+        <br><strong>Example:</strong> consumers increase spending from optimism about future economic conditions</li>
+    </ul>
+    </div>
+
+    <!-- (international) International Trade and Exchange Rates -->
+    <div class="list-item" onclick="toggleList('internationalList')">
+    <strong>(international) International Trade and Exchange Rates</strong>: International trade and exchange rate factors that can cause inflation.
+    </div>
+    <div id="internationalList" class="list-content">
+    <p>Sources include:</p>
+    <ul>
+        <li><strong>International trade</strong> - trade barriers, tariffs, trade conflicts between countries influence the cost of imported goods. Tariffs or trade restrictions can raise the prices of imported products, contributing to inflation.
+        <br><strong>Example:</strong> tariffs on pharmaceuticals or steel lead to higher prices for domestic customers</li>
+        <li><strong>Exchange rate movements</strong> - currency depreciation relative to other currencies (weaker domestic currency) raises the cost of imported goods, increasing domestic prices for consumers overall
+        <br><strong>Example:</strong> weakening of the domestic currency leads to higher prices of imported semiconductors</li>
+    </ul>
+    </div>
+
+    <!-- (other) Other Causes -->
+    <div class="list-item" onclick="toggleList('otherList')">
+    <strong>(other) Other Causes</strong>: Causes not included in above.
+    </div>
+    <div id="otherList" class="list-content">
+        <p> Could include:</p>
+    <ul>
+        <li><strong>Market concentration</strong> - market power of a few large firms gives them pricing power, leading to higher prices
+        <br><strong>Example:</strong> Oligopoly in an industry makes firms feel they can raise prices without fear of competition</li>
+        <li>Regulation/Government Rules - inefficient or restrictive regulations can affect production costs and raise prices
+        <br><strong>Example:</strong> Strict environmental regulations lead to higher production costs</li>
+        <li><strong>Gold standard</strong> - Coming off a gold (or commodity or cryptocurrency like bitcoin) standard may lead to inflation. A government manipulating the standard may also cause inflation. Manipulation is done by altering the rate of exchange between the currency and gold (i.e., redefining the gold parity). Changing the official price of gold in terms of currency effectively alters the money supply, impacting inflation. Countries could also institute controls that gold can no longer flow freely in/out of the country, which is akin to leaving the gold standard.
+        <br><strong>Example:</strong> Devaluing the currency against gold, for instance, reduces the amount of gold needed to back each unit, increasing the money supply and potentially fueling inflation.</li>
+    </ul>
+    </div>
+    </div>
+    <div>
+    <h2>Effects of Inflation</h2>
+
+    <!-- (purchase) Reduced Purchasing Power -->
+    <div class="list-item" onclick="toggleList('purchaseList')">
+        <strong>(purchase) Reduced Purchasing Power:</strong> Inflation erodes the purchasing power of money (such as the U.S. dollar) over time. As prices rise, each unit of currency (money) buys fewer goods and services. If incomes do not rise side-by-side with inflation, people can afford fewer goods and services overall than before. See a decline in real wages or real incomes. Affects the overall buying capacity of consumers, not just specific goods or services or necessities.
+    </div>
+    <div id="purchaseList" class="list-content">
+        <p>Consequence could be fear of recession because of reduced purchasing power.</p>
+        <p><strong>Example:</strong> A gallon of gas might cost $4. But if inflation rises by 5% next year, that same gallon could cost $4.20. While the difference seems small, it means your $4 can't buy the same amount of gas anymore. This erosion of purchasing power affects everything from groceries to rent to healthcare.</p>
+    </div>
+    
+    <!-- (cost) Cost of Living Increases -->
+    <div class="list-item" onclick="toggleList('costList')">
+        <strong>(cost) Cost of Living Increases:</strong> Inflation can raise the cost of living, particularly impacting individuals on fixed incomes, pensioners, and those with lower wages. Distinction from “reduced purchasing power” is that “cost of living increases” focuses on how much inflation raises the cost of living or the cost of consumption, whereas “reduced purchasing power” focuses on the real value of money declining.
+    </div>
+    <div id="costList" class="list-content">
+        <p>Consequences include:</p>
+        <ul>
+        <li><strong>Changing consumption patterns -</strong> Essential goods and services, including housing and food, may become more expensive, making it challenging for some people to afford basic necessities. Consumption patterns may change as a result. Other items may get relatively cheaper. Do-it-yourself activities may rise to save on rising costs.
+            <br><strong>Example:</strong> If food prices rise, consumers might switch from buying meat and fresh produce to more affordable options like beans, lentils, and frozen foods. This can lead to increased demand for these alternative products, potentially driving up their prices as well.</li>
+        <li><strong>Fixed-income earners/fixed wage earners -</strong> Those with fixed incomes (like retirees) or fixed wages (like low-income workers with low bargaining power) are particularly vulnerable to inflation's cost of living effects. Their income may remain relatively the same while the prices of goods and services and basic necessities rise, squeezing budgets and reducing purchasing power. This creates a larger gap between their income and expenses. Retirees and individuals on fixed incomes can experience a decrease in their real income as their earnings may not keep up with inflation, affecting their ability to afford goods and services.
+            <br><strong>Example:</strong> A retiree living on a fixed pension per month sees inflation of 3%. The cost of their groceries may increase, which leaves them with less money for other essentials like medication or utilities, putting a strain on their budget.</li>
+        <li><strong>Indexed benefits -</strong> If workers or retirees receive benefits that are indexed to inflation, the cost of living effects on retirees or those on social security may be mitigated if their benefits/incomes rise with inflation. Those with flexible incomes that adjust more with inflation would be less affected by the rise in prices. Those with the ability to negotiate higher wages or whose incomes are indexed to inflation might fare better than those without such protections.
+            <br><strong>Example:</strong> Social security benefits increase with inflation, making it a valuable source of retirement income</li>
+        <li><strong>Hoarding -</strong> When people expect prices to rise at a regular pace, they may be incentivized to hoard goods as stores of value. This could worsen shortages. Black markets may develop for scarce goods.
+            <br><strong>Example:</strong> Panic buying of toilet paper and gasoline can leave store shelves bare.</li>
+        </ul>
+    </div>
+
+    <!-- (uncertain) Uncertainty Increases -->
+    <div class="list-item" onclick="toggleList('uncertainList')">
+        <strong>(uncertain) Uncertainty Increases:</strong> Inflation can create uncertainty about future prices, particularly if the inflation is high or unpredictable. 
+    </div>
+    <div id="uncertainList" class="list-content">
+        <p>One can consider these consequences of higher uncertainty:</p>
+    <ul>
+        <li><strong>Makes predictions harder -</strong> Higher uncertainty from inflation can affect business investment or consumer purchasing decisions. Businesses may find it harder to predict future prices, wages, and costs. As a result, they may struggle to plan or strategize due to unpredictable future costs from high price volatility. They may delay or cancel projects, hurting economic growth and employment. Facing conditions that make it hard to predict the future, consumers may delay purchases, especially for big-ticket items if they feel unsure where prices are headed in the future. Consumers may struggle to budget, especially for long-term planning.
+        <br><strong>Example:</strong> Businesses may delay factory expansion due to uncertain future costs from high inflation</li>
+        <li><strong>Discourages investment and spending -</strong> When businesses can't predict future costs and returns, they become hesitant to invest in new projects, equipment, or hiring. This reduced investment could lower economic growth, create fewer jobs, and may create even more economic uncertainty. Foreign firms may be less likely to invest in a country (or trade with domestic firms) with high inflation too. Firms may also focus on short-term, more predictable projects than longer-term, more unpredictable projects. Likewise, more uncertain consumers may wait to purchase items, especially high-priced goods, which dampens spending and demand.
+        <br><strong>Example:</strong> A tech startup might scrap its plans for a new app launch if it's unsure whether potential customers will be willing to spend in an inflationary environment.</li>
+        <li><strong>Raises risk premia -</strong> Rapidly rising prices and/or unpredictable inflation make valuing future earnings streams difficult for stocks and bonds. This could increase market volatility as investors demand higher risk premiums, lowering capital values.
+        <br><strong>Example:</strong> High inflation raises equity risk premia, leading the prices of stocks to fall.</li>
+    </ul>
+    </div>
+
+    <!-- (rates) Interest Rates Raised -->
+    <div class="list-item" onclick="toggleList('ratesList')">
+    <strong>(rates) Interest Rates Raised:</strong> Central banks may respond to inflation by raising interest rates to curb spending and investment. This is part of monetary policy and a central bank trying to maintain stable prices. In the US, the Federal Reserve does so by raising the federal funds rate (the rate at which banks borrow and lend from each other in the federal funds market) with the goal of reducing inflationary pressure (e.g., following the Taylor rule). 
+    </div>
+    <div id="ratesList" class="list-content">
+        <p>One can consider three consequences of higher rates:</p>
+    <ul>
+        <li><strong>Dampen demand -</strong> higher interest rates make borrowing more expensive (i.e., increases the cost of borrowing). Higher interest rates can lead lenders like banks to raise the interest rates charged on loans. This discourages consumers and businesses from taking out loans and spending/investing, potentially slowing down economic growth and curbing inflation.
+        <br><strong>Example:</strong> Consider a consumer planning to buy a new car. With low interest rates, they might easily secure a loan and make the purchase. However, when interest rates rise, the monthly loan payment becomes more expensive, making them reconsider the purchase or delay it altogether. This reduced demand for cars translates to lower pressure on car prices, eventually contributing to lower overall inflation.</li>
+        <li><strong>Encourage saving -</strong> higher interest rates make saving more attractive. Instead of spending their money, people are more likely to put it in savings accounts or invest in bonds that now offer higher returns. This reduces the amount of money circulating in the economy, further easing inflationary pressures.
+        <br><strong>Example:</strong> Imagine a business owner with surplus cash. With low interest rates, they might be tempted to use that money to expand their business or invest in new equipment. However, when interest rates rise, they might choose to keep the money in a savings account, earning a decent return without taking on additional risk. This reduces the amount of money flowing into the market, contributing to a cooling of the economy.</li>
+        <li><strong>Signal confidence -</strong> Central banks raising interest rates also sends a strong signal to the market that they are serious about controlling inflation. This can boost investor confidence and stabilize financial markets.
+        <br><strong>Example:</strong> A central bank taking decisive action by raising interest rates can reassure investors and reduce financial market volatility.</li>
+    </ul>
+    </div>
+
+    <!-- (redistribution) Income or Wealth Redistribution -->
+    <div class="list-item" onclick="toggleList('redistributionList')">
+    <strong>(redistribution) Income or Wealth Redistribution:</strong> Inflation can redistribute income and wealth between people in the economy. Could lead to more inequality. 
+    </div>
+    <div id="redistributionList" class="list-content">
+        <p>Redistribution can involve:</p>
+    <ul>
+        <li><strong>Debtors vs. creditors -</strong> Debtors may benefit from inflation as the value of their fixed payment debts decreases in real terms, while creditors suffer as the purchasing power of the fixed money amounts they are repaid diminishes. This means that debtors can repay their loans with cheaper dollars, essentially transferring wealth from creditors (lenders) to borrowers. An important debtor is typically the domestic government, which tends to be a large debtor. If domestic nominal government debt is primarily held by foreigners, then inflation would lead to a wealth redistribution from foreigners to domestic households.
+        <br><strong>Example:</strong> A person borrows $200,000 for a home mortgage with a 6% interest rate. If inflation reaches 5% in the next few years, the real value of the debt becomes smaller. While the borrower still owes $200,000 in nominal terms, they are paying back a smaller loan in real terms. This benefits the debtor at the expense of creditors like banks.</li>
+        <li><strong>Asset owners vs. wage earners -</strong> Inflation can inflate the value of certain assets like stocks and real estate. This favors asset owners at the expense of wage earners or fixed income (bond) holders. Wage earners near the minimum wage could be particularly hard hit since the minimum wage lags high price increases.
+        <br><strong>Example:</strong> With inflation, the prices of some companies' stocks might increase due to higher profits or increased demand for their products. This wealth accumulates in the hands of stockholders, while wage earners might struggle to afford the same goods and services due to rising prices.</li>
+        <li><strong>Unequal consumption baskets -</strong> Inflation doesn't affect everyone equally. Some sectors, like housing and energy and food, tend to experience faster price increases than others. This can disproportionately impact certain households, often low-income households, who spend a larger share of their income on these essentials.
+        <br><strong>Example:</strong> Inflation may lead the price of food to rise faster than luxuries. Low-income households who spend a large fraction of their budget on food will be more affected than wealthier or high-income households who spend less of their budget on food.</li>
+    </ul>
+    </div>
+
+    <!-- (savings) Impact on Savings -->
+    <div class="list-item" onclick="toggleList('savingsList')">
+        <strong>(savings) Impact on Savings:</strong> Inflation can affect various types of savings/financial investments. 
+    </div>
+    <div id="savingsList" class="list-content">
+        <p>Some consequences include:</p>
+    <ul>
+        <li><strong>Erosion of real savings value -</strong> Inflation can erode the value of savings held in cash or fixed income or interest-bearing accounts. Inflation reduces the real value of cash savings like bank accounts and fixed pensions. What people could once buy with their savings will now cost more, impairing future consumption.
+        <br><strong>Example:</strong> A person saves $10,000, earning a nominal interest rate of 1%. With inflation at 2%, their account value technically increases to $10,100. However, the increased prices mean their $10,100 buys the same amount as $10,000 a year ago – effectively, the savings have lost value in their ability to purchase goods.</li>
+        <li><strong>Alteration in investment choices -</strong> Inflation may prompt investors to seek assets that tend to perform well in an inflationary environment (as an inflation hedge), such as real estate, stocks of companies, commodities like gold or oil, or Treasury Inflation-Protected Securities (TIPS). This may encourage riskier investments seeking higher returns to offset inflationary losses. Households may also purchase durable goods (like washing machines) instead of holding onto cash as a way to hedge against the loss in value of the currency. Reallocation of investments can lead to bubbles in some asset markets.
+        <br><strong>Example:</strong> Investors might allocate more of their portfolio towards assets like real estate or stocks that historically have shown more resilience against inflation than bonds, aiming to safeguard the value of their savings from the erosive effects of inflation.</li>
+        <li><strong>Rise in bond yields -</strong> higher inflation may lead to higher yields (or returns) on fixed income investments like bonds as compensation for higher inflation. Unrelated to risk premia/uncertainty/fears of inflation.
+        <br><strong>Example:</strong> The recent rise in bond yields was a result of higher inflation.</li>
+    </ul>
+    </div>
+
+    <!-- (trade) Impact on Global Trade -->
+    <div class="list-item" onclick="toggleList('tradeList')">
+    <strong>(trade) Impact on Global Trade:</strong> Inflation can impact a country's trade or competitiveness in global markets. 
+    </div>
+    <div id="tradeList" class="list-content">
+        <p>Some consequences include:</p>
+    <ul>
+        <li><strong>Eroding cost advantage -</strong> One key factor in global trade competitiveness is a country's ability to produce goods and services at lower costs than its rivals. Inflation raises production costs, from raw materials to labor, eroding this advantage. If these higher costs are passed onto product prices, domestic inflation thus may raise export prices, holding fixed any currency or exchange rate changes. Higher domestic prices may reduce demand for exports, again holding fixed any currency or exchange rate changes.
+        <br><strong>Example:</strong> A country that is historically known for its low-cost manufacturing may experience significant inflation. The rising cost of labor and materials might make producing goods in the country less attractive for international companies, potentially shifting production to countries with lower inflation rates.</li>
+        <li><strong>Currency exchange rate changes -</strong> Inflationary differences between countries can affect exchange rates, making exports from countries with lower inflation more competitive and imports from countries with higher inflation more expensive. If the domestic currency depreciates, exports become relatively cheaper and export demand may rise, whereas imports are relatively more expensive and import demand may fall.
+        <br><strong>Example:</strong> A country with high inflation may see its currency weaken, making exports cheaper for foreign buyers and imports more expensive for domestic citizens.</li>
+        <li><strong>Trade balances -</strong> how inflation affects export and import demand, accounting for changes in production costs and currency exchange rate changes will influence a country’s trade balance. The impact on exports and imports will adjust the volumes or mix of imports and exports, influencing a country’s trade balance overall.
+        <br><strong>Example:</strong> A country with a depreciating currency from high inflation may see exports rise and imports fall, leading to a trade surplus.</li>
+    </ul>
+    </div>
+
+    <!-- (cost-push) Cost-Push on Businesses -->
+    <div class="list-item" onclick="toggleList('costPushList')">
+    <strong>(cost-push) Cost-Push on Businesses:</strong> Rising costs of production due to inflationary pressures can squeeze business profits, potentially leading to reduced investment, job cuts and unemployment, or higher prices for consumers. Increased production costs (from either input factors or wages) can reduce profit margins. Businesses might adjust prices frequently to keep up with rising costs, affecting consumer behavior. Businesses may close (or become insolvent) if they can’t raise prices sufficiently enough to maintain profit margins. Could hinder new businesses from entering and decrease business dynamism. May reduce profitability, competitiveness, and lead to price increases. Creates a challenging market environment for businesses.
+    </div>
+    <div id="costPushList" class="list-content">
+    <ul>
+        <li><strong>Example:</strong> A bakery faces a surge in input costs, like flour, sugar, or worker wages, due to inflation. This increased cost of inputs directly raises the baker’s production costs, squeezing their profit margins potentially leading them to close or shrink.</li>
+    </ul>
+    </div>
+    <!-- (social) Social and Political Impact -->
+    <div class="list-item" onclick="toggleList('socialList')">
+        <strong>(social) Social and Political Impact:</strong> Inflation can have social and political economic implications. 
+    </div>
+    <div id="socialList" class="list-content">
+        <p>Consequences could include:</p>
+        <ul>
+        <li><strong>Social unease -</strong> Inflation may lead to higher stress or anxiety or worry (or worse mental health) for the population as living standards decline. Could lead to increased poverty from rising prices, malnutrition from rising food prices, especially among low-income households.
+            <br><strong>Example:</strong> High inflation in a developing country could render basic goods like food and medicine unaffordable for many, leading to widespread hunger, disease, and social anxiety.</li>
+        <li><strong>Political instability -</strong> High inflation can lead to public dissatisfaction and unrest, potentially threatening political stability. Declining living standards from high inflation may heighten risks of protests or even revolution. It can erode trust in government institutions or hurt perceived political legitimacy, especially if the inflation is not effectively managed. There could be a rise in populism.
+            <br><strong>Example:</strong> Rapid inflation from surges in food or fuel prices can provoke a loss of public confidence in the government and trigger massive protests.</li>
+        </ul>
+    </div>
+    
+    <!-- (govt) Government Policy and Public Finances Impact -->
+    <div class="list-item" onclick="toggleList('govtList')">
+        <strong>(govt) Government Policy and Public Finances Impact:</strong> Inflation may impact government spending policies or programs. 
+    </div>
+    <div id="govtList" class="list-content">
+        <p>Consequence could be:</p>
+        <ul>
+        <li><strong>Indexing taxes to inflation -</strong> Governments may set taxes to increase alongside inflation.
+            <br><strong>Example:</strong> A congress wants the gas tax to increase with inflation.</li>
+        <li><strong>Constraints on budgets -</strong> Decline in real tax revenues from inflation could strain government budgets, impacting spending on government programs, healthcare, education, and infrastructure. The government may alter its spending or taxation to try to lower inflationary pressures.
+            <br><strong>Example:</strong> A country with high inflation may implement austerity measures to control inflation, cutting back on social programs.</li>
+        <li><strong>Tax bracket creep -</strong> inflation can lead to higher nominal incomes, and if income brackets don’t adjust quickly, then households could get taxed at higher rates, raising government tax revenue.
+            <br><strong>Example:</strong> As incomes rise with inflation, some households might find themselves in higher tax brackets, paying more in taxes.</li>
+        </ul>
+    </div>
+    
+    <!-- (other) Other Effects -->
+    <div class="list-item" onclick="toggleList('otherEffectsList')">
+        <strong>(other) Other Effects:</strong> Effects not included in above. 
+    </div>
+    <div id="otherEffectsList" class="list-content">
+        <p>Could include:</p>
+        <ul>
+        <li><strong>Stale menu prices -</strong> If changing prices (e.g., on menus) is costly, inflation leads to inaccurate listed prices. Once stale prices become too costly for a business to maintain, it will be forced to more frequently update its prices.</li>
+        <li><strong>Rush to borrow -</strong> Possible for consumers to try to borrow more while rates are still low before they rise with inflation.</li>
+        <li><strong>Shoe leather costs -</strong> Elevated inflation may encourage households to visit banks or ATMs more frequently to withdraw more cash necessary to purchase goods at higher prices. This more frequent transportation can be costly. Less relevant if households rely less on cash and more on electronic payments.</li>
+        <li><strong>Rise of substitute currencies -</strong> High inflation environments may increase the appeal of alternative currencies like foreign currencies or cryptocurrency.</li>
+        </ul>
+    </div>
+</div>
+</div>
+
+<script>
+  function toggleList(id) {
+    var listContent = document.getElementById(id);
+    listContent.style.display = (listContent.style.display === 'block') ? 'none' : 'block';
+  }
+</script>
+
+</body>
+</html>
+

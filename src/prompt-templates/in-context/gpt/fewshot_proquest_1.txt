@@ -1,0 +1,72 @@
+Last, but not least, the peso seems to have stabilized all along Numero Uno at about 22 to the US. dollar, which, for the traveler, more than offsets inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "trade", "time": "present"}]}}
+
+Therefore, Therefore, the solution must be internal: Reduced federal spending; a curb on inflation; inflation; restraint on foreign investment.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "fiscal", "time": "present"}, {"cause": "international", "time": "present"}]}}
+
+Economic chaos-Inflation inspires irrational decisions that reinforce in- flation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"cause": "expect", "time": "general"}]}}
+
+Penny Popular It wasn't hard to see why the original Kennedy half-dollars became so popular, but why all the interest in the lowly penny? f"Being 93 per cent copper and 5 per cent zinc, the 'pen- ny' is not likely to be held for its metallic value, and the of- fects of inflation would appear to have sharply curtailed its use as a of exchange," said the magazine.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "inflation-direction": "na", "narratives": [{"effect": "other-effect", "time": "past"}]}}
+
+Otter three of cease. fire, and with news of fighting nonexistent, Israel is 3n the middle of a waves of strikes, with wages, prices and taxes threatening to explode into inflation.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "demand", "time": "present"}, {"cause": "supply", "time": "present"}, {"cause": "wage", "time": "present"}, {"cause": "fiscal", "time": "present"}]}}
+
+Such a program is not needed today in view of the declining rate of inflation and furthermore it fails to recognize the role of the marketplace in setting prices or the true cause of inflation in this or any other country, namely, large Federal deficits financed by an excessive rise in the money supply."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"cause": "monetary", "time": "general"}, {"cause": "fiscal", "time": "general"}]}}
+
+Price Council Cites 2 Units of Hilton Hotels As Administration Criticizes the Industry By a WALL STREET JOURNAL Staff Reporter WASHINGTON-The Carter administration intensified its criticism of the hotel industry for violating the anti-inflation price standards.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Our unemployment rate is double that for whites, our unreported unemployment is far higher, many black work ers are being laid off because of the energy shortage, and inflation is eating away at our constricted incomes.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "purchase", "time": "present"}]}}
+
+Various analysts mentioned fears of renewed inflation, rising in terest rates, a possible postelection tax increase, the lack of a Vietnam settlement, and election uncertainty.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "social", "time": "present"}]}}
+
+Several economists, however, questioned whether the old-fashioned approach to inflation still works.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+A battle against inflation would be more effective, said Clarence Adamy, president of the National Association of Food Chains.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The poverty line is recomputed every year and has been rising rapidly with inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+If they stayed in cash, inflation has deeply eroded their buying power.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "purchase", "time": "present"}, {"effect": "redistribution", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+By GEOF DUBSON Of the Post-Dispatch Staff Mandatory wage and price controls to curb inflation were endorsed by more than half of about 100,000 Missourians who returned a questionnaire on national national issues, which was distributed by Sen. Thomas F. Eagleton, D-Mo.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"cause": "supply", "time": "general"}, {"cause": "wage", "time": "general"}]}}
+
+When you stop to consider that only 12 American global banks hold 83 of America's foreign deposits; 90 of the indebtedness of the petroleum and natural gas industry is held by nine banks, then you get a much clearer idea of why there is no longer an interest rate ceiling in Tennessee and why we are plagued by crippling crippling inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "international", "time": "present"}, {"cause": "other-cause", "time": "present"}]}}
+
+The third indispensable element in building the new prosperity is closely related to creating new jobs and halting inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "govt", "time": "general"}]}}
+
+Government guardians of greenbacks and gold would be only too happy to provoke screeches from the Western European nations which have been both the biggest borrowers of U.S. dollars and the loudest complainers that the dollar outflow is causing inflation in their lands.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "international", "time": "present"}]}}
+
+If inflation stays high-and most forecasters expect it dip only to 11 or 10 percent in 1980--interest rates remain lofty as well.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "rates", "time": "present"}]}}
+
+"The new inflation program announced by the administration administration and Federal Reserve, while of little help in limiting the current wage-price spiral, represents a good beginning in the long-run battle against inflation," wrote Allen Sinai at Data Resources Inc. in Lexington, Mass.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+TWIN CITIES 1850 Como Ave. 645-0331 Across from Fairgrounds MANKATO 118 S. Front St. (507) 387-8247 Downtown Mankato ROCHESTER 821-3rd Ave.S.E. (507) 285-0440 Behind K-Mart EAU CLAIRE 1316 Fairfax St. (715) 835-4351 Between Snyders the Co-Op ON ALL K JfyJf' DESIGNED I SCANDINAVIAN WALL SYSTEMS Because of runaway inflation in Europe, Regner Christensen Wall Systems is moving their factory from Silkenborg, UenmarK to Chatsworth, California.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+I ----------------------------- ----------------------------- ---------------------------- Commodity Markets ------ ^ "o -"------ Inflation Worries Board of Trade Mercantile Futures Comex Metal Prices n I/">llr"-J CH',"A<?-9IAP1D" F^u u,reT '(tm)d'"8 Fria'v CHICAGO (API - Futures trading PriNEW YORK <AP> - Spot Hlfrhfr on " c "??
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+'NYSE R DETROIT FREE PRESS Thursday, May 9. '74 emaius Sim 71 1 y.iwnaplitj. '-'swwnsip. '4au3 -.il i from AJ NEW YORK Beset of inflation and high tors stayed away from the stock market Wednesday, and prices failed to rally from spring doldrums..
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+The- classic restraint produced a and fairly mild recession but still deeper than anybody had planned-and yet inflation continued.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "demand", "time": "past"}, {"cause": "supply", "time": "past"}]}}
+
+It is difficult to believe that the administration can be so insensitive to our plight at this point in the inflation struggle to this oil import fee unos oar, finances.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+

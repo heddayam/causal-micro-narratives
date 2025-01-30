@@ -1,0 +1,68 @@
+Inflation is roughly in line with the Bank's expectations.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Historically, rising inflation hasn't always meant sinking equity markets.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "counter-narrative": true, "narratives": [{"effect": "savings", "time": "past"}]}}
+
+"With underlying inflation still strong, the Bank of Japan will likely leave policy settings unchanged at its January meeting unless next week's tankan disappoints significantly," Capital Economics' Japan economist Marcel Thieliant wrote in a research note.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "rates", "time": "future"}]}}
+
+Still, the fears that easing monetary policy may lead to inflation are premature.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": true, "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+Since the breakdown of the Bretton Woods international monetary system in the early 1970s, most countries have faced bouts of high and volatile inflation as they sought a suitable nominal anchor.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "other-cause", "time": "past"}]}}
+
+The adjustment to equity valuations and investor expectations come as inflation and interest rates perk up and conditions turn from "good as it gets " to "still good, but with some offsets."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "rates", "time": "present"}, {"effect": "cost-push", "time": "present"}]}}
+
+As As we we all all know know and and have have experienced experienced,, inflation inflation has has inflated inflated construction construction materials materials,, chips chips,, car car components components,, bikes bikes,, toys toys and and so so many many other other things things..
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "cost", "time": "present"}]}}
+
+Needle of a disposable syringe with a drop of liquid on the tip against the background of a fragment...+ of a US dollar bill getty To take the last point first, the original wartime profits tax was part of a larger effort to control inflation in an economy almost wholly given over to war production.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "counter-narrative": false, "narratives": [{"cause": "fiscal", "time": "past"}]}}
+
+He says the inflation is temporary and will iron itself out through the recovery effort, especially as supply chain issues are solved.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "supply", "time": "present"}]}}
+
+Therefore we look at inflation across a broad range of goods and services.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But, for one thousand today you cannot buy the one thousand tomorrow's goods because of inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "purchase", "time": "general"}]}}
+
+The Utah Transportation Coalition estimates it has lost 40 percent of its buying power since the previous fuel tax hike, and lawmakers have said since the last time the state adjusted its minimum property tax, Utah has lost about $90 million to inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "govt", "time": "present"}]}}
+
+The government of Nicolas Maduro wants to introduce new currency with higher denominations in order to keep up with the raging inflation that their economic and monetary policy has created.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "monetary", "time": "present"}, {"cause": "fiscal", "time": "present"}, {"effect": "other-effect", "time": "future"}]}}
+
+Inflation is higher for the affluent (who at least can afford it).
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "cost", "time": "general"}, {"effect": "redistribution", "time": "general"}]}}
+
+Britain's housing market has cooled after a coronavirus pandemic boom as surging inflation hits consumers budgets and the Bank of England raised interest rates.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "rates", "time": "present"}]}}
+
+Unemployment has been at or below 5 percent all year--close to most economists' estimates of full employment, while the Fed's preferred gauge of inflation, minus volatile food and energy components, ticked up to 1.7 percent in the 12 months through August.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+As best we can tell, the fall in inflation compensation mainly reflects factors other than a reduction in longer-term inflation expectations.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": true, "narratives": [{"cause": "expect", "time": "present"}]}}
+
+Consequently, the "race to debase " will intensify, yielding increased worldwide inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "international", "time": "future"}]}}
+
+Fly Around IMF CHIEF WARNS OF TURBULENCE AS NATIONS WITHDRAW STIMULUS--Bloomberg's Eric Martin: "The world faces greater uncertainty and potential turbulence this year, with the economic recovery's momentum slowing and risks from inflation and supply-chain bottlenecks to social unrest looming, the International Monetary Fund's chief said.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"effect": "uncertain", "time": "future"}, {"effect": "social", "time": "future"}]}}
+
+Inflation is then likely to decline further as the contribution of energy and import prices diminishes, while downward pressure from unemployment and spare capacity continues to restrain domestically generated inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "supply", "time": "future"}, {"cause": "wage", "time": "future"}]}}
+
+Ahead in the NA session, the USD will take centre stage as US inflation figures and other key indicators are due.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The central bank official said current inflation measures are being held down by virus-sensitive sectors that could rebound quickly once vaccines take hold.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "demand", "time": "future"}]}}
+
+ISTANBUL, Jan 30 (Reuters) - Turkey's lira was little changed on Thursday and remained close to a three-week low against the dollar ahead of a quarterly report in which the central bank is expected to reaffirm its view that inflation will gradually slide this year.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"effect": "trade", "time": "present"}]}}

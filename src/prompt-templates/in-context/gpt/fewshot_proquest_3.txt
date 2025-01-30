@@ -1,0 +1,72 @@
+"Back to basics" is not only the se- cret of success in learning but it is also one step to help solve runaway inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+HEALEY SAID THE teachers union wanted to reach a settlement without a walkout, but he emphasized it would be pressing for a cost-of-living raise to match the annual inflation rate, now exceeding 10 per cent.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "wage", "time": "present"}]}}
+
+"Writing in The Boston University Business Review, Dr. Asht0n pointed out that United States world-wide commitments a/'e essentially, dependent, on the nation s productive potential 'and that 'if the continued' presence' of United States armed fores is politically and strategically desirable, it would be foolhardy to initiate co. action because of 'a fear of further inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"effect": "uncertain", "time": "present"}]}}
+
+With inflation going up and up, I can't see how people can retire."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+,,', 3 j HUD had 15,900 people on its payrolii last year, but gradually cut back to 15,200 in response to Mr. Nixon's anti-inflation directives and ceilings enforced by the Office of Management- and Budget; OMB), In his Aug, 2 letter to Mr. Nixon a copy was obtained by the Washington Washington Post Romney..said he had already appealed in vain, to OMB for a' bigger staff and had then laid out his problems in a long meeting with Ehrlich-man Ehrlich-man July 22, a session that Romney had hoped to have with the President.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The official derived those percentage increases using the arithmetic of the guidelines, which assumes a 6^l^ annual inflation rate in pricing cost-of-living increases and allows certain other cost increases to be excluded.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+And in the face of the worst kind of news IListen to these negatives: crises in Af- and Iran, rapidly United States--- relations, a pre- dicted recession, 'a weakening greenback, soaring gold prices, swelling increases for imported oil (which will fatten the inflation figures even.ind continu- ing high interest rat'.s It's a hear s paradi o, the kind of environment that him:> cor - fidence In spite of it all, c icc getting away from that S 1A'ct.;' risc though there w asn t a% igo;oi:Ic, IllOi I-p on Wednesday) Maybe, though, we re getting a message, namely that the often treacherous and ulcer producing stock market-given favorable tidings-could he an 4ffective place for capital in '80.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "supply", "time": "present"}, {"cause": "expect", "time": "present"}, {"cause": "international", "time": "present"}, {"cause": "other-cause", "time": "present"}]}}
+
+Yet the administration is aware that inflation with rising prices for every household is the major problem of today..
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "social", "time": "present"}]}}
+
+By the administratIon s own estimate, the upsurge in prices ex- pected if all pice controls on oil ar removed could add 1.5 per cent to the rate of inflation next year.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "fiscal", "time": "future"}]}}
+
+But Inflation prevails, prevails, and this Is hurting the low income groups.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "redistribution", "time": "present"}]}}
+
+Government guardians of greenbacks and gold would be only too happy to provoke screeches from the Western European nations which have been both the biggest borrowers of U.S. dollars and the loudest complainers that the dollar outflow is causing inflation in their lands.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "international", "time": "present"}]}}
+
+The interest rate on municipals has fallen off, thanks to Increasing confidence In many city Issues, strong demand from Investors and the Improved Inflation outlook.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "down", "narratives": [{"effect": "cost", "time": "present"}]}}
+
+The- classic restraint produced a and fairly mild recession but still deeper than anybody had planned-and yet inflation continued.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "demand", "time": "past"}, {"cause": "supply", "time": "past"}]}}
+
+TIlE LEGISLATION was the second major effort by Congress in two days to stimulate savings, whose drop to a 28- year low is called by some economists a major factor in inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "demand", "time": "present"}, {"effect": "govt", "time": "present"}]}}
+
+Last, but not least, the peso seems to have stabilized all along Numero Uno at about 22 to the US. dollar, which, for the traveler, more than offsets inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "trade", "time": "present"}]}}
+
+- Sears Roebuck said the: government's new regula- tion to ban discrimination; i against women in credit would cosi mat nrman; estimated $166 milUo,ri',;a cost that would be reflected; in higher consumer,'phces. and more inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "other-cause", "time": "present"}]}}
+
+No pets. 242 1259 751-4527 ENQUIRER Friday, January 12, 1979 Real Estate A' "......af BEAT INFLATION WHY PAY MORE?
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+And it rises in elcar t CatiOn 1t)U:-.iion of risk (a short way of d\ aing fear of not bA"ng 'repaid or, nowadays, fear 'of loSin" purchasing pow- er throu-h inflation).
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "purchase", "time": "future"}]}}
+
+The argument- still h a; much force, but investors and speculators at the moment are much less concerned about inflation, especially as it affects raw materials.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+"At some point, the Federal Resen a may inadvertently start a business contraction," says another economist, A Challenge of 900 The extent to which even bankers have been misreading the Federal Reserve's deter- to stem inflation can be glimpsed firom a poll of bank officers speaking at a seminar held last Wednesday by Haas Securities Corp.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "down", "narratives": [{"effect": "rates", "time": "present"}]}}
+
+Jansen I Sons, Inc. Has Been Efficiently Solving Energy Wasting Problems In Homes And Commercial Buildings For Over 20 Years Save On Monthly Utility Bills Receive A Tax Credit Add Comfort lo Your Home 9 "Inflation at its But" 629 Western Reserve Road,' Crescent Springs, Ky. Serving The Tri-State Area Since 1958 Call lis Today For Free "Energy Lots Inspection Report" 34 1-0066 1 v v- cy ii ii W 3 1 0 RYAN CM J FINANCING FOR EVERYONE DOWN PAYMENT AS LOW AS MOO.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+,u-Alfred,u-Alfred Kahn, the administration's, chief inflation fighter, said Americans' have no choice but to put up with high! i interest rates and other anti-inflation efforts.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "monetary", "time": "present"}, {"cause": "fiscal", "time": "present"}]}}
+
+"New taxes are never popular, but people are demanding more and more services, viable ones at that, at a time when less revenue and inflation are killing us.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "other-effect", "time": "present"}]}}
+
+With Canadians, a limited produc- tive capacity more quickly reveals the onrush of inflation.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"cause": "supply", "time": "general"}]}}
+

@@ -1,0 +1,72 @@
+The bearish reading today "could be another major blow to the dollar's outlook," according to Konstantinos Anthis, researcher at ADS Securities, before the inflation release."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "trade", "time": "future"}]}}
+
+Even the unemployment rate without inflation is a figment.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "cost-push", "time": "general"}]}}
+
+As best we can tell, the fall in inflation compensation mainly reflects factors other than a reduction in longer-term inflation expectations.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": true, "narratives": [{"cause": "expect", "time": "present"}]}}
+
+In order to bring security to the medical community, Lee and others believe a business model that is indexed to the "relevant rate of inflation " needs to be established.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "uncertain", "time": "general"}]}}
+
+Williams in October pitched keeping rates low until unemployment falls somewhat below 7 percent as long as inflation does not threaten to rise above 2.5 percent, but has more recently backed off that idea, saying he is worried that numerical thresholds are "hard to get right."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "wage", "time": "present"}]}}
+
+College costs are rising faster than inflation and student loan debt is exploding.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+So there are plenty of reasons why the policymaker has to pay attention to the possibility of rising inflation in the future.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"effect": "govt", "time": "present"}]}}
+
+We can see size inflation happening over shorter time spans as well; a size 2 in the 2011 ASTM standard falls between a 1995 standard size 4 and 6.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+"The bank did highlight increasing downside risks from external demand and stated that it will pay closer attention to the possibility that momentum towards reaching its 2% inflation target will be lost," Marcel Thieliant of Capital Economics said in a commentary.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "demand", "time": "present"}]}}
+
+When that happens, the result will be a smaller supply of money in the marketplace and that will bring a drop in inflation and a rise in interest rates.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": true, "narratives": [{"cause": "monetary", "time": "future"}, {"effect": "rates", "time": "future"}]}}
+
+Since the breakdown of the Bretton Woods international monetary system in the early 1970s, most countries have faced bouts of high and volatile inflation as they sought a suitable nominal anchor.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "other-cause", "time": "past"}]}}
+
+This link made the Saudi economy prone to massive inflation and led to a decline in the purchasing power of the Saudi riyal.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "counter-narrative": false, "narratives": [{"effect": "purchase", "time": "past"}]}}
+
+Gold GCZ6, -0.06%closed mostly flat, pressured by the stronger dollar, but ended the week higher as inflation expectations rose.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"effect": "other-effect", "time": "present"}]}}
+
+The Bank recognizes that the inflation rate consistent with price stability on a sustainable basis will rise as efforts by a wide range of entities toward strengthening competitiveness and growth potential of Japan's economy make progress.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "fiscal", "time": "present"}, {"cause": "international", "time": "present"}]}}
+
+I am well aware of conventional current theory that prescribes a positive inflation rate, typically around 2%, as beneficial to employment which, on its face, it probably is.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": true, "narratives": [{"effect": "cost-push", "time": "general"}]}}
+
+Everything was discused including interest rates, negative interest, low inflation, easing, Dollar strength &amp; its effect on manufacturing, trade with China, E.U. &amp; others, etc.,"
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+There is unlikely to be any spike up in inflation, given the strong dollar DXY, +0.01%, lack of wage dynamism and the scope for firms to absorb cost increases into their profit margins.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "supply", "time": "present"}, {"cause": "wage", "time": "present"}, {"cause": "international", "time": "present"}]}}
+
+But combined with other recent trends--growing inventories of homes available for sale, slower price inflation and even modest price reductions--the decline in mortgage rates should be encouraging for anyone seriously in the market for a home.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "savings", "time": "present"}]}}
+
+Currently elevated inflation should recede quickly and fiscal consolidation is set to bring the deficit below the WAEMU threshold by 2021.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+More than a third of the increase in average ticket for the home improvement retailer was a result of commodity inflation Referenced Symbols Inflation from skyrocketing lumber prices had a big impact on Home Depot Inc.' s fiscal first-quarter results, but some Wall Street analysts appear surprised at just how willing the home improvement retailer was to pass the higher costs onto its customers.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "counter-narrative": false, "narratives": [{"cause": "supply", "time": "past"}, {"effect": "cost-push", "time": "past"}]}}
+
+At this point they know they can get more revenues because of inflation and more people in the AMT with one year patches as opposed to say making a five to ten year patch at the same tax rates.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "redistribution", "time": "present"}, {"effect": "govt", "time": "present"}]}}
+
+When unemployment is high and growth slow, inflation rates fall, almost no matter how much money is added to the economy.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": true, "narratives": [{"cause": "monetary", "time": "general"}]}}
+
+Critics have accused Mnangagwe of resorting to strong-armed tactics as opposition to his government grows amid crippling inflation, debilitating water shortages and chronic power cuts.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "social", "time": "present"}]}}
+
+As per the data, inflation in the food basket rose to 1.83% in May, higher than 1.1% in April.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+

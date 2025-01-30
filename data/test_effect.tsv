@@ -1,0 +1,255 @@
+Property	label	narrative_time	weight
+effect	rates	general	1
+effect			0
+effect			0
+effect	savings	general	1
+effect			0
+effect	rates	present	1
+effect	savings	general	1
+effect	rates	general	1
+effect	rates	general	1
+effect			0
+effect	rates	future	1
+effect	rates	future	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect	cost	past	1
+effect	social	past	1
+effect	social	past	1
+effect	cost	past	1
+effect			0
+effect	rates	future	1
+effect	rates	future	1
+effect			0
+effect	social	present	1
+effect	social	present	1
+effect	rates	general	1
+effect	rates	general	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect	cost-push	present	1
+effect	trade	present	1
+effect	cost-push	present	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect	govt	general	1
+effect	cost-push	general	1
+effect			0
+effect			0
+effect			0
+effect	rates	future	1
+effect	rates	future	1
+effect	rates	future	1
+effect	social	future	1
+effect			0
+effect			0
+effect	trade	present	1
+effect	social	present	1
+effect	social	present	1
+effect	trade	present	1
+effect			0
+effect	savings	general	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect	rates	future	1
+effect	rates	future	1
+effect	rates	none	1
+effect			0
+effect	savings	present	1
+effect			0
+effect	cost	present	1
+effect	redistribution	present	1
+effect	cost	present	1
+effect	redistribution	present	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect	savings	present	1
+effect	savings	present	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect	purchase	general	1
+effect	redistribution	general	1
+effect	purchase	general	1
+effect	redistribution	general	1
+effect			0
+effect			0
+effect	savings	present	1
+effect	savings	future	1
+effect	uncertain	present	1
+effect	rates	future	1
+effect	rates	future	1
+effect	uncertain	future	1
+effect			0
+effect	redistribution	future	1
+effect	redistribution	future	1
+effect			0
+effect			0
+effect	savings	general	1
+effect	rates	future	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect	trade	present	1
+effect	trade	present	1
+effect	rates	future	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect	cost-push	past	1
+effect	cost-push	past	1
+effect	rates	present	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect	rates	future	1
+effect			0
+effect	savings	present	1
+effect	savings	future	1
+effect			0
+effect			0
+effect			0
+effect	rates	present	1
+effect	rates	present	1
+effect			0
+effect	other-effect	present	1
+effect	other-effect	present	1
+effect	rates	present	1
+effect	social	past	1
+effect			0
+effect			0
+effect	rates	general	1
+effect	rates	future	1
+effect			0
+effect			0
+effect			0
+effect	cost	present	1
+effect	rates	present	1
+effect	cost	present	1
+effect	rates	present	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect	savings	past	1
+effect	savings	past	1
+effect	redistribution	future	1
+effect	other-effect	future	1
+effect	redistribution	future	1
+effect	other-effect	future	1
+effect			0
+effect	purchase	general	1
+effect			0
+effect			0
+effect			0
+effect	rates	future	1
+effect	trade	present	1
+effect	trade	future	1
+effect	rates	future	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect	rates	present	1
+effect	cost-push	present	1
+effect	cost-push	present	1
+effect	rates	present	1
+effect	savings	present	1
+effect	savings	present	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect			0
+effect	rates	future	1
+effect			0
+effect			0
+effect			0
+effect			0
+effect	rates	past	1
+effect	rates	past	1
+effect	govt	past	1
+effect			0
+effect			0
+effect			0
+effect	cost	present	1
+effect	govt	future	1
+effect	govt	present	1
+effect	cost	present	1
+effect	redistribution	present	1
+effect			0
+effect			0
+effect	purchase	none	1
+effect			0
+effect			0
+effect			0
+effect	cost-push	past	1
+effect			0
+effect	savings	general	1
+effect			0
+effect			0
+effect	uncertain	present	1
+effect	uncertain	present	1
+effect	savings	none	1
+effect	purchase	future	1
+effect	purchase	future	1
+effect			0
+effect			0
+effect			0
+effect			0

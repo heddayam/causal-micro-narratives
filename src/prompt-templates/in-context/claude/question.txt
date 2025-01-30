@@ -1,0 +1,2 @@
+Sentence: {SENTENCE}
+Does something cause inflation? Reply Yes/No.

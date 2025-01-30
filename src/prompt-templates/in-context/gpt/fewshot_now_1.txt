@@ -1,0 +1,72 @@
+Statistics Korea figures showed that consumer inflation in South Korea pushed higher in March to hit an almost five-year high, signaling a rebound in domestic demand.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "demand", "time": "present"}]}}
+
+In just one example, a final poll from ABC News and the Washington Post released this weekend found that a whopping 80% of likely voters called the economy a top issue in their vote for Congress, with 77% saying the same about inflation specifically.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "social", "time": "present"}]}}
+
+The bearish reading today "could be another major blow to the dollar's outlook," according to Konstantinos Anthis, researcher at ADS Securities, before the inflation release."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "trade", "time": "future"}]}}
+
+For that reason, many investors are taking the view that, even if Thursday's US inflation data comes out stronger than expected, markets will still shrug it off.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": true, "narratives": [{"effect": "savings", "time": "future"}]}}
+
+At this point it's unclear if the recent spike in prices is simply the result of supply chain disruptions cause by COVID and should ease materially as more capacity comes on line or if the rise in input prices is a true measure of resource constraints that could usher in an unwelcome cycle of ever higher inflation expectations.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "expect", "time": "future"}]}}
+
+Gold GCZ6, -0.06%closed mostly flat, pressured by the stronger dollar, but ended the week higher as inflation expectations rose.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"effect": "other-effect", "time": "present"}]}}
+
+But the foremost imperatives of Biden's anti-inflation policy should be to "look busy " and "first, do no harm."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "govt", "time": "present"}]}}
+
+Inflation that amounts to a 2 or 3 percent erosion of your spending power is basically compound interest in reverse.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "purchase", "time": "general"}]}}
+
+They go on to show that cyclical universes and universes of eternal inflation both expand in this way.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But to fully grasp it, depending on which online calculator you use, $30 in 1919 roughly translates to $438 in today's dollars when adjusted for inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+One complicating factor is that the nation's inflation gauges may be out of whack given the impact on energy prices from the recent hurricanes along the Gulf Coast.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "supply", "time": "present"}]}}
+
+The weakness for the market came on the final day of what has been a rough month for equities, as rising rates, inflation fears and concerns about the Chinese property market have roiled stocks.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"effect": "uncertain", "time": "present"}]}}
+
+In a Spring Meetings seminar, top economists discussed the causes of low inflation, the tools to raise it and implications for global currency movements.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+And if inflation somehow rears up again, stocks will likely be the asset of choice, given their proven ability to rise alongside inflation--a connection that makes sense given that companies can generally pass along higher prices to their consumers.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "cost", "time": "general"}, {"effect": "savings", "time": "general"}, {"effect": "cost-push", "time": "general"}]}}
+
+They want pay increases that would be higher than the inflation rate,"said a CIARA source who asked not to be named due to the sensitivity of the negotiations.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "wage", "time": "present"}]}}
+
+Critics of President Nicolas Maduro's socialist government point to the administration's own missteps for the country's spiraling quadruple digit inflation, making common goods too expensive for most residents.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "fiscal", "time": "past"}, {"effect": "cost", "time": "present"}]}}
+
+Since the breakdown of the Bretton Woods international monetary system in the early 1970s, most countries have faced bouts of high and volatile inflation as they sought a suitable nominal anchor.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "other-cause", "time": "past"}]}}
+
+The late Ayatollah Ruhollah Khomeini, founder of the Islamic Republic, once told an aide who worried about inflation that Iran's 1979 revolution "was not about the price of watermelons "--meaning it stood for loftier goals such as economic equality and redistribution.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "counter-narrative": false, "narratives": [{"effect": "redistribution", "time": "past"}]}}
+
+And in a speech Sunday, Fischer said the Fed was getting "close to our targets," including being "within hailing distance " of the Fed's 2 percent goal for inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+Bank of England Going Nowhere Volatility risks lie squarely with sterling today, with both the monetary policy decision (together with meeting minutes) falling at 11:00 GMT, with the BoE Inflation Report published soon after.
+{"foreign": true, "contains-narrative": false, "inflation-narratives": null}
+
+The central bank expects the inflation rate to have peaked at 3.2 percent in October--and will be at 3 percent for the year as a whole.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+REUTERS/Ralph Orlowski FRANKFURT, Oct 29 (Reuters) - The European Central Bank can end emergency bond purchases next spring and needs to watch consumer prices as persistently high inflation could require a reduction of stimulus, Estonian central bank chief Madis Mueller said on Friday.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "rates", "time": "future"}]}}
+
+De-Dollarization Closely connected to the bugbear of inflation is Turks' preference for dollar-based assets to protect their savings.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "monetary", "time": "present"}, {"cause": "international", "time": "present"}]}}
+
+Unions warn cost of living crisis has become' living nightmare' 09:43 Unions are warning that the cost-of-living crisis has become a "living nightmare " for workers as the soaring rate of inflation is set to fuel more strikes.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "cost", "time": "present"}, {"effect": "social", "time": "future"}]}}
+

@@ -1,0 +1,72 @@
+the worst of an economic storm caused by the annexation of Crimea, but acknowledged the crisis had taken a toll on economic growth and driven up inflation.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "other-cause", "time": "past"}]}}
+
+The standoff forced Democrats to drop an extension of the enhanced Child Tax Credit from their negotiations earlier this year over the spending package that ultimately became the Inflation Reduction Act.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Domestic consumption falls because wages don't keep up with the inflation triggered by currency depreciation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "international", "time": "present"}, {"effect": "purchase", "time": "present"}, {"effect": "uncertain", "time": "present"}]}}
+
+In summary, the authors concluded: The real price of gold is very high compared to historical standards There's little evidence that gold has been an effective hedge against unexpected inflation whether measured in the short- or long-term Gold isn't a currency hedge There's no proof that gold is a good investment when real returns on other assets are low If key emerging market countries owned gold on levels like more developed markets, the price of gold would likely rise Investors tend to search for or interpret information to confirm their own views and ignore information that contradicts those views.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"effect": "savings", "time": "general"}]}}
+
+"The Bank of England will be forced to cut rates in the face of higher inflation as it focuses on improving growth whilst sacrificing its inflation targets,' Gartside said ahead of the Bank's announcement Thursday.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "rates", "time": "future"}]}}
+
+He said the state s new 2 percent tax on major oil companies, which is passed on to customers, and inflation would result in far smaller increases than expected.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+Although President Carter's 1979 guideline limiting pay raises to 7% a year is generally viewed as too low in the face of current inflation, Adminis- tration officials hope to dissuade unions from pressing demands to catch up fully with inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "purchase", "time": "present"}]}}
+
+But alas, a juiced-up economy, with higher purchasing purchasing power, could also mean higher inflation inflation in America, which in turn drives up the price of American products and unsettles unsettles the other world economics.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"cause": "demand", "time": "general"}, {"effect": "trade", "time": "general"}]}}
+
+If these inflation expectations keep running higher, the ECB won't be able to ignore them for long, just as it won't if inflation keeps ticking higher and we start to see the core rise.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "expect", "time": "present"}, {"effect": "rates", "time": "future"}]}}
+
+For example, if someone is paying 3 percent interest on a loan but inflation is 2 percent, then 2 percent is just making up for inflation, and only the remaining 1 percent actually gives the lender extra real value in terms of what the principal plus interest is worth.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"effect": "redistribution", "time": "general"}]}}
+
+Roundup Roundup World: Dollar Up Dramatically The dollar chalked up some dramatic gains on foreign exchange markets yesterday on speculation that the administration s anti-inflation program will be announced early next week.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "purchase", "time": "present"}, {"effect": "trade", "time": "present"}, {"effect": "govt", "time": "present"}]}}
+
+Inflation salts Guatemala's wounds By Sheldon Annis GUATEMALA CITY-A mouth ago. a killer earthquake the Guatema- lian Highlands and took 23,O0O lives.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "social", "time": "present"}]}}
+
+The result was raging inflation (50 percent during last year alone) as Kubitschek was driven to printing more and more paper money as the only means of paying for the many good things on which he had set his insatiable appetite.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+But Mercer says only Social Security can index rapidly on a large scale for inflation and increase A confidential CIA profile traces Sakharov's fall from grace: "(He) gradually gradually took up dissident activities in the 1960s and was slowly cut off from his work on the Soviet nuclear program.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"effect": "govt", "time": "general"}]}}
+
+The- classic restraint produced a and fairly mild recession but still deeper than anybody had planned-and yet inflation continued.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "demand", "time": "past"}, {"cause": "supply", "time": "past"}]}}
+
+With run-rate inflation, sixteen off the first over in 1979 is worth about 25 now.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Allstate expects to continue losing money for six months more, primarily because inflation is outpacing income.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+Tm chot Inflation, Interest Rates Fail to Trim Plans for Spending' WASHINGTON (M1-Despite infla- tion and higher interest rates, the government reported Thursday that businessmen are holding to their plans for a sizable increase in capital spending this Year.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+That's a terrifying prospect for universities, which have depended on steadily rising tuition--growing at more than twice the rate of inflation--to cover costs.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Yet as a vicious Yugoslav inflation bit, Baralic's workers council raised pay once and then again, so that the year s increases amounted to 30 per cent.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "wage", "time": "present"}]}}
+
+Carter said that he had "absolutely no doubt" that his latest program "will indeed bring down the high rate of inflation which exists today."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+Meanwhile, the central bank has an inflation target range of between 2 and 4 percent.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+I SPECIAL LOW PRICES ON ALL WESTINGHOUSE ELECTRIC RANGES Model KEK3DH Kg) SWALLEiTS INFLATION BEATING LOW PRICE!
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "other-effect", "time": "present"}]}}
+
+No one can figure out how many defense dollars would have to be committed, since the percentage is supposed to be met after inflation which no one can predict, and to which the added defense funds would contribute.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "uncertain", "time": "present"}]}}
+

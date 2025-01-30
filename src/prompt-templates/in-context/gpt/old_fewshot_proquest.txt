@@ -1,0 +1,62 @@
+"The question really is whether whether you want inflation or unemployment. unemployment.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Then, of course, there is the United States, where one quarter of the world ivory output arrives in the form of jewelry and carved figurines, Like gold, these ivory items are considered a choice investment against inflation-and never elephant from whence they came.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "general"}]}}
+
+"We, too, believe that holding wages constant will not dampen inflation, but threatens to dampen economic growth," Mr. Oswald said.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"cause": "wage", "time": "present"}]}}
+
+Still, the has been confronted with the of writing anti-inflation standards for Snancial institutions as rising interest rates are increasing profits.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+THOSE COSTS are generally generally attributed to inflation, although although NRC licensing delays also contributed.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Hopes for control of inflation have been dimmed by new wage demands.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "wage", "time": "present"}]}}
+
+I ----------------------------- ----------------------------- ---------------------------- Commodity Markets ------ ^ "o -"------ Inflation Worries Board of Trade Mercantile Futures Comex Metal Prices n I/">llr"-J CH',"A<?-9IAP1D" F^u u,reT '(tm)d'"8 Fria'v CHICAGO (API - Futures trading PriNEW YORK <AP> - Spot Hlfrhfr on " c "??
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+Britain Little Better Off Britain is little better off, tho unemployment increased somewhat in August as a re- sult of restrictions on instal- ment purchases designed to combat inflation.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "govt", "time": "present"}]}}
+
+This inflation alert will call attention to outstanding cases of price or wage in- creases and will be made public by the National Commission on Productivity.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "supply", "time": "present"}, {"cause": "wage", "time": "present"}]}}
+
+But the U.S. currency was weaker in Zurich anil Amsterdam, Federal Reserve System urges banks to curb loans, fight inflation Washington Star-News Washington, D.C.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+NOW ONLY m9 INSTALLED Normoi Inflation to tviiting pp. ductwork ani 100 mp ttoctrkol Mrvict, Invest in Carrier Air conditioning FOR MORE DETAILS 30,000 BTU CALL US TODAY!
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "other-effect", "time": "present"}]}}
+
+But it decided "fiscal discipline"- across-the-board spending cuts and postponement of tax cuts-was ne- to bring inflation under con- trol and avoid recession.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+Unfortunatelv. it is nrnhahlv still! true that recession is the only really i quicK cure tor inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"cause": "demand", "time": "general"}]}}
+
+The generally accepted idea that the overheated, inflation-fueled inflation-fueled economy was beginning to cool had been reinforced by a decline of 0.5 per cent in the leading indicator index in August.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "present"}, {"effect": "cost-push", "time": "present"}]}}
+
+He warned that if Congress failed to make reductions asked by the President, the deficit could rise another $8.5 billion, a level that both he and Greenspan said would renew the risk of inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+Do we mean business or don't we when it comes to controlling inflation?
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Inflation salts Guatemala's wounds By Sheldon Annis GUATEMALA CITY-A mouth ago. a killer earthquake the Guatema- lian Highlands and took 23,O0O lives.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "social", "time": "present"}]}}
+
+With Inflation In housing cost soaring at 1.4 per mo. so tar this year mors what this properly may appreciate (based on sale price of (41,550 for mir 1-flD Inwnhnmtl Ortrmi start at (46,450 with your choice of carpeting Also includes central central air, garage ft all kllchen appliances, uniy a tew ten.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "redistribution", "time": "present"}]}}
+
+Last, but not least, the peso seems to have stabilized all along Numero Uno at about 22 to the US. dollar, which, for the traveler, more than offsets inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "trade", "time": "present"}]}}
+
+And interest rates in the bond market have been rising in recent weeks amid indications that inflation may not drop as much as had been expected.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "rates", "time": "present"}]}}
+
+In Financial Stock prices were depressed by new inflation fears.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "savings", "time": "present"}]}}

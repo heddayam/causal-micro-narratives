@@ -1,0 +1,3 @@
+Human utterances communicate propositions that may or may not be explicit in the literal meaning of the utterance. In particular, we are interested in propositions expressing cause and effect. For each utterance, state the implicit and explicit cause and effect  propositions communicated by that utterance in a brief list. Implicit propositions may be inferences about the subject of the utterance or about the perspective of its author. All generated propositions should be short, independent, and written in direct speech and simple sentences. If possible, write propositions with a subject, verb, and object. Only output the sentences, separated by a period, nothing else. Separate explicit and implicit sentences by a new line, without any labels.
+
+Utterance: {SENTENCE}

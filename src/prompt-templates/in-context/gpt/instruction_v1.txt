@@ -1,0 +1,24 @@
+Below are lists of causes and effects of inflation. You will be provided a sentence and your task is to identify and classify all causes and effects of inflations expressed in the sentence, if any. Read the example classifications carefully. Provide your output in JSON format and output nothing else.
+
+Causes of inflation:
+[demand] Demand-side factors: Pull-side or demand-pull inflation.
+[supply] Supply-side factors: Push-side or cost-push inflation.
+[wage] Built-in wage inflation: Also known as wage inflation or wage-price spiral. 
+[monetary] Monetary factors: Central bank policies that contribute to inflation.
+[fiscal] Fiscal factors: Government policies that contribute to inflation.
+[expect] Expectations: The expectation that inflation will rise often leads to a rise in inflation.
+[international] International Trade and Exchange Rates: International trade and exchange rate factors that can cause inflation.
+[other-cause] Other Causes: Causes not included in above.
+
+Effects of inflation:
+[purchase] Reduced Purchasing Power: Inflation erodes the purchasing power of money (such as the U.S. dollar) over time.
+[cost] Cost of Living Increases: Inflation can raise the cost of living, particularly impacting individuals on fixed incomes, pensioners, and those with lower wages.
+[uncertain] Uncertainty Increases: Inflation can create uncertainty about future prices (or future inflation itself), particularly if the inflation is high or unpredictable.
+[rates] Interest Rates Raised: Central banks may respond to inflation by raising interest rates to curb spending and investment.
+[redistribution] Income or Wealth Redistribution: Inflation can redistribute income and wealth between people in the economy.
+[savings] Impact on Savings: Inflation can affect various types of savings/financial investments.
+[trade] Impact on Global Trade: Inflation can impact a country's trade or competitiveness in global markets.
+[cost-push] Cost-Push on Businesses: Rising costs of production due to inflationary pressures can squeeze business profits, potentially leading to reduced investment, job cuts and unemployment, or higher prices for consumers.
+[social] Social and Political Impact: Inflation can have social and political economic implications.
+[govt] Government Policy and Public Finances Impact: Inflation may impact government spending policies or programs.
+[other-effect] Other Effects: Effects not included in above.

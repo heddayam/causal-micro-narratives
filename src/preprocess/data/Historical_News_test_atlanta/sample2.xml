@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><RECORD>
+   <GOID>491687627</GOID>
+   
+   <Obj>
+      <ObjectTypes>
+         <other ObjectTypeOrigin="Publisher">article</other>
+         <mstar>Article</mstar>
+         <mstar>Feature</mstar>
+      </ObjectTypes>
+      <ObjectRollupType>Articles - All Types</ObjectRollupType>
+      <TitleAtt>
+         <Title>The State Of Black America</Title>
+      </TitleAtt>
+      <NumericDate>1989-01-24</NumericDate>
+      <StartDate>1989-01-24</StartDate>
+      <EndDate>1989-01-24</EndDate>
+      <AlphaDate>Jan 24, 1989</AlphaDate>
+      <PageCount>1</PageCount>
+      <Language>       
+         <RawLang>English</RawLang>
+     </Language>
+      <Language IsPrimary="true">       
+         <ISO>         
+            <ISOCode>ENG</ISOCode>
+            <ISOExpansion ISOCode="ENG">English</ISOExpansion>
+         </ISO>
+     </Language>
+      <Copyright>
+         <CopyrightData>Copyright Atlanta Daily World Jan 24, 1989</CopyrightData>
+      </Copyright>
+      <PrintLocation>       
+         <StartPage>2</StartPage>
+     </PrintLocation>
+      <ObjectIDs>       
+         <ObjectID IDOrigin="HNP">
+            <DOCID>1073603912</DOCID>
+         </ObjectID>
+         <ObjectID IDOrigin="HNP">
+            <PCID>9668702</PCID>
+         </ObjectID>
+         <ObjectID IDOrigin="HNP">
+            <PMID>77905</PMID>
+         </ObjectID>
+     </ObjectIDs>
+      <LegacyDataMapping>       
+         <MappingVersion>$Header: /builds/sis990002/sis/gs40/RCS/gs51.xslt,v 2.5 2015/12/02 19:41:05 azastrow Exp $</MappingVersion>
+     </LegacyDataMapping>
+   </Obj>
+   <TextInfo>       
+      <HiddenText HTMLContent="true">
+          &lt;html&gt;
+            &lt;head&gt;
+              &lt;meta name="ValidationSchema" content="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"/&gt;
+              &lt;title&gt; &lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+              &lt;p&gt;
+The State Of Black America
+&lt;/p&gt;
+              &lt;p&gt;
+The Black College Satellite Network will telecast live the press conference on the release of The State of Black America 1989. Tuesday. January 24 from 10 to 11 a.m. from the National Press Club in Washington, D.C. The press conference, led by John E. Jacob, president and chief executive Officer of the National Urban League, will also be received by other satellite networks, cable stations, as well as homes with private satellites with receive capabilities. The State Of Black America is the most authoritative annual document examining the current status and conditions of blacks in America. The State of Black America is a publication of the National Urban League. Inc. VA News Q 1 was a WAC and was also married to a veteran who died in 1960. I received a stipend from the VA for my two children until they turned eighteen. I am retired now and have a very modest income. Am I entitled to a pension from the VA? A As a wartime veteran, you may be eligible if you are permanently and totally disabled (orage6Sorolder)and if your income and assets meet certain standards. Possible entitlements based on your husband s service can be evaluated following your application for pension at your nearest VA regional office. Q Can I use my VAguaranteed home loan to buy land I plan to build a house on in the future? A A VA-guaranteed loan cannot be used to buy undeveloped land unless it is part of a package that includes the building of your home.
+&lt;/p&gt;
+            &lt;/body&gt;
+          &lt;/html&gt;
+</HiddenText>
+     </TextInfo>
+   <DFS>
+      <PubFrosting>
+         <Title>Atlanta Daily World (1932-)</Title>
+         <MpubId>46353</MpubId>
+         <SortTitle>Atlanta Daily World (1932-)</SortTitle>
+         <Qualifier>Atlanta, Ga.</Qualifier>
+         <JournalCode>ATD2</JournalCode>
+         <SourceType>Historical Newspapers</SourceType>
+         <publisher>
+            <PublisherName>Real Times, Inc.</PublisherName>
+            <PublisherAddress>
+               <Address1>1452 Randolph St, Ste. 400</Address1>
+               <City>DETROIT</City>
+               <Province>MI</Province>
+               <ZipCode>48226</ZipCode>
+               <Country>United States</Country>
+            </PublisherAddress>
+         </publisher>
+         <Locators>
+            <Locator Type="HNPPMID">
+               <Name>77905</Name>
+            </Locator>
+            <Locator Type="ISSN">
+               <Name>15286142</Name>
+            </Locator>
+         </Locators>
+         <CatalogNum>61958.00</CatalogNum>
+         <Languages>
+            <Language>eng</Language>
+         </Languages>
+         <Flags>
+            <Flag Type="BLOCK_BY_PUB">N</Flag>
+            <Flag Type="ARTICLE_TRANSLATION">Y</Flag>
+            <Flag Type="ALERTING_FLAG">N</Flag>
+            <Flag Type="DOC_USAGE_ROYALTIES">N</Flag>
+            <Flag Type="UNSTRUCTURED_DATA">N</Flag>
+            <Flag Type="PRIMARY_SOURCE_FLAG">N</Flag>
+            <Flag Type="OPEN_LAYER_RIGHTS">OL_IN_NONE</Flag>
+            <Flag Type="OL_CRAWL_BLOCKED">Y</Flag>
+            <Flag Type="EXCLUDE_FROM_TDM">N</Flag>
+            <Flag Type="EXCLUDE_FROM_GOOGLE_SCHOLAR">N</Flag>
+            <Flag Type="INCLUDE_IN_PAC">N</Flag>
+         </Flags>
+         <Subjects>
+            <Subject>African American/Caribbean/African</Subject>
+            <Subject>Ethnic Interests</Subject>
+         </Subjects>
+         <CurrentTitle>
+            <Title>Atlanta Daily World (1932-)</Title>
+            <SortTitle>Atlanta Daily World (1932-)</SortTitle>
+            <Qualifier>Atlanta, Ga.</Qualifier>
+            <Locators>
+               <Locator Type="HNPPMID">
+                  <Name>77905</Name>
+               </Locator>
+               <Locator Type="ISSN">
+                  <Name>15286142</Name>
+               </Locator>
+            </Locators>
+            <CatalogNum>61958.00</CatalogNum>
+         </CurrentTitle>
+         
+         <CoverImageType>None</CoverImageType>
+         <BrowseType>IssueDateBrowse</BrowseType>
+         <EmbargoDays>0</EmbargoDays>
+         <HasGaps>1</HasGaps>
+         <CoverageRange>
+            <AlphaStartDate>Mar 18, 1932</AlphaStartDate>
+            <AlphaEndDate>Dec 30, 2010</AlphaEndDate>
+            <NumericStartDate>19320318</NumericStartDate>
+            <NumericEndDate>20101230</NumericEndDate>
+         </CoverageRange>
+         <PubFrequencies/>
+         <ContentModel>CM_HNP_APS</ContentModel>
+      </PubFrosting>
+      <GroupFrosting>
+         <AlphaDate>Jan 24, 1989</AlphaDate>
+         <StartDate>1989-01-24</StartDate>
+         <EndDate>1989-01-24</EndDate>
+         <Locators>
+            <Locator Type="HNPPCID">
+               <Name>9668702</Name>
+            </Locator>
+         </Locators>
+      </GroupFrosting>
+
+      
+   </DFS>
+   
+</RECORD>

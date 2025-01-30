@@ -1,0 +1,72 @@
+In order to bring security to the medical community, Lee and others believe a business model that is indexed to the "relevant rate of inflation " needs to be established.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"effect": "uncertain", "time": "general"}]}}
+
+But the rest of the economy was stagnant, inflation was calculated at Sb% yearly and unemployment was high.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+Alan Cranston (DCalif.,) told the bankers that President Nixon's trip to Red China and Moscow "could contribute more to controlling inflation" than his economic policies if it could lead to a re= duction in the arms race.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "other-cause", "time": "future"}]}}
+
+It is at least possible that the economy could rebound quickly after springtime vaccinations allow pent-up savings to be spent, and locking in more fiscal support now could fuel inflation levels that cause the Federal Reserve to begin raising interest rates.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "demand", "time": "future"}, {"cause": "fiscal", "time": "future"}, {"effect": "rates", "time": "future"}]}}
+
+And in the face of the worst kind of news IListen to these negatives: crises in Af- and Iran, rapidly United States--- relations, a pre- dicted recession, 'a weakening greenback, soaring gold prices, swelling increases for imported oil (which will fatten the inflation figures even.ind continu- ing high interest rat'.s It's a hear s paradi o, the kind of environment that him:> cor - fidence In spite of it all, c icc getting away from that S 1A'ct.;' risc though there w asn t a% igo;oi:Ic, IllOi I-p on Wednesday) Maybe, though, we re getting a message, namely that the often treacherous and ulcer producing stock market-given favorable tidings-could he an 4ffective place for capital in '80.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "supply", "time": "present"}, {"cause": "expect", "time": "present"}, {"cause": "international", "time": "present"}, {"cause": "other-cause", "time": "present"}]}}
+
+The result was raging inflation (50 percent during last year alone) as Kubitschek was driven to printing more and more paper money as the only means of paying for the many good things on which he had set his insatiable appetite.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+Perhaps my favorite feature of the pad is the included Vortex pump sack that you use for inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The country has been hit by one of the world's highest inflation rates and a currency crisis that has seen the peso depreciate by more than 50 percent so far this year.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "trade", "time": "present"}]}}
+
+Roundup Roundup World: Dollar Up Dramatically The dollar chalked up some dramatic gains on foreign exchange markets yesterday on speculation that the administration s anti-inflation program will be announced early next week.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "purchase", "time": "present"}, {"effect": "trade", "time": "present"}, {"effect": "govt", "time": "present"}]}}
+
+Not surprisingly, this inflation coincided with an increase of earthquake as the magma made it way into the upper parts of the magmatic system.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The question that must be answered in 1977, he said,"is not, do we prefer unemployment to inflation?
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+INSIDE Social Security Warning The Congressional Budget Office has warned that inflation and recession are eroding Social Security funds and that new legislation is needed.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+Only inflation's simplest version, he said, is ruled out by recent observations.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+In point of fact, it really did not raise them much until the war against Viet Nam--when it feared inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "narratives": [{"effect": "social", "time": "past"}]}}
+
+Overly rapid monetary growth translated into too-easily available credit feeds inflation by allowing consumers' demands to exceed available supplies of goods and services.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"cause": "demand", "time": "general"}, {"cause": "monetary", "time": "general"}]}}
+
+Prices were established at a level that "would achieve a deceleration in sup- port of the President's anti-inflation pro- gram," he said, and GM was "confident this price change will be viewed by the American car buyer as both reasonable and responsible."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+Medicare The high hopes are steadily vanishing By Philip Meyer Knight News Service WASHINGTON The benefits of Medicare won by older in '1967 after years of political struggle are slowly but surely being taken away from them One tragic result is gathering political struggle of young against old as Congress tries to hammer out new national health insurance plan for everyone Inflation and direct in the Medicare program have depleted the benefits to older persons so that they are now only better off than they were when Medicare was established to help them cope lth medical bills that eat away at fixed incomes The best years for that program were 1968 and 1909.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "cost", "time": "present"}, {"effect": "redistribution", "time": "present"}]}}
+
+Bentsen, chairman of the joint economic subcommittee subcommittee on economic growth, said Nixon's speech was designed to hide his inability to deal with inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "govt", "time": "present"}]}}
+
+Lumber inflation that helped Lowe's and Home Depot in the first quarter will not be a help now.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "narratives": [{"effect": "cost-push", "time": "past"}]}}
+
+He says the inflation is temporary and will iron itself out through the recovery effort, especially as supply chain issues are solved.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "supply", "time": "present"}]}}
+
+"The important thing for us is how the exchange rate affects the inflation channel," stated Central Bank President Roberto Campos Neto earlier this week to a Congressional committee "If...
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "international", "time": "present"}]}}
+
+At loose ends because of a broken TV set, the two couples and the friend draw knowing chuckles from the audience as they capture the common Argentine preoccupation with choosing a restaurant or arguing about politics, inflation and strikes until the men are distracted by a couple kissing in an apartment across the court yard. t When the women chide them for gaping and making risque comments, the young husband declares: "What the hell, we live in a fishbowl nowadays."
+{"foreign": true, "contains-narrative": false, "inflation-narratives": null}
+
+The price of gold has fluctuated widely over the last five decades, due to various factors like fear of inflation, as well as everyday political and economic events.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "narratives": [{"effect": "other-effect", "time": "past"}]}}
+
+He quotes Carter: "I'd put my emphasis on employment and take my chances on inflation" and concludes that "unemployment would be reduced only gradually."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"cause": "wage", "time": "general"}]}}
+

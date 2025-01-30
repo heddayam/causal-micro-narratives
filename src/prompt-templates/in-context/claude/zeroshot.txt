@@ -1,0 +1,1 @@
+<sentence>{SENTENCE}</sentence>

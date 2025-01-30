@@ -1,0 +1,10 @@
+.vscode
+.vscode/*
+
+__pycache__
+__pycache__/*
+*.log
+src/utils/wandb
+src/utils/wandb/*
+wandb*
+data/phi2_predictions_*.tsv

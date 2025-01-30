@@ -1,0 +1,11 @@
+<example>  
+<sentence>[SENTENCE]</sentence>  
+<reasoning>[BRIEF REASONING]</reasoning> 
+```json  
+{ "foreign": bool, "contains-narrative": bool, "inflation-narratives": { "inflation-time": "past|present|future|not-applicable", "counter-narrative": bool, "causes": [ ["[cause label]", "past|present|future|not-applicable"], ... ], "effects": [ ["[effect label]", "past|present|future|not-applicable"], ... ] } } 
+``` 
+Note:  
+- The "causes" and "effects" fields are optional. You can include one, both, or neither, depending on the content of the sentence.  
+- If there are no causes or effects mentioned in the sentence, you can either omit the respective field entirely or include an empty array (e.g., "causes": [] or "effects": []).  
+- If you do include causes or effects, each item should be a tuple containing the cause/effect label and the corresponding time (past, present, future, or not-applicable). 
+</example> 

@@ -1,0 +1,17 @@
+Classify how this sentence talks about explicit effects of inflation. 
+
+Sentence: {SENTENCE}
+
+Here are the categories and descriptions:
+- Reduced Purchasing Power: Inflation erodes the purchasing power of money. As prices rise, each unit of currency buys fewer goods and services, leading to a decrease in the real value of savings and income.
+- Uncertainty: Inflation can create uncertainty about future prices, leading to economic instability. Businesses may struggle to plan and invest due to unpredictable future costs, while consumers may delay purchases in anticipation of further price increases.
+- Interest Rates: Central banks may respond to inflation by raising interest rates to curb spending and investment. Higher interest rates can impact borrowing costs for individuals and businesses, potentially slowing down economic growth.
+- Income/Wealth Redistribution: Inflation can redistribute income and wealth. Debtors may benefit from inflation as the value of their debts decreases in real terms, while creditors suffer as the purchasing power of the money they are repaid diminishes.
+- Cost of Living Increases: Inflation affects the cost of living, impacting individuals on fixed incomes, pensioners, and those with lower wages. Essential goods and services become more expensive, making it challenging for some people to afford basic necessities.
+- Impact on Savings/Investments: Inflation can affect various types of investments. While some assets like real estate and commodities may act as hedges against inflation, fixed-income investments like bonds may lose value in real terms if their returns do not keep pace with inflation. Inflation can erode the value of savings held in cash or low-interest accounts. It may encourage riskier investments seeking higher returns to offset inflationary losses.
+- International Competitiveness: Inflation can affect a country's competitiveness in international markets. Higher domestic costs may make exports more expensive, potentially reducing demand for a country's goods and services abroad.
+- Social and Political Impact: Inflation can have social and political implications. Rising prices and decreased purchasing power can lead to public dissatisfaction and unrest, potentially impacting political stability.
+- Cost-Push on Businesses: Rising costs of production due to inflationary pressures can squeeze business profits, potentially leading to reduced investment, job cuts, or higher prices for consumers.
+- Impact on Fixed-Income Individuals: Retirees and individuals on fixed incomes can experience a decrease in their real income as their earnings may not keep up with inflation, affecting their ability to afford goods and services.
+
+When you reply, think about what the sentence is explicitly saying then write your answer starting with "Answer: ". Ignore mentions of 'inflation' that don't relate to currency. If no category is appropriate, output "None".
