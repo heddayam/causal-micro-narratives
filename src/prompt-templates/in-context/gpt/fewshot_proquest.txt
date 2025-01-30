@@ -1,0 +1,72 @@
+The third indispensable element in building the new prosperity is closely related to creating new jobs and halting inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "govt", "time": "general"}]}}
+
+And interest rates in the bond market have been rising in recent weeks amid indications that inflation may not drop as much as had been expected.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "rates", "time": "present"}]}}
+
+Another discouraging intrusion has been inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+For safety reasons, the inflation inflation of the, roof will be closed' to the public.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+"There's an air of in the mind of the man in the street," he con. tinued '"he..has sort of lost confidence... his purchasing power has eroded to some degree because of inflation and now, because of the layoffs that have occurred, he s going through a - - hell of a question in respect to his Job.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "purchase", "time": "present"}, {"effect": "cost", "time": "present"}, {"effect": "uncertain", "time": "present"}, {"effect": "social", "time": "present"}]}}
+
+X I, Profits Cited inequities in thg economy, leading to higher unemployment unemployment and eventually more inflation."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "other-cause", "time": "present"}]}}
+
+In some of the areas it is as high as 19 to 20 per cent "Dr. Traywick noted that Virginia cannot escape the effects of predicted inflation in 1968, but if the state s productivity is high then can be curtailed.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "supply", "time": "present"}]}}
+
+On a trade-weighted basis, the dollar has fallen more than enough to offset the U.S. inflation of recent years.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "inflation-direction": "na", "narratives": [{"effect": "trade", "time": "past"}]}}
+
+Still, the bank also warned that if Federal Reserve policy was overly expansionary or if Congress did enlarge the Government deficit, investor fears of inflation could push up the entire spectrum of money market rates and bond yields.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "expect", "time": "present"}, {"effect": "rates", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+The silver story was more than a hedge against inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "past"}]}}
+
+In Spain, predictions of economic improvement are accompanied accompanied by worries about inflation inflation and an expanding trade deficit.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "uncertain", "time": "present"}]}}
+
+"We, too, believe that holding wages constant will not dampen inflation, but threatens to dampen economic growth," Mr. Oswald said.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"cause": "wage", "time": "present"}]}}
+
+INFLATION?
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Nixon's surcharge, coming coming as inflation shifted to high gear, signalled a radical reversal reversal in the international free trade President Kennedy had tried to initiate.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "international", "time": "present"}]}}
+
+Taxpayers faced with a 6%; to 10%,o increase in taxes, are com- plaining that the A d m i h a s consistently u n d e the cost of the Vietnam war, has steadily - lated the annual deficit and, in the past half-dozen years in particular, has run the national debt up out of all propor- tion and produced an inflation that Is eating the citizens out of house and home.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "fiscal", "time": "present"}, {"effect": "cost", "time": "present"}]}}
+
+The small bet here, with the second half of the game to begin, is that monetary policy will win by a field goal, and that this country will have neither boom nor raging inflation in 1971, despite a rather distressing deficit in the budget.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+As inflation has slowed costs of bring- ing food to the supermarket have eased.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "down", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+By now, everyone knows how the Germans feel about inflation; they will not stand for it.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "social", "time": "present"}]}}
+
+Inflation began with escalation escalation in Vietnam.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "demand", "time": "present"}, {"cause": "supply", "time": "present"}, {"cause": "fiscal", "time": "present"}]}}
+
+Task Ahead: Bar Inflation And Race On Special to The New York Times OTTAWA Along wellington Street, the Bank of Canada finds itself in tight quarters, squeezed into a squat mausoleum sort of building, designed in the style of 1937 Washington.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The council said due to high inflation in such necessities as food, housing, energy and medical care households in the lowest income group are spending 119 percent of their after-tax income on these basics.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost", "time": "present"}, {"effect": "redistribution", "time": "present"}]}}
+
+How much of the cost overrun was caused by Lockheed's mismanagement, how much by faulty Air Force planning, and how much by inflation has never been determined.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "inflation-direction": "na", "narratives": [{"effect": "cost-push", "time": "past"}]}}
+
+Heath Accused Thus a few days ago, Prime Minister Edward Heath was accused in ef- f e c t of committing an Americanism in his intro. duction or the second part of his anti-inflation pI- gram. 1-1 e a t Ii that a portion of the pro- gram was Influenced by the generally successful outcome of Phase 2 of President Nixon's econom- Ic plan.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+NO ADDITIONAL CHARGE for factory sir or torsion bar cars. ffili n75 NORWOOD FIRESTONE STORES 4120 MONTGOMERY RD. 731-1300 KENWOOD MALL FIRESTONE STORES 7800 MONTGOMERY RD. 793-4550 ERLANGER BROGAN TIRE CO. 3303 DIXIE HWY. 331-5544 COVINGTON FIRESTONE STORES 6th AND WASHINGTON 291-2121 23 BEAT INFLATION NOW PARK ALL DAY 75' Or $10.50 Per Mo. 1020 BROADWAY East of Court House Attendant on duty FOREVER... the battery with a LIFETIME GUARANTEE LIFETIME GUARANTEE Put this battery in your car.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "other-effect", "time": "general"}]}}
+

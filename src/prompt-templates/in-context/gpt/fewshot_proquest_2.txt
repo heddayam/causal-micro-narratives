@@ -1,0 +1,72 @@
+And a sudden shortage of en- ergy is more immediate to the com- mon man or woman than a long se- nes of phases to solve inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "uncertain", "time": "present"}]}}
+
+But between June, 1965, and July, 1966, inflation was 1500 per cent.
+{"foreign": true, "contains-narrative": false, "inflation-narratives": null}
+
+Jansen I Sons, Inc. Has Been Efficiently Solving Energy Wasting Problems In Homes And Commercial Buildings For Over 20 Years Save On Monthly Utility Bills Receive A Tax Credit Add Comfort lo Your Home 9 "Inflation at its But" 629 Western Reserve Road,' Crescent Springs, Ky. Serving The Tri-State Area Since 1958 Call lis Today For Free "Energy Lots Inspection Report" 34 1-0066 1 v v- cy ii ii W 3 1 0 RYAN CM J FINANCING FOR EVERYONE DOWN PAYMENT AS LOW AS MOO.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+With inflation going up and up, I can't see how people can retire."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+Inflation a kind of disease of money is a reduction in the value of money, causing it to buy less.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "purchase", "time": "general"}]}}
+
+The previous efforts all were abandoned, often on the brink of success. and inflation accelerated ice again.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But this has been offset by a surge of inflation well beyond what the Pres- ident s economic advisers expected.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+CONTROLS PROVED DISASTROUS Old Inflation Cure That Failed in '70 Is Revived--Tight Money BY JOHN F. LAWRENCE Times Washinglon Bureau Chlot WASHINGTON - When Pres- Ident Nixon's wage and price control program passed into history last week, it left inflation more than three times as bad as when controls were sprung on the nation Aug. 15, 1971.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "inflation-direction": "up", "narratives": [{"cause": "supply", "time": "past"}, {"cause": "wage", "time": "past"}]}}
+
+The rate of inflation has been traveling with the price of gold.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+As part of his anti-inflation program, Carter said he might penalize industries that do not obey by allowing foreigners to send in cheaper imports.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "fiscal", "time": "present"}, {"cause": "international", "time": "present"}]}}
+
+WASHINGTON, April 17 (UPI)--State universities and land grant colleges are getting a record number of freshman application for next fall, but inflation and student unrest have produced a sharp increase in the number of those colleges reporting a drop in admissions requests.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "social", "time": "present"}]}}
+
+If inflation stays high-and most forecasters expect it dip only to 11 or 10 percent in 1980--interest rates remain lofty as well.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "rates", "time": "present"}]}}
+
+Where: Quality Inn, 1-75, Covington, Kentucky Lecturer: William R. Miller, RScD; DO Science of Mind Center YWCA Bid?.. 9th and Walnut Cincinnati, Ohio, 45202 (513)621-4441 Registration: $1 5.00 We recommend you pre-riiter due to a tearing limit of 200. i S mmM Small Firms Seen Hurt By Short Capital HOUSTON (AP)-The chairman of the American Stock Exchange said Tuosrinv Inflation creates special problems for small businesses, which have difficulty raising capital.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+When you stop to consider that only 12 American global banks hold 83 of America's foreign deposits; 90 of the indebtedness of the petroleum and natural gas industry is held by nine banks, then you get a much clearer idea of why there is no longer an interest rate ceiling in Tennessee and why we are plagued by crippling crippling inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "international", "time": "present"}, {"cause": "other-cause", "time": "present"}]}}
+
+Given the high base rate of inflation, estimated at between 8 and 10 percent on an annual basis, the analysts feared that a sudden economic upturn could send prices into another upward spiral.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "demand", "time": "future"}, {"cause": "supply", "time": "future"}]}}
+
+Economic chaos-Inflation inspires irrational decisions that reinforce in- flation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"cause": "expect", "time": "general"}]}}
+
+The quarterly cost-of-living raises were unwisely included in the contract back in the 1950s, when inflation was a pup instead of a full-grown, hungry wolf- hound.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Truckers, Union Gain Concessions In U.S. Guidelines By Art Pine and Helen Dewar Washington Post Staff Writers The Carter administration, struggling to keep its anti-inflation program afloat, made two key concessions in the critical Teamsters negotiations yesterday and announced a significant tightening of its five-month-old price guidelines.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "wage", "time": "present"}, {"cause": "fiscal", "time": "present"}]}}
+
+THE CONSTRUCTION OF THIS HOME IS TOP QUALITY, FOR AN APPOINTMENT APPOINTMENT TO SEE JUST HOW MUCH THIS DOUBLE BUNGALOW HAS TO OFFER, CALL 786-4866 786-1701 -, MAUREEN RITCHOP::' REAL ESTATE 10 THE INFLATION FIGHTERS (Just Listed) 2 Beaulilul 4 plex's 1 Mile east el Hwy. 65 6-2 Bedroom, 2-ont bedroom units, each on I acre Ids with ponds. 2 Blocks from Elementary School. 2-4 car garages.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "present"}, {"effect": "other-effect", "time": "present"}]}}
+
+If they stayed in cash, inflation has deeply eroded their buying power.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "purchase", "time": "present"}, {"effect": "redistribution", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+President Ford, emphasizing that the nation faces an uphill struggle against inflation, was reported today to be keeping open the possibility of an antiinflation tax increase in 1975.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "govt", "time": "future"}]}}
+
+On a trade-weighted basis, the dollar has fallen more than enough to offset the U.S. inflation of recent years.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "inflation-direction": "na", "narratives": [{"effect": "trade", "time": "past"}]}}
+
+Now, on top of that, Mr. Kennedy is campaigning on a program which Vice President Nixon accurately describes this way: Federal spending proposals "of such vast scope as to force huge, new, inflation-breeding deficit financing in peacetime or such tai increases that the economy would stagnate."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"cause": "fiscal", "time": "general"}, {"effect": "uncertain", "time": "general"}]}}
+
+Wall Street is trying hard to convince itself that higher rates are needed to slow the economy and get inflation under control.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "monetary", "time": "future"}]}}
+

@@ -1,0 +1,72 @@
+Conclusions Avoid bonds with negative real yields (and be skeptical of officially reported inflation data).
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "savings", "time": "general"}]}}
+
+Mr. Kuroda simply said he didn't see the need, and he wouldn't hesitate to do more if he felt inflation was slipping off track.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+While inflation is picking up and at 2.2 per cent in October is now above the ECB's 2 per cent target, much of this is due to once-off energy price rises.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "supply", "time": "past"}]}}
+
+Gold GCZ6, -0.06%closed mostly flat, pressured by the stronger dollar, but ended the week higher as inflation expectations rose.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"effect": "other-effect", "time": "present"}]}}
+
+As of this writing, the nominal FAO Food Price Index (uncorrected for inflation) has remained above 200 for more than three years, the likely product of rising demand, speculation, and ethanol production.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "demand", "time": "past"}, {"cause": "supply", "time": "past"}]}}
+
+The passion of the festivities illustrate how many here yearn for change in a country that suffers runaway inflation, shortages of basic goods, and endemic violent crime.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "supply", "time": "present"}, {"effect": "social", "time": "present"}]}}
+
+While "most participants " expected to see inflation continue to trend up toward the Fed's 2% target,"other participants were less confident that inflation would return to its target level over the medium term."
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Euro rate has insignificant impact on headline inflation: ECB research 2 Min Read FILE PHOTO: A vendor receives a five Euro bank note from a customer at the central market in Athens, Greece, July 8, 2015.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "international", "time": "present"}]}}
+
+Sponsored Content: Protectionism Backlash A report by Cleveland-based Victory Capital, an asset management firm, warns that,"The possibility of massive deficit spending has the potential to devalue the dollar and re-price inflation expectations."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "fiscal", "time": "future"}]}}
+
+She has been among the members of the Fed to urge it to use any and all measures that would help maximize employment, even if it meant tolerating a slightly higher rate of inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "wage", "time": "future"}]}}
+
+He added that two percent inflation is likely by the end of 2017, according to Dow Jones.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Another large part of the gap comes from how analysts adjust compensation and productivity for inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "purchase", "time": "general"}, {"effect": "cost-push", "time": "general"}]}}
+
+Russia's inflation rate was 11.4% in 2014, and the ruble fell a staggering 46.5%--but gold in rubles rose 73%.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "trade", "time": "present"}]}}
+
+Britain's housing market has cooled after a coronavirus pandemic boom as surging inflation hits consumers budgets and the Bank of England raised interest rates.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "rates", "time": "present"}]}}
+
+As best we can tell, the fall in inflation compensation mainly reflects factors other than a reduction in longer-term inflation expectations.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": true, "narratives": [{"cause": "expect", "time": "present"}]}}
+
+Consider the change since 1970 because of inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+If inflation starts to rise, it is possible that SYY will have to absorb a part of their cost increases as restaurants may not be able to accept price increases.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"effect": "cost-push", "time": "future"}]}}
+
+Those Those in in favor favor of of the the idea idea say say suspending suspending the the gas gas tax tax will will cut cut prices prices at at the the pump pump and and provide provide some some relief relief as as Americans Americans face face skyrocketing skyrocketing inflation inflation..
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": true, "narratives": [{"effect": "govt", "time": "present"}]}}
+
+The concept of lifestyle creep, also known as lifestyle inflation, is straightforward and easy to understand.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+At this point they know they can get more revenues because of inflation and more people in the AMT with one year patches as opposed to say making a five to ten year patch at the same tax rates.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "redistribution", "time": "present"}, {"effect": "govt", "time": "present"}]}}
+
+A loss of confidence in paper money could result in searing and startling inflation, evaporating life savings and turning every stolid worker into a frantic speculator.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"cause": "other-cause", "time": "general"}, {"effect": "savings", "time": "general"}]}}
+
+Inflation reduces the value of money over time.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "purchase", "time": "general"}]}}
+
+But unless the banks lend those deposits, or invest them, they don't get into the economy, they don't enter the money supply, and they don't contribute to inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": true, "narratives": [{"cause": "monetary", "time": "future"}]}}
+
+While inflation has risen at a 4% average clip during the past 7 years, bank interest rates have hovered at 0%.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": true, "narratives": [{"effect": "rates", "time": "present"}]}}
+

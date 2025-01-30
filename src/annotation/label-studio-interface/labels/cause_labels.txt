@@ -1,0 +1,74 @@
+demand
+Demand-side factors: Pull-side or demand-pull inflation.
+Occurs when (aggregate) demand for goods and services exceeds (aggregate) supply. Leads to rise in or upward pressure on prices due to the scarcity (or imbalance) of goods or services relative to demand. Sources include:
+Consumer spending - more disposable income, higher employment, higher credit availability, higher household wealth, higher stock market values, or higher real estate property values can lead to higher demand for goods or services, outstripping supply. The increase in asset prices that leads to higher wealth that leads to more spending could be driven by speculation. 
+Example: strong holiday shopping seasons lead to surge in consumer spending
+Investment boom - large amounts of business investment due to favorable economic conditions, or high marginal productivity, or high tobin’s q, or technological advancements boosts demand for capital goods
+Example: industrial companies investing heavily or expanding in new technologies, raising demand for required resources
+
+supply
+Supply-side factors: Push-side or cost-push inflation.
+Occurs when the cost of production for goods or services rises, which can result in higher prices for consumers. There’s an increase in prices of important inputs with no suitable alternatives. As businesses face higher prices for underlying inputs, they are forced to increase prices of their outputs. Sources include:
+Supply shock - sudden, unexpected, significant reduction in supply or production capacity due to natural disasters, geopolitical events or conflicts, war, pandemic, can all lead to scarcity, raising the cost of production, and causing prices to rise. Poor productivity growth could also mean firms need to hike prices because labor and materials costs per unit of output rise. Could lead to high capacity utilization
+Example: crop failures from bad weather or climate conditions or draughts lead to a shortage of food and increased prices
+Supply chain disruption - severe interruption or disturbance to the flow of raw materials, goods, or logistical services along a supply chain or network, disrupting the normal operations of business involved in production, distribution, or delivery of products
+Example: Failure or closure of a major supplier or factory forces firms to find an alternative quickly, creating shortages, delays, and price spikes
+Production cost increases -  rising prices of critical inputs like labor, raw materials, global commodities, or energy can raise production costs and lead businesses to raise prices.
+Example: Sharp rise in oil prices or sudden oil shortage leads to higher fuel prices and transportation costs, forcing firms to raise their prices
+
+wage
+Built-in wage inflation: Also known as wage inflation or wage-price spiral. 
+Wage hikes - Workers attempt to protect their real wages from falling in response to inflation by advocating for higher nominal wages. If they are successful, this raises the costs faced by their employers. To protect the real value of their profits (or to attain a target profit rate or rate of return on investment), employers then pass the higher costs on to consumers in the form of higher prices. This encourages workers to push for higher nominal wages because these price rises raise their cost of living; so the inflationary cycle reinforces itself. Wage hikes push up costs for businesses
+Example: Unions call for substantial wage increases
+Other labor market factors - tight labor market and low unemployment can lead to higher wages as employers compete for workers, causing inflation. Could also be from aging demographics that reduces labor supply, forcing firms to raise prices from higher worker pay
+Example: low unemployment rates and high worker bargaining power can put pressure on firms to raise wages to hire workers, which increases firm costs that are then passed on as higher prices
+Cost of living adjustments - Pay raises, benefits, pensions often include automatic inflation adjustments to protect incomes and profits. But frequent hikes just fuel more inflation.
+Example: cost of living adjustments for pensions
+
+monetary
+Monetary factors: Central bank policies that contribute to inflation.
+There is excessive monetary growth, when there is too much money in the system chasing too few goods. The prices of goods will thus increase. Actions taken by central banks (federal reserve), such as increasing the money supply (printing money) or lowering interest rates, can impact inflation. An increase in the money supply without a corresponding increase in economic output can lead to inflation, as there is more money chasing the same amount of goods and services. Two central bank actions include:
+Money supply expansion - The central bank enacts policies that increase the money supply, or the total amount of money in circulation (liquidity), leading to more money chasing relatively fewer goods. Money creation outpaces economic growth. The excess money drives up prices. Includes monetization of debt (when central banks buy interest-bearing debt with non-interest-bearing money as a permanent exchange of debt for cash)
+Example: central bank injects cash into the economy  through programs like quantitative easing or bond purchasing 
+Lower interest rates - central bank lowers interest rates to encourage borrowing and spending or investment, with the goal of boosting economic growth. This “loosens” credit by making it cheaper to borrow from banks or other lenders. Could also raise asset prices because lower interest rates can encourage risk-taking to seek higher returns. Higher asset prices generate wealth effects that can encourage spending. But higher spending can raise prices as borrowing could allow spending to exceed productive capacity
+Example: central bank keeps interest rate low or cuts it to stimulate borrowing and investment
+
+fiscal
+Fiscal factors: Government policies that contribute to inflation.
+Could include
+Government spending - high government expenditures that are not offset or matched or met by tax revenue, creating budget deficits, can raise demand and prices. Loose fiscal policy. Inject excess money into the economy. If excess spending doesn’t coincide with boost to productivity, could lead to inflation
+Example: large scale infrastructure projects or welfare programs financed by government borrowing or debt
+Tax/revenue policies - Sudden changes in tax policies, such as reducing taxes without corresponding cuts in spending, can stimulate consumer spending. If this leads to increased demand without a proportional increase in supply, it can contribute to inflation. If tax cuts create large deficits, interest costs may rise on accumulated debt, which diverts more public revenue away from productive activities toward debt holders. And heavy debt burdens threaten confidence in future tax hikes and in the ability to fund public services or in the government to repay its debt, creating inflation. The government may try to inflate away its debt
+Example: tax cuts boost business investment and consumer spending that oustrips productive capacity, raising prices
+
+expect
+Expectations: The expectation that inflation will rise often leads to a rise in inflation.
+Workers and firms will increase their prices to “catch up” to inflation. Businesses might preemptively raise prices, and consumers may spend more now to avoid higher prices later
+Adaptive expectations - Consumers and businesses that experienced high inflation in the past may assume it will persist. So they accept and adapt spending around rising prices. Inflation gets baked into people’s expectations. Inflationary expectations arise because of persistent past experience with inflation.
+Example: Previous history of shortages makes people expect shortages in the future, leading to panic buying that raises prices
+Forward-looking expectations - anticipated future prices can lead to current spending and investment that drives up prices. Individuals learn from past trends and experiences in order to make the best possible prediction about what will happen. People may also anticipate changes in government or central bank policy that affects their spending and drives prices up. Expectations could become self-fulfilling because if people expect prices to rise, they may make purchases sooner, creating self-fulling prophecy.
+Example:  people stocking up on goods due to expectations of future shortages or price hikes
+Consumer confidence - positive sentiment among consumers or firms lead them to increase spending or investment. Could be overly optimistic assumptions about future productivity, leading to excess spending, contributing to inflation
+Example: consumers increase spending from optimism about future economic conditions
+
+international
+International Trade and Exchange Rates: International trade and exchange rate factors that can cause inflation.
+Includes:
+International trade - trade barriers, tariffs, trade conflicts between countries influence the cost of imported goods. Tariffs or trade restrictions can raise the prices of imported products, contributing to inflation.
+Example: tariffs on pharmaceuticals or steel leads to higher prices for domestic customers
+Exchange rate movements - currency depreciation relative to other currencies (weaker domestic currency) raises cost of imported goods, increasing domestic prices for consumers overall
+Example: weakening of domestic currency leads to higher prices of imported semiconductors
+
+other-cause
+Other Causes: Causes not included in above.
+Could include:
+Market concentration - market power of a few large firms gives them pricing power, leading to higher prices
+Example: Oligopoly in an industry makes firms feel they can raise prices without fear of competition
+Regulation/Government Rules - inefficient or restrictive regulations can affect production costs and raise prices
+Example: Strict environmental regulations lead to higher production costs
+Gold standard - Coming off a gold (or commodity or cryptocurrency like bitcoin) standard may lead to inflation. A government manipulating the standard may also cause inflation. Manipulation is done by altering the rate of exchange between the currency and gold (i.e., redefining the gold parity). Changing the official price of gold in terms of currency effectively alters the money supply, impacting inflation. Countries could also institute controls that gold can no longer flow freely in/out of the country, which is akin to leaving the gold standard.
+Example: Devaluing the currency against gold, for instance, reduces the amount of gold needed to back each unit, increasing the money supply and potentially fueling inflation.
+Loss of faith in the currency - If people lose faith in the paper currency, they may “run” on the currency by rapidly purchasing goods and services. People may also try to get rid of their depreciating paper money quickly by spending it faster (increasing the velocity of money). This rapid circulation of money, despite its declining value, can further fuel inflation as supply lags behind demand.
+Example: The Weimar Republic in Germany after World War I experienced hyperinflation due in part from citizens losing faith in the Mark due to excessive war debt and printing.
+
+end

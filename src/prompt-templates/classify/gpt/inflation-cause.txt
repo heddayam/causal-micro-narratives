@@ -1,0 +1,13 @@
+Classify how this sentence talks about explicit causes of inflation. 
+
+Sentence: {SENTENCE}
+
+Here are the categories and descriptions:
+- Demand Inflation: This occurs when the demand for goods and services exceeds their supply. Increased consumer spending, often due to factors like low interest rates, increased government spending, or strong consumer confidence, can lead to demand exceeding supply, causing prices to rise.
+- Cost Inflation: When the cost of production for goods and services increases, this can result in higher prices for consumers. Factors such as rising wages, higher raw material/commodity/energy costs, or increased taxes can lead to cost-push inflation.
+- Wage Inflation: Also known as wage-price inflation, this occurs when workers demand higher wages to keep up with the rising prices of goods and services. As businesses increase wages to retain employees, they often increase prices to cover these higher labor costs, creating a cycle of inflation.
+- Monetary/Fiscal Factors: Actions taken by central banks, such as increasing the money supply or lowering interest rates, can impact inflation. An increase in the money supply without a corresponding increase in economic output can lead to inflation, as there is more money chasing the same amount of goods and services.
+- Expectations: If businesses and consumers expect prices to rise in the future, they may adjust their behavior accordingly. For instance, if consumers anticipate higher prices, they may buy more now, leading to increased demand and potential inflation.
+- External Factors: Events such as natural disasters, geopolitical tensions, or disruptions in the supply chain can impact the availability and cost of goods, potentially leading to inflationary pressures.
+
+When you reply, think about what the sentence is explicitly saying then write your answer starting with "Answer: ". Ignore mentions of 'inflation' that don't relate to currency. If no category is appropriate, output "None".

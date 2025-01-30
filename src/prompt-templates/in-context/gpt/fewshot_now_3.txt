@@ -1,0 +1,72 @@
+Investors are even paying us for 30-year Treasury bonds, when adjusted for inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Meanwhile, operating margins of the top 50 overall have been on a downward trajectory since peaking at 16% in 2007 owing to commodity inflation and the tough consumer spending environment, although the 2012 index (which OC&amp;C will publish this summer) is likely to suggest a "flattening " of this trend as commodity price pressures eased a little, he said.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+Britain's housing market has cooled after a coronavirus pandemic boom as surging inflation hits consumers budgets and the Bank of England raised interest rates.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "rates", "time": "present"}]}}
+
+Bond yields have risen this year as traders have been watching the potential for inflation pressures to pick up after struggling economies were flooded with credit and government spending.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "monetary", "time": "past"}, {"cause": "fiscal", "time": "past"}, {"effect": "savings", "time": "present"}]}}
+
+The central bank official said current inflation measures are being held down by virus-sensitive sectors that could rebound quickly once vaccines take hold.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "demand", "time": "future"}]}}
+
+In its economic policy, too, his government will be meaningfully different from the Democratic Party's, with a higher inflation target and a preference in favor of stimulus.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But its statement again struck a hawkish tone, saying it would not allow inflation to worsen on the back of fuel costs - crucial for a country that imports most of its oil and gas - which it warned will push up prices in the short term.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"effect": "cost", "time": "future"}, {"effect": "trade", "time": "future"}]}}
+
+And while politically connected middlemen make out like bandits, you, I presume, will be admiring the hundred of millions of starving children, who are getting killed by food inflation.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "cost", "time": "present"}, {"effect": "social", "time": "present"}]}}
+
+Central banks around the world are hoping that the sharp spike in inflation is due to temporary factors related to pent-up demand and supply pressures, which will wind down over months to come.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "demand", "time": "present"}, {"cause": "supply", "time": "present"}]}}
+
+Those Those in in favor favor of of the the idea idea say say suspending suspending the the gas gas tax tax will will cut cut prices prices at at the the pump pump and and provide provide some some relief relief as as Americans Americans face face skyrocketing skyrocketing inflation inflation..
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": true, "narratives": [{"effect": "govt", "time": "present"}]}}
+
+Inflation is higher for the affluent (who at least can afford it).
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "cost", "time": "general"}, {"effect": "redistribution", "time": "general"}]}}
+
+A large literature argues that monetary policymakers should set the policy interest rate in such a way as to bring the expected future paths of unemployment and inflation as close to their goals as possible.9 Technically, a simple way to capture this idea is for monetary policymakers to formulate a plan for interest rates and any other monetary policy instruments that minimizes a loss function.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+Washington's current minimum wage is $9.47 an hour, but the rate is adjusted each year for inflation as measured by the Consumer Price Index for the past 12 months.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Salaries and benefits at universities rise faster than inflation, consistent with the cost disease.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But, for one thousand today you cannot buy the one thousand tomorrow's goods because of inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "purchase", "time": "general"}]}}
+
+While leaving the European Union has cast a shadow over the economic outlook, the resulting drop in the pound has also pushed up inflation, creating a difficult balancing act for Carney.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "international", "time": "present"}]}}
+
+risk is that if inflation stays this low for a couple of years, it'll get baked into expectations and then, bang, you're in trouble,"said Michael Blythe, chief economist at Commonwealth Bank.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "expect", "time": "future"}]}}
+
+Atkeson: With a backdrop of benign inflation and easy money, investors will be tempted to reach for yield.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "savings", "time": "future"}]}}
+
+Inflation is running in double digits, following a food price shock, and the dinar is under pressure.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"cause": "supply", "time": "past"}, {"effect": "other-effect", "time": "present"}]}}
+
+A loss of confidence in paper money could result in searing and startling inflation, evaporating life savings and turning every stolid worker into a frantic speculator.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"cause": "other-cause", "time": "general"}, {"effect": "savings", "time": "general"}]}}
+
+Lots of that so-called "interest " just accounts for inflation and is not true income.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "counter-narrative": false, "narratives": [{"effect": "rates", "time": "general"}]}}
+
+Kuroda stressed that next year's wage negotiations between companies and labor unions would be crucial to whether Japan will see inflation accelerate toward 2 percent.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "wage", "time": "future"}]}}
+
+The fact that Latinos are overwhelmingly concerned about inflation and the economy is a warning to Democrats who control the White House and Congress.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "counter-narrative": false, "narratives": [{"effect": "social", "time": "present"}]}}
+
+Tuition, fees, room and board have grown at twice the rate of inflation and almost two and a half times median income.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+

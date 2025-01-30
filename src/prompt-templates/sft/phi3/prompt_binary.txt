@@ -1,0 +1,4 @@
+Does this sentence expresse a cause/effect of inflation:
+{SENTENCE}
+
+ 

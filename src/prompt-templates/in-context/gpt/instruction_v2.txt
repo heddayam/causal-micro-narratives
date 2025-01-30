@@ -1,0 +1,23 @@
+Below is task instructions, followed by lists of causes and effects of inflation. You will be provided a sentence and your task is to identify and classify all causes and effects of inflations expressed in the sentence, if any. Read the example classifications carefully. Provide your output in JSON format and output nothing else.
+
+TASK INSTRUCTIONS:
+
+* Definition of *inflation narrative* (for the paper): an explanation of the cause(s) and/or effects(s) of inflation in the US
+   * Inflation can be past, present, or future
+* The primary task is to identify whether a (c)ause or (e)ffect of inflation is expressed and, if so, what is it.
+  *Even if inflation is discussed, there must be a clear cause or effect, other than inflation, discussed.
+*  “Category”  is the label based on the categories, include all applicable categories
+* “Foreign:, “x” if inflation discussed in sentence is about a non-US economy
+* Causal relationships may be implicit but only **proximal **causes/effects should be identified.
+* Ex: raising rates, inflation fears caused markets to roil
+   * Proximal causal link is inflation (future) > uncertainty
+   * Not proximal link is inflation (future) > uncertainty > savings (b/c of rise in bond yields)
+* Temporal: past/present/future/na of inflation and the cause/effect (na=general case w/o explicit timing stated or cant be tied to explicit historical context of sentence)
+* Direction (of inflation): up/down/same/na - whether narrative is about something causing inflation to go up/down/stay same or narrative about the effects of inflation going up/down/staying same. Na = direction not at issue or not explicitly stated
+* Effects are inflation high/same/low
+* Any present effect that has an implicit future cause should only be labeled cause if explicitly stated (duplicate annotation to allow for multiple *inflation time *labels)
+   * Rates effect may imply monetary cause, but only label if cause explicitly stated.
+      * Ex: “Fed increased rates b/c inflation high” (only effect rates present inflation high)
+      * Ex: “Fed increased rates b/c inflation high and the Fed anticipates that this policy will lower inflation” (effect rates present inflation high + cause monetary future inflation down)
+* Annotate counter narratives as normal narratives
+* If recession/unemployment is a cause (for inflation to go down) - label as demand + supply, since could be either. Only put rates as effect (to cause recession which would then lower inflation) if rates/Fed explicitly stated

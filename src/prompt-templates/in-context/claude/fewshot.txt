@@ -1,0 +1,380 @@
+<examples>
+<sentence>Inflation is roughly in line with the Bank's expectations.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": false,
+    "inflation-narratives": null
+}
+```
+
+<sentence>Historically, rising inflation hasn't always meant sinking equity markets.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "past",
+        "counter-narrative": true,
+        "narratives": [
+            {
+                "effect": "savings",
+                "time": "past"
+            }
+        ]
+    }
+}
+```
+
+<sentence>"With underlying inflation still strong, the Bank of Japan will likely leave policy settings unchanged at its January meeting unless next week's tankan disappoints significantly," Capital Economics' Japan economist Marcel Thieliant wrote in a research note.</sentence>
+```json
+{
+    "foreign": true,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "present",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "effect": "rates",
+                "time": "future"
+            }
+        ]
+    }
+}
+```
+
+<sentence>Still, the fears that easing monetary policy may lead to inflation are premature.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "future",
+        "counter-narrative": true,
+        "narratives": [
+            {
+                "cause": "monetary",
+                "time": "present"
+            }
+        ]
+    }
+}
+```
+
+<sentence>Since the breakdown of the Bretton Woods international monetary system in the early 1970s, most countries have faced bouts of high and volatile inflation as they sought a suitable nominal anchor.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "present",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "cause": "other-cause",
+                "time": "past"
+            }
+        ]
+    }
+}
+```
+
+<sentence>The adjustment to equity valuations and investor expectations come as inflation and interest rates perk up and conditions turn from "good as it gets " to "still good, but with some offsets."</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "present",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "effect": "rates",
+                "time": "present"
+            },
+            {
+                "effect": "cost-push",
+                "time": "present"
+            }
+        ]
+    }
+}
+```
+
+<sentence>As As we we all all know know and and have have experienced experienced,, inflation inflation has has inflated inflated construction construction materials materials,, chips chips,, car car components components,, bikes bikes,, toys toys and and so so many many other other things things..</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "present",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "effect": "cost",
+                "time": "present"
+            }
+        ]
+    }
+}
+```
+
+<sentence>Needle of a disposable syringe with a drop of liquid on the tip against the background of a fragment...+ of a US dollar bill getty To take the last point first, the original wartime profits tax was part of a larger effort to control inflation in an economy almost wholly given over to war production.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "past",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "cause": "fiscal",
+                "time": "past"
+            }
+        ]
+    }
+}
+```
+
+<sentence>He says the inflation is temporary and will iron itself out through the recovery effort, especially as supply chain issues are solved.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "present",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "cause": "supply",
+                "time": "present"
+            }
+        ]
+    }
+}
+```
+
+<sentence>But, for one thousand today you cannot buy the one thousand tomorrow's goods because of inflation.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "general",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "effect": "purchase",
+                "time": "general"
+            }
+        ]
+    }
+}
+```
+
+<sentence>The Utah Transportation Coalition estimates it has lost 40 percent of its buying power since the previous fuel tax hike, and lawmakers have said since the last time the state adjusted its minimum property tax, Utah has lost about $90 million to inflation.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "present",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "effect": "govt",
+                "time": "present"
+            }
+        ]
+    }
+}
+```
+
+<sentence>The government of Nicolas Maduro wants to introduce new currency with higher denominations in order to keep up with the raging inflation that their economic and monetary policy has created.</sentence>
+```json
+{
+    "foreign": true,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "present",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "cause": "monetary",
+                "time": "present"
+            },
+            {
+                "cause": "fiscal",
+                "time": "present"
+            },
+            {
+                "effect": "other-effect",
+                "time": "future"
+            }
+        ]
+    }
+}
+```
+
+<sentence>Inflation is higher for the affluent (who at least can afford it).</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "general",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "effect": "cost",
+                "time": "general"
+            },
+            {
+                "effect": "redistribution",
+                "time": "general"
+            }
+        ]
+    }
+}
+```
+
+<sentence>Britain's housing market has cooled after a coronavirus pandemic boom as surging inflation hits consumers budgets and the Bank of England raised interest rates.</sentence>
+```json
+{
+    "foreign": true,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "present",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "effect": "uncertain",
+                "time": "present"
+            },
+            {
+                "effect": "rates",
+                "time": "present"
+            }
+        ]
+    }
+}
+```
+
+<sentence>As best we can tell, the fall in inflation compensation mainly reflects factors other than a reduction in longer-term inflation expectations.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "present",
+        "counter-narrative": true,
+        "narratives": [
+            {
+                "cause": "expect",
+                "time": "present"
+            }
+        ]
+    }
+}
+```
+
+<sentence>Consequently, the "race to debase " will intensify, yielding increased worldwide inflation.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "future",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "cause": "international",
+                "time": "future"
+            }
+        ]
+    }
+}
+```
+
+<sentence>Fly Around IMF CHIEF WARNS OF TURBULENCE AS NATIONS WITHDRAW STIMULUS--Bloomberg's Eric Martin: "The world faces greater uncertainty and potential turbulence this year, with the economic recovery's momentum slowing and risks from inflation and supply-chain bottlenecks to social unrest looming, the International Monetary Fund's chief said.</sentence>
+```json
+{
+    "foreign": true,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "future",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "effect": "uncertain",
+                "time": "future"
+            },
+            {
+                "effect": "social",
+                "time": "future"
+            }
+        ]
+    }
+}
+```
+
+<sentence>Inflation is then likely to decline further as the contribution of energy and import prices diminishes, while downward pressure from unemployment and spare capacity continues to restrain domestically generated inflation.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "future",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "cause": "supply",
+                "time": "future"
+            },
+            {
+                "cause": "wage",
+                "time": "future"
+            }
+        ]
+    }
+}
+```
+
+<sentence>The central bank official said current inflation measures are being held down by virus-sensitive sectors that could rebound quickly once vaccines take hold.</sentence>
+```json
+{
+    "foreign": false,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "future",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "cause": "demand",
+                "time": "future"
+            }
+        ]
+    }
+}
+```
+
+<sentence>ISTANBUL, Jan 30 (Reuters) - Turkey's lira was little changed on Thursday and remained close to a three-week low against the dollar ahead of a quarterly report in which the central bank is expected to reaffirm its view that inflation will gradually slide this year.</sentence>
+```json
+{
+    "foreign": true,
+    "contains-narrative": true,
+    "inflation-narratives": {
+        "inflation-time": "future",
+        "counter-narrative": false,
+        "narratives": [
+            {
+                "effect": "trade",
+                "time": "present"
+            }
+        ]
+    }
+}
+```
+</examples>

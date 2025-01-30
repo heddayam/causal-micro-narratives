@@ -1,0 +1,72 @@
+But we used to talk to Carter about the fact that he's spending so much time on this issue, and the American people are wondering, what are you doing about gas lines, what are you doing about the economy, what are you doing about inflation?
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "narratives": [{"effect": "social", "time": "past"}, {"effect": "govt", "time": "past"}]}}
+
+Perhaps the most striking example is the disappearance of the Phillips curve--the hypothesized inverse relationship between inflation and unemployment.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"effect": "cost-push", "time": "general"}]}}
+
+Current inflation rates indicate there will be no change in interest rates for some time.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "rates", "time": "future"}]}}
+
+Indeed, as history shows, many popular responses to economic crises--closing borders to immigration and free trade, hiking taxes, or printing money excessively and driving up inflation--can do incredible damage to long-term growth.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"cause": "monetary", "time": "general"}]}}
+
+The appeal comes as inflation remains a big challenge for Democrats, with control of Congress at stake.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "social", "time": "present"}]}}
+
+NO ADDITIONAL CHARGE for factory sir or torsion bar cars. ffili n75 NORWOOD FIRESTONE STORES 4120 MONTGOMERY RD. 731-1300 KENWOOD MALL FIRESTONE STORES 7800 MONTGOMERY RD. 793-4550 ERLANGER BROGAN TIRE CO. 3303 DIXIE HWY. 331-5544 COVINGTON FIRESTONE STORES 6th AND WASHINGTON 291-2121 23 BEAT INFLATION NOW PARK ALL DAY 75' Or $10.50 Per Mo. 1020 BROADWAY East of Court House Attendant on duty FOREVER... the battery with a LIFETIME GUARANTEE LIFETIME GUARANTEE Put this battery in your car.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"effect": "other-effect", "time": "general"}]}}
+
+Sure, he's been beneficiary of a.516 BABIP this year and a.354 mark last year, so there's a heaping dose of inflation in those numbers, but the fact remains that he hasn't done anything but hit.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+People reports Davis found the refreshingly honest ad Hiring is accelerating as Americans increasingly venture out to shop, eat at restaurants and travel, and inflation pressures are even picking up after lying dormant for years.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "demand", "time": "present"}, {"cause": "supply", "time": "present"}]}}
+
+As of last week, only one of the three buildings marked for closing had been rented, and inflation and salary increases for teachers and other personnel were cutting into the cost reduction gained by back the number of district employees.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+Economic chaos-Inflation inspires irrational decisions that reinforce in- flation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"cause": "expect", "time": "general"}]}}
+
+Also, you can supplement your fixed investment with a variable account offering a possible inflation hedge through a diversified portfolio of common stocks.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+Their view, as reported by Laden, is that the persistence of a 9 to 10 percent inflation in the United States next year will renew selling pressure on the dollar, requiring the actual use of most or all of the $30 billion support package announced Nov. 1.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"effect": "trade", "time": "future"}]}}
+
+the worst of an economic storm caused by the annexation of Crimea, but acknowledged the crisis had taken a toll on economic growth and driven up inflation.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"cause": "other-cause", "time": "past"}]}}
+
+Their inflation-fighting program, much different from that of the bankers, can be seen on their giant placard. thing no administrator can ever give-job securitV. activists insisted that their unionization will rlt only improve their own working conditions but will improve patient core as.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+It should be noted that even though we expect the flow of inflation-related news to be relatively benign and even encouraging for markets in the short term, it is our view that by late 2022 or early 2023, the US economy may face another wave of inflationary pressures from some combination of surging food prices, increased energy costs and the reemergence of global supply chain issues.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "demand", "time": "future"}, {"cause": "supply", "time": "future"}]}}
+
+"There's an air of in the mind of the man in the street," he con. tinued '"he..has sort of lost confidence... his purchasing power has eroded to some degree because of inflation and now, because of the layoffs that have occurred, he s going through a - - hell of a question in respect to his Job.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "purchase", "time": "present"}, {"effect": "cost", "time": "present"}, {"effect": "uncertain", "time": "present"}, {"effect": "social", "time": "present"}]}}
+
+The company, faced with a strike threat, asked for the wage and price council s opinion as to whether it could offer a cost-of-living escalator that would raise wage increases above 7% in future years if the rate of inflation exceeded that figure.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "wage", "time": "future"}]}}
+
+In Brazil it has meant 300 years of plundering, boom-ana-Dusi economic cycles ana current OPINION PAGE ly a lunatic inflation.
+{"foreign": true, "contains-narrative": false, "inflation-narratives": null}
+
+POLARIS E-I-GO l2MCni.ll?14 0flici Accounting CleVV If you're an accounting clerk, of bookkeeper and need some ax-Ira ax-Ira money ACCOUNTEMPS may be lust what inflation ordered.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The National Advisory Council on Economic Opportunity said yesterday that because of high inflation in the necessities necessities food, housing, energy and medical care households in the lowest lowest 10 percent income group are spending spending 119 percent of their after-tax income income on those basics.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "cost", "time": "present"}, {"effect": "redistribution", "time": "present"}]}}
+
+Growth in consumer prices remains modest, and judging by the yield on ten-year U.S. Treasury bonds, investors don't expect significant inflation in the long term either.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The workers have been demanding better wages since inflation has been so high recently,"said Kalpona Akter, executive director of the Bangladesh Centre for Worker Solidarity to the Guardian."
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "narratives": [{"effect": "purchase", "time": "present"}]}}
+
+They swoop in with incredible speed and force to bail out the financial sectors in which creditors are invested, trampling over prior norms and laws as necessary.... They do not pursue monetary policy with sufficient force to ensure expenditure growth even at risk of inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+"If Greece leaves the euro zone, we'll be looking at a sharp devaluation of the new currency and inflation is going to go through the roof," said Diego Iscaro, senior economist at IHS Global Insight.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "narratives": [{"cause": "international", "time": "future"}]}}
+

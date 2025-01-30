@@ -1,0 +1,600 @@
+"The question really is whether whether you want inflation or unemployment. unemployment.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Then, of course, there is the United States, where one quarter of the world ivory output arrives in the form of jewelry and carved figurines, Like gold, these ivory items are considered a choice investment against inflation-and never elephant from whence they came.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "general"}]}}
+
+"We, too, believe that holding wages constant will not dampen inflation, but threatens to dampen economic growth," Mr. Oswald said.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"cause": "wage", "time": "present"}]}}
+
+Still, the has been confronted with the of writing anti-inflation standards for Snancial institutions as rising interest rates are increasing profits.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+THOSE COSTS are generally generally attributed to inflation, although although NRC licensing delays also contributed.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Hopes for control of inflation have been dimmed by new wage demands.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "wage", "time": "present"}]}}
+
+That's twice the inflation rate that prevailed at the year's start.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+In rebuttal, Reagan said the high inflation inflation and unemployment rates had been caused by Carter's policies and nothing else.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+THE PUBLIC SPEAKS OUT THE PUBLIC SPEAKS OUT Profits Can't Be Called the Cause of Inflation Reader Walt Skiba's suggestion (Sept. 18) that wages be tied to prof- its would be welcomed by industry and the country in general.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Senate Majority Leader ROBERT C. BYRD is wrestling with a - problem that has nothing to do with inflation, energy policy or foreign' affairs.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+("Bracket creep" is the way the government assures itself of increased real revenues by taking greater proportions of earnings misleadingly boosted by inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "govt", "time": "general"}]}}
+
+I ----------------------------- ----------------------------- ---------------------------- Commodity Markets ------ ^ "o -"------ Inflation Worries Board of Trade Mercantile Futures Comex Metal Prices n I/">llr"-J CH',"A<?-9IAP1D" F^u u,reT '(tm)d'"8 Fria'v CHICAGO (API - Futures trading PriNEW YORK <AP> - Spot Hlfrhfr on " c "??
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+Britain Little Better Off Britain is little better off, tho unemployment increased somewhat in August as a re- sult of restrictions on instal- ment purchases designed to combat inflation.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "govt", "time": "present"}]}}
+
+This inflation alert will call attention to outstanding cases of price or wage in- creases and will be made public by the National Commission on Productivity.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "supply", "time": "present"}, {"cause": "wage", "time": "present"}]}}
+
+Speer's prognosis on inflation Is far more pessimistic than that of the administration.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Invtst in th future in horn of your own that insures security and guards against inflation.' 133.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+Wage and price controls are still considered unlikely to be included in the anti-inflation program.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The new Congressional Budget Of- fice report projects a 1979 economic growth rate of -2.0% to 0.0% after inflation is considered, compared to 0.0% to 2.0% growth in its earlier as- sessment.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But you probably don't realize that the arsonist is much more responsible than inflation for what you are having to pay.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Slower Growth Rate Projected for 1978 The United States will avoid a recession in 1978, economic growth will be slower than it has been this year, and high inflation and unemployment will continue, according to projections released over the weekend by the Conference Board.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But the U.S. currency was weaker in Zurich anil Amsterdam, Federal Reserve System urges banks to curb loans, fight inflation Washington Star-News Washington, D.C.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+NOW ONLY m9 INSTALLED Normoi Inflation to tviiting pp. ductwork ani 100 mp ttoctrkol Mrvict, Invest in Carrier Air conditioning FOR MORE DETAILS 30,000 BTU CALL US TODAY!
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "other-effect", "time": "present"}]}}
+
+Heller, chairman of the Council Council of Economic Advisers, said he thinks that part of what is happening in the stock market results from a growing realization realization that inflation is not a way of life.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+IN A COMPANION article, Theodore Theodore Moran predicts oil prices will go up 10 to 15 per cent per year above the level of inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+ANOTHER ISRAELI CRISIS Inflation and staggering debt are pushing Israel toward crisis that one industrial leader predicts could be an economic Page 12.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But it decided "fiscal discipline"- across-the-board spending cuts and postponement of tax cuts-was ne- to bring inflation under con- trol and avoid recession.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+Unfortunatelv. it is nrnhahlv still! true that recession is the only really i quicK cure tor inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"cause": "demand", "time": "general"}]}}
+
+FUEL EFFICIENT INFLATION FIGHTER HEADQUARTERS JAY KLINE CHEV. 1221 W. LAKE 825-444 1 723 IratlrrSyWtiCan Economy 4 cyl with auto, PB, radio & more.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+By JACK LEFLER AP Business New Writer NEW YORK Much attention focused last week on the possibility possibility of Inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Penny Popular It wasn't hard to see why the original Kennedy half-dollars became so popular, but why all the interest in the lowly penny? f"Being 93 per cent copper and 5 per cent zinc, the 'pen- ny' is not likely to be held for its metallic value, and the of- fects of inflation would appear to have sharply curtailed its use as a of exchange," said the magazine.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "inflation-direction": "na", "narratives": [{"effect": "other-effect", "time": "past"}]}}
+
+Then to the tune of "Aquarius," from the Broad.way show "Hair," they stag: "When the Dow is in the seven hundreds/And int rest r,tes approach the stars/ Despite some problems of inflation/We talk of trips to Mars."
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Most economists see inflation easing later in 1980, but don't agree on how soon.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Tax savings, a hedge against inflation, equity building.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+One who can perform mira-cles mira-cles with the economy by si muitaneousiy neating it up enough to generate jobs and investment, and c o o 1 i n g it down enough to cut the inflation inflation rate.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The generally accepted idea that the overheated, inflation-fueled inflation-fueled economy was beginning to cool had been reinforced by a decline of 0.5 per cent in the leading indicator index in August.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "present"}, {"effect": "cost-push", "time": "present"}]}}
+
+He warned that if Congress failed to make reductions asked by the President, the deficit could rise another $8.5 billion, a level that both he and Greenspan said would renew the risk of inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+Do we mean business or don't we when it comes to controlling inflation?
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Wars, massacres, crime, slums, Keston strikes, pollution, inflation and poverty are constantly in the headlines and on the television, television, and countless thousands of people, high and low, talk and demonstrate against them, but seemingly to little avail.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+After months of watching federal, state and local law makers slash budgets, Kearse said he could no longer remain silent and allow vital programs to be torn apart at the same time that poor people are being squeezed by inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The Teamsters, who lack the unlimited cost-of-living escalator enjoyed by auto workers, workers, feel themselves hard hit by inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost", "time": "present"}]}}
+
+Nixon told a news conference that "we believe the dollar. is a sound currency" in view of the fact that inflation in the United States is running DOLLAR IS SOUND..
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "other-effect", "time": "present"}]}}
+
+Business executives don't expect the Car ter admWstration's present plans to slow either the economy or inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+Inflation salts Guatemala's wounds By Sheldon Annis GUATEMALA CITY-A mouth ago. a killer earthquake the Guatema- lian Highlands and took 23,O0O lives.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "social", "time": "present"}]}}
+
+The effect of inflation on relatively small negotiated wage increases in recent years, including yesterday s settlement, already has stopped the previously steady increase in the Swedish worker s standard of living.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "purchase", "time": "present"}]}}
+
+J. Dewey Daane, a former governor governor of the Federal Reserve Board and now vice-chairman of Commerce Union Bank in Nashville, Nashville, Tenn., just as quickly took Sommers to task for "passively" accepting that high an inflation rate.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+"We don't have a hope of keeping pace with inflation, not a hope.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "social", "time": "present"}]}}
+
+The quarterly cost-of-living raises were unwisely included in the contract back in the 1950s, when inflation was a pup instead of a full-grown, hungry wolf- hound.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+BARBER FULL TIME, N w iide good opportunity lor right man, 926- '6J- BARBER STYLIST Excellent oC Call 2V3 6737 BARTENTERS TOP WAGES - GOOD Ttet FRINGE BENEFITS APPLY GROUND ROUND 77H E. Washinqton 357 6001 BEAT INFLATION WIT MA PART"TIM" INCOME.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Inflation fighter Kahn said the OPEC increase also "accentuates. essential, an energy policy is to bringing tnis country as far and as fast as possible along, the road to diminished dependence'1 ^din foreign oil supplies^This means everything we can;to encourage additional domestic production of oil and gas, and of other energy sources, and practicing as much conservation as possible."
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+X I, Profits Cited inequities in thg economy, leading to higher unemployment unemployment and eventually more inflation."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "other-cause", "time": "present"}]}}
+
+If that rate were continued for a whole year, it would mean a 14.4 per cent annual rate of inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+President Hits Legislators For Voting Fat Pay Raises President Carter has criticized lawmakers in Ohio and Illinois for voting themselves pay increases that vastly exceed the administration s anti-inflation guidelines, saying elected officials "ought to set an example."
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+a "With inflation and recession at the same time, I don't know whether to raise or lower the price."
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+And a sudden shortage of en- ergy is more immediate to the com- mon man or woman than a long se- nes of phases to solve inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "uncertain", "time": "present"}]}}
+
+I INFLATION C&dQ frm 4h Page flation is to impose wage-. 6-The way to in- - Mment deficit spending and the over expansion of the *. 'i-Business and labor - 8-We needn't worry. about inflation. 9-Taxes should be cut now on people with lower incomes and raised on business.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+A month ago I set a series of tough anti-inflation measures.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+I know they need it more than anyone else, but other people also have had increases because of inflation inflation and that ought to be taken into consideration as well, not just the Relax in the nation's first and finest indoor garden courtyard i - ji tin,. jgfc.ar m w r - W I'.tXi f-fcT.1 t It I caiurihg year-round swimmine, uhirlnnnl cwn shnf I'lrhoiml enjoy the good food and t un of Ambassador's coy Camfiio Room... ana tne world s tine timing pleasures oi as exotic Kasiimin kooiii. ur one of the 200 deluxe suites... complete banquet and meeting taeiliiies. and the free paiking and courtesy liniosine service in the Greaki 1inneapolis shopping area.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+SPIRALING INFLATION and "disappointing" growth of traffic combined to force the Chicago, Milwaukee, St. Paul & Pacific Railroad to file for reorganization under the bankruptcy statutes, its chairman and chief executive officer said Thursday.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+Carter's reasoning has been that stimulating factory expansion would both create more jobs and at the same time keep goods in ample enough supply to prevent price inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"cause": "supply", "time": "future"}]}}
+
+However, the company says it has eliminated eliminated "discretionary" spending, spending, and there have been hir ing and pay freezes among See CHRYSLER, Page 15A GM, VAW at odds over retiree inflation protection.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"cause": "wage", "time": "present"}]}}
+
+People are, again,;back to - this something, somebody, they can trust, they can believe in.,"Timing for someone, in my category was good, and I'd like.to think that positions I took on issues are what people of: this state, a majority of the people, feel,.be it on capital capital punishment or amnesty or inflation or agriculture or whatever."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "social", "time": "general"}, {"effect": "govt", "time": "general"}]}}
+
+Computer competitors William Norrii, above, 6.5-percent increase; Chrysler Corp. has upped its prices $388, or 6 percent, and American Motors Corp. has boosted Its prices $294, or 5.8 percent Company officials said any further, further, adjustments will be in line with the president's anti-Inflation program.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Rockefeller said the post World War I inflation "spelled disaster for the every day people of Germany.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "past", "inflation-direction": "up", "narratives": [{"effect": "cost", "time": "past"}, {"effect": "social", "time": "past"}]}}
+
+Although tile average At- gentine has learned to live with inflation, the present spiral has altered his life style as never before.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "other-effect", "time": "present"}]}}
+
+With Inflation In housing cost soaring at 1.4 per mo. so tar this year mors what this properly may appreciate (based on sale price of (41,550 for mir 1-flD Inwnhnmtl Ortrmi start at (46,450 with your choice of carpeting Also includes central central air, garage ft all kllchen appliances, uniy a tew ten.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "redistribution", "time": "present"}]}}
+
+The increase is almost certain to be in retail prices!n coming months, prompting dealers to worry about thg success of U.K. government efforts to control the rate of inflation Official explanation, that the big jump was due to an "annual bunching of price at the start of the year," didn't alleviate the concern.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "govt", "time": "present"}]}}
+
+Tm chot Inflation, Interest Rates Fail to Trim Plans for Spending' WASHINGTON (M1-Despite infla- tion and higher interest rates, the government reported Thursday that businessmen are holding to their plans for a sizable increase in capital spending this Year.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+And he predicted that the nation would face inflation inflation unless government spending on dometlc programs programs was cut drastically because of rising costs of the Vietnam war.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+Collsiuer io.1n lit, 2 and other into Conord and Ji n ii gton ICud tilly l in to the worl ds larg ti parking lot CuriositY Itr\y io lilt,. tOW1e two h111111C L es 111C t heW A II'l 19 BikentraYuiiniembtr Pre'ident Ftortf fanous WIN "Whip inflation Now. Well. that 1i1t1e project wa luch a hos0 that re bi-ng ria.The.,oan o Inun1 Miracles.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Unlike inflation, which cuts Its swath through almost all income groups at once, recessions chose to hit different groups harder than others and are tough to see until in full flower.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+With today's Inflation Inflation vou cannot afford to wail.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost", "time": "present"}, {"effect": "social", "time": "present"}]}}
+
+A GASOLINE tax of 50 cents to a $1 a gallon is "one appealing way to attack the problem" of conserving fuel in the United States, President Carter's anti-inflation chief said here Tuesday.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+On the contrary, when. as now, inflation is outpacing income growth, indexing forces a relative decrease m tax revenues.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "govt", "time": "present"}]}}
+
+The outlook on gasoline prices appeared to be discour aging to the administration's efforts to bring the rate of inflation down.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But mandatory controls will merely delay solution until the shortages they cause get so bad (hat the public demands that the shackles come off prices and wages, whereupon inflation would burn even more fiercely, as happened with the Nixon controls, At that point, wed be back where we started-and just getting around to ap- plying the only truly efficacious - ures.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "up", "narratives": [{"cause": "fiscal", "time": "general"}, {"cause": "other-cause", "time": "general"}]}}
+
+Leon Sullivan's Opportunities Industrialization Centers convened earlier in Boston and the NAACP in Portland, July 2-7, and the National Urban League in Los Angeles, August 6-9/ meet much later this year on the West Coast Despite a long, cold winter, many leaders are not looking forward to a short, hot summer Some spokespersons are predicting anything could happen like the late 60' s, if the president s new Urban Policy does not begin to generate some new dollars, which are still falling in the international currency exchange like a wet blanket The final battle may be vet to come between increased billions for the low income city dweller and rising inflation which is causing the dollar to drop lower than the new poverty level This is the test for Mr. Carter and his supporters.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "down", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+The Outlook Review of Current Trends In Business and Finance There is recent evidence to suggest that inflation may intensify painfully in the months just ahead.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Attempts by the Fed to maintain a tight money posture at this stage of the business cycle may put a fading luster on the claims of monetarists who emphasize the role of money as an effective tool for fighting high inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+'What Is never captured in the blazing headlines of cost overruns,' Anderson told his audience, 'is the Pise Tan to Pae 12, C*L 8 HITS BACK Continued trom Sti Page reality of changes, of Inflation, of the costly Impact of solving prob- lems which could not be foreseen - the realities which accompany the aK vancement of. cal frontiers."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "cost-push", "time": "general"}]}}
+
+INFLATION FIGHTER First Class Office Space FULL SERVICES' 400 sq. ft. and up available Near Trl-County Mall 8. 1-275 Owner-Manaoer, 874-9668 MASON-Space avail.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Because of inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Moreover, congressional unwillingness unwillingness or inability to discipline spending is a problem problem in the fight against inflation, inflation, as Nixon contends.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"cause": "fiscal", "time": "present"}, {"effect": "govt", "time": "present"}]}}
+
+Our All-Pro analysts have prepared a recommended list of companies which we believe will continue to grow at double the rate of inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+It will answer questions like: Why is farmland a good hedge against inflation?
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "general"}]}}
+
+* But he added that "it s obvious you can t turn around a 10-year inflation- ary trend in the matter of two or Please Turn to Page 36, Col. 2
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Analysts say the recent steep climb in the prime, or the minimum lending fee banks charge their most credit-worthy corporate customers, customers, reflects the Federal Reserve Board's decision to. keep credit tight as a means of fighting inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "down", "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+If current spending and tax policies are continued, she! said,"inflation rates are expected to be in the 5.7 to 6.7 range in both 1978 and 1979 about the same as the increase in nonfood prices during 1977."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "na", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+The argument- still h a; much force, but investors and speculators at the moment are much less concerned about inflation, especially as it affects raw materials.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+'Our nation's economic health can be protected only if we can cope with the two developments developments that now threaten it most seriously the high level of oil imports and the increasing rate of inflation,"Carter said.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "uncertain", "time": "present"}]}}
+
+Alan Cranston (DCalif.,) told the bankers that President Nixon's trip to Red China and Moscow "could contribute more to controlling inflation" than his economic policies if it could lead to a re= duction in the arms race.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"cause": "other-cause", "time": "future"}]}}
+
+If inflation stays high-and most forecasters expect it dip only to 11 or 10 percent in 1980--interest rates remain lofty as well.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "rates", "time": "present"}]}}
+
+Reuss, chairman of the House Banking Committee, said at a Democratic Democratic Party "Jobs and the Economy" Economy"conference that President Ford has succeeded only in compounding compounding both unemployment and inflation in his first year in office.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "social", "time": "present"}]}}
+
+ATLANTA Alfred Kahn, chairman of the Council on Wage and Price Stability, said here that the administration is considering some tax incentive plans targeted at fighting inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "govt", "time": "present"}]}}
+
+But in the Senate the bill ran afoul of the new conservative economic thinking and growing concerns about the bill's potential impact on Inflation Inflation and government spending.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "na", "narratives": [{"cause": "fiscal", "time": "future"}]}}
+
+They acknowledged that his anti-inflation program will have some mandatory features but refused to give specific details.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "govt", "time": "future"}]}}
+
+Mart in Best Rally of Year NEW YORK UP) The stock; Jnarket mounted its biggest rally jn more than a year yesterday. as It responded, analysts said, to:the Johnson administration's; proposals to curb Inflation and - ease upward pressures on inter est rates. 4-Th market rose from the start and kept on widening its i gains except for a slight period -of profit taking in the afternoon..'
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"effect": "savings", "time": "present"}, {"effect": "govt", "time": "present"}]}}
+
+The usual sources of money for those mortgages have dried up because of the competition for the dollar and the un- conscionable interest rates being offered for invest- ments other than the long- term mortgage at a locked- in rate-high as it is now at about 9'/i% Home, Housewife Fourth, inflation is kill. ing housing just as it is killing the housewife al the supermarket and the beer-loving guys who can -and some do-pay as high as $1.85 for a mug of good draft suds in this town that generally tends to Bourbon, Scotcb and martinis.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+Fighting Inflation MAIDUGURI, Nigeria (AP) The local government government joined a national campaign against inflation by limiting to $28 the price bridegrooms pay for brides.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "other-effect", "time": "present"}]}}
+
+The increase, which projects into a 9.6 percent annual rate, was consistent with economic forecasts of a new surge of inflation approaching the double-digit range in the next few months.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+As a result of the fast growth of institutional holdings of stocks in recent years, individual individual holdings have become a smaller part of the total, al- though the market value of at the end of 1972 was a record inflation measures would undoubtedly undoubtedly produce a further temporary upbeat in market psychology it would be important important for investors to react to this news cautiously."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+GI.OHV Sweeter Than Sugar Prices Southsidte Drive ot Southland Boulevaid for details 367-0164 'We're nere lo WAVE a flog againif inflation "Every Kentuckiana family is eligible The only requirement requirement is approval of normal credit check Close tp Naval Ordnance, Harvester and Ford IMMEDIATE OCCUPANCY BARBS fo WW BcTa7eXoT-Teg-enbush Ln. large l bedronm aoartment, carpet, draoes, all aopliences, onlv $144 oer month. 2 bedrooms Yn baih also available, only $159 par month Jim Proud.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Declining productivity means ris- ing unit labor costs and higher inflation, according to government economists.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"cause": "supply", "time": "present"}]}}
+
+Nevertheless, private Zurich bankers said that the central bank s move meant that the fight against inflation was giving way to a aimed at helping the Swiss economy fight pressures by making borrowing cheaper.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Heath is looking for a way to avert a strike without without breaking government inflation controls.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The fear persists despite the fact that U.S. inflation rates in the last five years have been among the lowest in the non-Communist world.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "down", "narratives": [{"effect": "uncertain", "time": "present"}]}}
+
+The association said state, for years the source of funds for the schools, had increased annually, but not iast enough to keep pace with inflation and increasing enrollment. 'r fir v.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The important thing is that inflation. would be over.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The third indispensable element in building the new prosperity is closely related to creating new jobs and halting inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "govt", "time": "general"}]}}
+
+So how much of your sub- stantial savings should be kept in safe, fixed-dollar, depositories, and how much in inflation-resistant invest-?
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+The- classic restraint produced a and fairly mild recession but still deeper than anybody had planned-and yet inflation continued.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "demand", "time": "past"}, {"cause": "supply", "time": "past"}]}}
+
+Helpless against a spirallng inflation, he is captive to special Interests Interests of every ilk.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "social", "time": "present"}]}}
+
+"If you got rid of these protections, you d shave maybe half a point or a point from the inflation rate," said Mr. Bosworth.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The bu:,i::e;s and investment worlds are looking to \~ fcr a program.that will bring more harmony to the na.ton on the big issues troubling the nation-the wa:r, sc;::;U questions and the equally complex problems of the,~. financial markets have become particularly,d cr:cr the failure, so far at least, of the Nixon plan fur inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+EDITH G. OLDHAM 2454 Glenmary Ave. Louisville "Inflation" To the Magazine: Has not John Kenneth Galbraith, in "Inflation" Sept. 29, overlooked one approach utilized by the Federal Government prior to, and during, World War II to encourage the public public to increase savings and control inflation namely, United States Series E Defense and Savings Bonds?
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "down", "narratives": [{"cause": "demand", "time": "present"}]}}
+
+That's below the overall inflation rates of 6 to 7, the agency said.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Though all the reasons aren't clear, one factor is that lots of people just don't want to leave familiar neighborhoods neighborhoods and apartments even for better better housing. f Low-income families didn't use the subsidies to "flock to the suburbs" or to move into luxurious housing. v The program didn't cause rent inflation inflation nor did it stimulate construction of much new housing. s The program did cause some improvement improvement in housing, particularly when people used the money to upgrade their own houses and apartments.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Some of the sting on steel, however, was reduced yesterday when the States Steel Corporation, the industry leader, decided on a lesser increase -6 percent-that it termed a "moderating" action and a "positive step toward checking inflation."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "down", "narratives": [{"cause": "supply", "time": "present"}]}}
+
+Allstate expects to continue losing money for six months more, primarily because inflation is outpacing income.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+On matters of labor relations, benefits when it presents its close the major demands but Fitzsimmons indicated that demands Dec. 11 for a new, said they would reflect the his negotiating committee will nationwide master freight con- high inflation rates of the last be asking for healthy in- tract. three years and increased creases in wages and fringe Fitzsimmons declined to dis- needs of the pension program. copies of - your old photos make great Christmas gifts -V- ml sale4.99 reg. $7 Dig Seeks Babel LOS ANGELES - AP) -Xn archeology team from the University of California at Los Angeles will begin excavations next year in Iraq, searching for the earliest phaseij of the tower of Babel. 3x4"Silvertone Go through your family album and select your favorite old photos.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Perhaps, he and the rest of us have gotten so absorbed with gasoline prices, soaring inflation and the hostages in Iran that we haven't been noticing the horrors in our streets and homes.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The corrections contributed to end-ot-theyear slowdowns m 1975 and 1976, as the rate of in the gross national product, for inflation, significantly.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But that even they are concerned shows how pervasive the effects of inflation are.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Prime Minister Margaret Thatcher so far has rejected any idea of reversing her anti-inflation policies, which have caused British interest rates to rise sharply despite a wors- ening recession and mounting lay- offs.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "fiscal", "time": "present"}, {"effect": "rates", "time": "present"}]}}
+
+TODAY'S BEST LAUGH: Comlo Al Bernie figures inflation inflation is really here: he gave a nickel to his nephew and the kid asked: "What's this a medal?"
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+It would also permit regulated prices to increase by about 10 a year between between now and then under a formula that takes inflation into account.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Another official said that the President was not seeking to divert attention from the hostage crisis but rather to "widen the focus to include other matters," such as inflation and energy.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "govt", "time": "present"}]}}
+
+The announcement vector-Aim in the House of Commons strengthened talk in London that Heath might call general elections earlv next vMrinm effort to win public approval for nis conservative government's ngnt against inflation and militant militant union leaders.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "govt", "time": "present"}]}}
+
+LOU' J POST-DISPATCH Mon., December 17, 1979 7B Inflation Will Wipe Out 3; Wage Gains During 1980 NEW YORK (UPI) Inflation will virtually wipe out any wage gains next year and labor experts predict this will accelerate the push for cost-of-living clauses in union contracts, according to the Conference Board.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "purchase", "time": "future"}, {"effect": "cost", "time": "future"}]}}
+
+Their inflation-fighting program, much different from that of the bankers, can be seen on their giant placard. thing no administrator can ever give-job securitV. activists insisted that their unionization will rlt only improve their own working conditions but will improve patient core as.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+The anti-inflation tactics adopted by Ms. Porter and President Ford are more suited to the anti-saloon league than to our excruciatingly difficult economic problems.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+It matters not whether you define inflation as an.increase' in.the money and credit supply_ or only as the con sequent general rise in prices; in either case the evidence of its mount ing pressures is noticeable every- 'where, and in either case. the cause of it is noted in the monetary and fis cal policies of the Government itself.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"cause": "monetary", "time": "general"}, {"cause": "fiscal", "time": "general"}]}}
+
+Immediate possession. 15 minutes from 1-244 DOLAN CO. 11828 TESSON FERRY RXVD' VI 2-3300 CY 6-0000 11 LEVEL ACRES KLONDIKE P.n. (near De Sotol Plant your dollars In this ground as a hedge against Inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+ANN ARBOR, Mich.-Consumer confidence dropped sharply in August, reflecting a heightened fear of rising prices and of the federal government's inability to fight inflation, the University of Michigan Survey Research Center said.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "social", "time": "present"}]}}
+
+Last, but not least, the peso seems to have stabilized all along Numero Uno at about 22 to the US. dollar, which, for the traveler, more than offsets inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "trade", "time": "present"}]}}
+
+And it rises in elcar t CatiOn 1t)U:-.iion of risk (a short way of d\ aing fear of not bA"ng 'repaid or, nowadays, fear 'of loSin" purchasing pow- er throu-h inflation).
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "purchase", "time": "future"}]}}
+
+This has produced inflation, a balance of payments deficit, deficit, an international fiscal crisis leading to the devaluation devaluation of the dollar, and a serious crunch on human and physical resources.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+INFLATION IS ERODING We must find alternatives to beat inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Saigon beats "inflation by closing banks SAIGON, South Vietnam (IPI) The South Vietnamese government has found a way to beat inflation at least temporarily.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "down", "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+But, he adds, in the long run it would enable American business to avoid the problems, such as rapid price inflation, that can arise if the economy stays too hot for too long.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"effect": "cost-push", "time": "future"}]}}
+
+The Cockeyed Fight Against Inflation by Congressman William Clay (D-Mo.) Congressional Black Caucus The efforts of this administra tion to control inflation are myopic and misdirected.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Neal R. Peirce The Great Wheelchair Flap President Carter has a golden opportunity to show his mettle on fighting inflation, reducing burdensome regulation, saving energy and helping out the nation s cities.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "govt", "time": "future"}]}}
+
+But double- j digit inflation is wiggling its victo-: ry sign, ana me auiimusimiiun in power cannot pass the buck.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "social", "time": "present"}]}}
+
+With old inflation riding the headlines.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The target level for inflation has a direct bearing on average wage rates.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The fertilizer industry is the first major field from which controls have been' Dfted since the Phase IV. anti-inflation program began in August.?
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The Fed will have to tighten gradually gradually for several years to wring inflation out of the economy.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "monetary", "time": "future"}]}}
+
+Inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+But precisely what a clearcut victory for either party would do to the stock market-and the fight a g a i n s t inflation-re- mained subject to various interpretations, both short-term and long-term.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+However, in these days of mild but persistent inflation, inflation, the ratio is more likely to be 60-40, 60 per cent in stocks and only 40 per cent in savings accounts. accounts.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+For severe as this decline has been, it has not lasted long enough to dent the psychology of inflation, much less wipe it out.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The stock market s ability to resist bad news-specifically concern over inflation, interest rates and the Federal Reserve's monetary policy-cheers Thomas C. Pryor, chairman of White, Weld & Co.'s investment policy committee.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+As former dean of a graduate school of business, Dr. Shultz undoubtedly has credentials to advise on monetary policy--even though little in the present runaway state of inflation seems to justify this particular bit of advice.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Suzuki. ffl Firing Line Guests: Craig Roberts and Burton Malkiel discuss approaches approaches to Inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Carter has pledged a balanced udget by fiscal 1981, and is said to be iui.ciiicu umi liuge uentiis mis year lid next will eive the imnressinn that e has abandoned that goal. Mr. Carter and his budget director, ert Lance alsn aro lrnmin in ha nn srned over the size of the 1978 deficit ecause the inflation rate is aggravated y government financing of laree defi es.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "fiscal", "time": "past"}]}}
+
+And a promised million-dollargrant from the U.S. Agency for International International Development is a mere drop in the bucket of inflation-fueled construction and operating costs.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+Despite our budget deficits, inflation has been curbed and the outflow of our gold has dwindled.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Rosedale Center is between between Snelling and Fair-view Fair-view Avs. on Hwy. 36 in Roseville. businesses planned to raise their fixed capital investments by 1.4 percent percent next year in money terms Indicating a likely likely net cutback of about 2 percent in real terms after allowance for inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Republicans are having an increasingly tough time explain- ing high interest rates, inflation and Situation Map rising unemployment.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+With military backing, he crushed strikes led by the Communist unions, forced Congress to give him economic and security powers, and brought inflation under temporary' control.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "down", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+And interest rates in the bond market have been rising in recent weeks amid indications that inflation may not drop as much as had been expected.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "rates", "time": "present"}]}}
+
+Brazil must begin to make an assault assault on inflation.
+{"foreign": true, "contains-narrative": false, "inflation-narratives": null}
+
+The recommendation also noted that despite.Inflation, the income of Federal judges hasn't increased since March 1969.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+With inflation going up and up, I can't see how people can retire."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+In part at least, it appears to be respon-'sible respon-'sible for a new get-tough attitude against inflation in Washington.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "na", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+"Although Governmental resistance to inflation has stiffened significantly of late, it is difficult to avoid the conclusion that the Government is not yet prepared to act as decisively to check inflation as it is to check recession.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "govt", "time": "future"}]}}
+
+In Financial Stock prices were depressed by new inflation fears.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "up", "narratives": [{"effect": "uncertain", "time": "present"}, {"effect": "savings", "time": "present"}]}}
+
+At the same time, inflation has gnawed away at consumers disposable income, curbing their seemingly ever-growing appetite for eating out.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "purchase", "time": "present"}, {"effect": "cost", "time": "present"}]}}
+
+In Spain, predictions of economic improvement are accompanied accompanied by worries about inflation inflation and an expanding trade deficit.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "uncertain", "time": "present"}]}}
+
+Oil price gougers are going scot-free By JACK ANDERSON WASHINGTON It is fashionable to blame greedy Arab oil sheiks for our inflation problems.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"cause": "supply", "time": "present"}]}}
+
+Unfortunately, inflation, like fire, can get out of hand.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+As of last week, only one of the three buildings marked for closing had been rented, and inflation and salary increases for teachers and other personnel were cutting into the cost reduction gained by back the number of district employees.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost-push", "time": "present"}]}}
+
+To avoid this, Fed Chairman Paul Volcker and other members have urged that budget cut.s, regulatory reform and other anti-inflation policies he put into effect so as not to rely too heavily on the Fed's policies - with their serious side effects - to fight inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "down", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+-The only possible solution to the inflation problem is an aggressive program of controlled de- flation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "rates", "time": "present"}, {"effect": "govt", "time": "present"}]}}
+
+This heavy consumer debt, coupled coupled with the double-oigit inflation rates of the past few months, makes many economists nervous.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Simon's comment that inflation inflation is still the Number One problem may please economic theorists who are still receiving regular paychecks, but it will not go down well with people who are losing their jobs, with builders who are going bankrupt, with auto dealers who face financial disaster.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The Nixon Administration is projecting a seven per cent inflation inflation rate for 1974, with a high rate in the first part of the year and a lower rate in the second half.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+This plan is Just one way of getting at the problem of rising costs due to inflation, Title LX regarding women and other problems,"" I expect the big 30 (schools) to go to Chicago with their crying towel, threatening to pull, out of the NCAA if we don't play by their rules,"said Horn.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost-push", "time": "present"}, {"effect": "social", "time": "present"}]}}
+
+But the '^ in hourly compensation, which s hourly pay adjusted for inflation, was oily 2.4 percent.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+While yesterday's package is not expected expected to offer much immediate help with inflation, it could have other substantial substantial direct economic effects over the next several years.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Also, you can supplement your fixed investment with a variable account offering a possible inflation hedge through a diversified portfolio of common stocks.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+These questions, along with more powerful distress at the Begin Government's management of the inflation-ridden economy, have helped the opposition Labor Party in the polls, which now show a clear Labor majority should parliamentary elections be held today.
+{"foreign": true, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "social", "time": "present"}]}}
+
+Sadat's 18-month flirtation with democracy has produced sorne local criticism from left and right, which objects not so.'much to his trip to Jerusalem but to a 25 inflation and charges of widespread corruption corruption in his regime.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+The advocates of very rapid expansion expansion of demand and output in 1971 believe that it can be accomplished accomplished without making the inflation problem worse.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "demand", "time": "future"}]}}
+
+"The solutions seldom will be immediate or ideal," he said,"in part because of technical problems and high costs, in part because of priorities that must also be assigned assigned to other broad problems such as urban renewal, unemployment, health care, inflation, education, transportation transportation and a host of other social concerns.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "social", "time": "general"}]}}
+
+NO ADDITIONAL CHARGE for factory sir or torsion bar cars. ffili n75 NORWOOD FIRESTONE STORES 4120 MONTGOMERY RD. 731-1300 KENWOOD MALL FIRESTONE STORES 7800 MONTGOMERY RD. 793-4550 ERLANGER BROGAN TIRE CO. 3303 DIXIE HWY. 331-5544 COVINGTON FIRESTONE STORES 6th AND WASHINGTON 291-2121 23 BEAT INFLATION NOW PARK ALL DAY 75' Or $10.50 Per Mo. 1020 BROADWAY East of Court House Attendant on duty FOREVER... the battery with a LIFETIME GUARANTEE LIFETIME GUARANTEE Put this battery in your car.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"effect": "other-effect", "time": "general"}]}}
+
+He gives themain cause of inflation as an increase in the quantity of money.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "general", "inflation-direction": "na", "narratives": [{"cause": "monetary", "time": "general"}]}}
+
+A Tass dispatch by Washington correspondent A. Melikyan listed among depressing American problems problems "the Vietnam war, high prices caused by inflation, inflation, exorbitant taxes, the crisis of cities, unprece-dently unprece-dently increased number of criminal cases, low moral principles and a profound crisis of political institutions."
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "cost", "time": "present"}, {"effect": "social", "time": "present"}]}}
+
+"Back to basics" is not only the se- cret of success in learning but it is also one step to help solve runaway inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Cupping: The combination of improper Inflation, plus a mechanical problem [poor shock absorbers usually] will cause the tire to wear in irregular circles.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+At the same time, however, in part because of its past mistakes, analysts say the administration probably has less chance than ever before of pulling off its twin"economic goals-those of dampening inflation and averting a recession late this year and early in 1980.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "govt", "time": "present"}]}}
+
+When President Carter states that he wants to do away with infla tion, he really means that he wants, somehow, to halt increases in prices and wages, leaving the government's inflation policies intact.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Poy not keeping up with inflation?
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Inflation is by far the most important problem facing the nation, according to the survey.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+' The Labor Department announced stringent new standards Monday aimed at protecting 835,000 workers exposed to lead, a highly toxic and sometimes fatal substance. -i, The standard, which sharply reduces worker exposure to lead, Is likely to bring complaints from.President Carter's Inflation fighters.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "na", "narratives": [{"cause": "fiscal", "time": "present"}]}}
+
+One reason for the dollar s rise and gold s decline in recent weeks has been the record interest rates in the United States, pushed to ever higher levels by the Federal Reserve System in its effort to slow the economy and restrain inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "inflation-direction": "down", "narratives": [{"cause": "monetary", "time": "present"}]}}
+
+The wage-and-price guidelines are aimed at holding inflation next year to a 6.5 annual annual rate.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "na", "narratives": [{"effect": "govt", "time": "present"}]}}
+
+The rate of inflation nmv is some fi percent in most countries.
+{"foreign": true, "contains-narrative": false, "inflation-narratives": null}
+
+GLENN SUMMERS REALTOR 5801 Old Harding Rd. - 352-9797 BEAT INFLATION Land Is always the wl$e$t Investment a man can make to fight inflation.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "present", "inflation-direction": "up", "narratives": [{"effect": "savings", "time": "present"}]}}
+
+Benedict said he would prefer prefer not to predict what effect the proposed settlement would have on inflation.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+
+Has inflation inflation hit you?
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
+

@@ -1,0 +1,189 @@
+Below are lists of causes and effects of inflation. You will be provided a sentence and your task is to identify and classify all causes and effects of inflations expressed in the sentence, if any.  Provide your output in JSON format and output nothing else.
+
+Causes of inflation:
+[demand] Demand-side factors: Pull-side or demand-pull inflation.
+[supply] Supply-side factors: Push-side or cost-push inflation.
+[wage] Built-in wage inflation: Also known as wage inflation or wage-price spiral. 
+[monetary] Monetary factors: Central bank policies that contribute to inflation.
+[fiscal] Fiscal factors: Government policies that contribute to inflation.
+[expect] Expectations: The expectation that inflation will rise often leads to a rise in inflation.
+[international] International Trade and Exchange Rates: International trade and exchange rate factors that can cause inflation.
+[other-cause] Other Causes: Causes not included in above.
+
+Effects of inflation:
+[purchase] Reduced Purchasing Power: Inflation erodes the purchasing power of money (such as the U.S. dollar) over time.
+[cost] Cost of Living Increases: Inflation can raise the cost of living, particularly impacting individuals on fixed incomes, pensioners, and those with lower wages.
+[uncertain] Uncertainty Increases: Inflation can create uncertainty about future prices (or future inflation itself), particularly if the inflation is high or unpredictable.
+[rates] Interest Rates Raised: Central banks may respond to inflation by raising interest rates to curb spending and investment.
+[redistribution] Income or Wealth Redistribution: Inflation can redistribute income and wealth between people in the economy.
+[savings] Impact on Savings: Inflation can affect various types of savings/financial investments.
+[trade] Impact on Global Trade: Inflation can impact a country's trade or competitiveness in global markets.
+[cost-push] Cost-Push on Businesses: Rising costs of production due to inflationary pressures can squeeze business profits, potentially leading to reduced investment, job cuts and unemployment, or higher prices for consumers.
+[social] Social and Political Impact: Inflation can have social and political economic implications.
+[govt] Government Policy and Public Finances Impact: Inflation may impact government spending policies or programs.
+[other-effect] Other Effects: Effects not included in above.
+
+# Definition of Inflation Narrative
+An explanation or suggestions of the cause(s) and/or effect(s) of inflation in the US. Each sentence containing the word "inflation" should be evaluated for:
+- Whether it suggests a relationship between inflation and a certain cause or effect
+- The timing of the inflation
+- The direction of inflation change
+- Whether it refers to foreign economies
+- The specific categories of causes/effects
+# Core Annotation Fields
+## Cause/Effect Label (c/e)
+- Mark (c) for causes of inflation
+- Mark (e) for effects of inflation
+- Leave empty if neither expressed
+- Note: Even if inflation is discussed, there should be a mention or implication of its relationship to a cause or outcome.
+- Statement of facts should be left empty. Example: “Inflation is 5%.”
+## Temporal Classification (past/present/future/na)
+- Past: Events that have already occurred with clear historical context
+  * Example: "Inflation rose in 2023 due to supply chain issues"
+- Present: Currently occurring or ongoing situations
+  * Example: "Rising wages are currently pushing inflation higher"
+- Future: Expected or projected events
+  * Example: "Analysts expect inflation to decline next year"
+- NA: General statements without specific timing or theoretical relationships
+  * Example: "Inflation erodes purchasing power over time"
+## Direction Classification (up/down/same/na)
+- Up: Clear indication of inflation increasing
+  * Example: "Supply shortages are pushing prices higher"
+- Down: Clear indication of inflation decreasing
+  * Example: "Rate hikes are expected to cool inflation"
+- Same: Explicit statement about inflation staying stable
+  * Example: "Inflation remained steady at 2%"
+- NA: No clear direction indicated or general statements
+  * Example: "Inflation affects saving behavior"
+## Foreign Label (x)
+- Mark "x" if inflation discussed refers to a non-US economy
+- Leave empty if US economy or general statement
+## Category Labels
+- Include all applicable categories from the cause/effect ontology
+- Multiple categories allowed when explicitly stated
+# Key Principles
+## Proximal Relationship Rule
+Only label proximal causes and effects:
+- Example: "Higher oil prices led to inflation which reduced consumer spending"
+  * Proximal cause: supply (oil prices causing inflation)
+  * Proximal effect: purchase (reduced consumer spending from inflation)
+  * NOT an effect: cost (while prices are higher, this is part of inflation itself)
+## Multiple Time Period Rule
+- Any present effect with an implicit future cause should only be labeled as cause if explicitly stated
+- Allows for multiple inflation time labels when explicitly stated
+- Example: "Fed increased rates because inflation is high and they expect this will lower future inflation"
+  * Effect: rates (present, inflation high)
+  * Cause: monetary (future, inflation down)
+## Counter-Narrative Rule
+- Annotate counter-narratives based on the stated relationship
+- Example: "Unlike previous recessions, this inflation is not caused by weak demand"
+  * Still annotate as demand cause, but with direction indicated as "down"
+## Recession/Expansion Special Cases
+- When recession/unemployment is cited as causing inflation to decrease, label as both demand + supply
+- When growth/expansion is cited as causing inflation to increase, label as both demand + supply
+- Only label rates as effect (causing recession which then lowers inflation) if rates/Fed explicitly stated
+- Only label rates as effect (causing growth which then raises inflation) if rates/Fed explicitly stated
+## Implicit Relationships Rule
+- Causal relationships may be implicit but must still be proximal
+- Example: "Rising rates, inflation fears caused markets to roil"
+  * Proximal: inflation (future) → uncertainty
+  * Not proximal: inflation → uncertainty → savings
+## Quality Control Checklist
+Before finalizing annotation, verify:
+- All proximal relationships are direct
+- Temporal labels are based on explicit evidence
+- Direction labels are supported by context
+- Multiple time periods are properly tagged
+- Counter-narratives are treated consistently
+- Implicit causes are only labeled when explicit in text
+## Edge Case Handling Guidelines
+### 1. Mixed Temporal References
+When a sentence contains multiple time periods:
+- Create separate annotations for each distinct temporal reference
+- Each annotation should capture its specific cause/effect relationships
+Examples:
+- "While inflation is high now, analysts expect it to drop sharply next year due to rate hikes"
+  * Annotation 1: (effect: rates, present, up)
+  * Annotation 2: (cause: monetary, future, down)
+### 2. Conditional or Hypothetical Statements
+For statements expressing uncertainty or conditions:
+- Label the temporal context as 'future'
+- Include the cause/effect relationships as stated
+- Direction should reflect the stated outcome
+Examples:
+- "If supply chain issues persist, inflation could rise"
+  * Label as: (cause: supply, future, up)
+- "Unless productivity improves, inflation might remain elevated"
+  * Label as: (cause: supply, future, same)
+### 3. Cross-Regional Comparisons
+When US and foreign inflation are compared:
+- Focus on the US component unless explicitly foreign
+- Only create separate foreign annotation if specific foreign details given
+Examples:
+- "US inflation is lower than European inflation but both are rising"
+  * US annotation: (present, up)
+  * Foreign: x
+- "Unlike in Japan, US inflation is driven by consumer demand"
+  * US annotation: (cause: demand, present, na)
+  * Foreign: x
+### 4. General Principles vs Specific Instances
+For statements about general patterns:
+- Temporal: Label as 'na' if truly general
+- Consider context for implicit timeframes
+- Direction should be labeled only if clearly indicated
+Examples:
+- "Inflation typically rises during periods of rapid growth"
+  * Label as: (cause: demand + supply, na, up)
+- "Higher interest rates generally reduce inflation over time"
+  * Label as: (cause: monetary, na, down)
+### 5. Multiple Causes or Effects in Single Statement
+When multiple causes/effects are mentioned:
+- Create separate annotations for each distinct cause/effect
+- Maintain shared temporal/directional attributes
+Examples:
+- "Both supply chain issues and strong demand are pushing inflation higher"
+  * Annotation 1: (cause: supply, present, up)
+  * Annotation 2: (cause: demand, present, up)
+### 6. Nested or Chain Effects
+For complex causal chains:
+- Only annotate the proximal (direct) relationship
+- Ignore secondary or tertiary effects
+Examples:
+- "Inflation fears led to market uncertainty, causing investors to sell bonds"
+  * Label as: (effect: uncertainty, present, na)
+  * Do NOT label the bond-selling effect
+### 7. Ambiguous Directionality
+When direction is not clearly stated:
+- Default to 'na' for direction
+- Look for contextual clues in surrounding text
+- Consider common implications (e.g., "pressure" usually implies upward)
+Examples:
+- "Inflation continues to pressure consumer spending"
+  * Label as: (effect: purchase, present, na)
+- "Inflation is affecting market sentiment"
+  * Label as: (effect: uncertainty, present, na)
+### 8. Counter-Factual Statements
+For statements about what didn't or won't happen:
+- Label based on the relationship being denied
+- Mark direction based on the prevented outcome
+Examples:
+- "Supply chain improvements prevented inflation from rising further"
+  * Label as: (cause: supply, present, down)
+- "Unlike previous cycles, inflation hasn't led to reduced spending"
+  * Label as: (effect: purchase, present, same)
+### 9. Other Category and No Narratives
+Only label other cause category or other effect category if one is clearly detected. Don’t use it as a catchall. When in doubt, prefer leaving empty over making assumptions about the other category. 
+-
+## Final Notes on Edge Cases
+- When in doubt, prefer 'na' over making assumptions
+- Maintain consistency across similar edge cases
+- Document any new edge case patterns that emerge during annotation
+- Consider adding explicit examples for frequently occurring edge cases
+
+Example format when narrative found:
+There is unlikely to be any spike up in inflation, given the strong dollar DXY, +0.01%, lack of wage dynamism and the scope for firms to absorb cost increases into their profit margins.
+{"foreign": false, "contains-narrative": true, "inflation-narratives": {"inflation-time": "future", "counter-narrative": false, "narratives": [{"cause": "supply", "time": "present"}, {"cause": "wage", "time": "present"}, {"cause": "international", "time": "present"}]}}
+
+Format  without narrative:
+For safety reasons, the inflation inflation of the, roof will be closed' to the public.
+{"foreign": false, "contains-narrative": false, "inflation-narratives": null}
