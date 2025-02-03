@@ -1,109 +1,230 @@
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple, Union
+
 import matplotlib.pyplot as plt
-import os
-import pandas as pd
 import numpy as np
-import utils.utils as utils
-import argparse
-import swifter
-from tqdm import tqdm
-import old_prompts
+import pandas as pd
 import seaborn as sns
-import pickle
-from collections import defaultdict
 from nltk.stem import WordNetLemmatizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+import logging
+import argparse
 
-def vectorize_corpus(df, vocab, ngram_range=(1,1)):
-    corpus = df.text
-    # vec = CountVectorizer(tokenizer=utils.LemmaTokenizer(),
-    #                             strip_accents = 'unicode', # works 
-    #                             stop_words = None, # works
-    #                             lowercase = True,
-    #                             token_pattern=None,
-    #                             vocabulary=vocab) # works
-                                # max_df = 0.5, # works
-                                # min_df = 10) # works
-    # vec = CountVectorizer(ngram_range=ngram_range, stop_words='english', lowercase=True, vocabulary=vocab)
-    vec = TfidfVectorizer(ngram_range=ngram_range, stop_words='english', lowercase=True, vocabulary=vocab, use_idf=False, norm=None, binary=True)
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
-    # Transform the corpus into a bag-of-words sparse matrix and sum the occurrences
-    bow = vec.fit_transform(corpus)
-    # breakpoint()
-    # bow = bow.toarray().mean(axis=0) * 100
-    # return bow
-    return pd.DataFrame(bow.toarray())
+# Suppress specific pandas and seaborn warnings
+import warnings
+warnings.filterwarnings('ignore', category=FutureWarning)
 
-
-def get_counts(key_index, bow, keyword='inflation'):
-    # key_index = list(feature_names).index(keyword)
-    key_counts = bow.toarray()[:, key_index].sum()
-    return key_counts
+class NgramAnalyzer:
+    """Class to handle n-gram analysis of text corpus with visualization capabilities."""
     
-def plot_lineplot(df): #, x, month_year):
+    def __init__(self, vocabulary: Dict[str, int], output_dir: str = 'output/ngrams'):
+        """
+        Initialize the NgramAnalyzer.
+        
+        Args:
+            vocabulary: Dictionary mapping words to their indices
+            output_dir: Directory to save output visualizations
+        """
+        self.vocabulary = vocabulary
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.lemmatizer = WordNetLemmatizer()
+        
+    def vectorize_corpus(
+        self, 
+        df: pd.DataFrame, 
+        ngram_range: Tuple[int, int] = (1, 1)
+    ) -> pd.DataFrame:
+        """
+        Vectorize the text corpus using TF-IDF.
+        
+        Args:
+            df: DataFrame containing the text corpus
+            ngram_range: Range of n-gram sizes to consider
+            
+        Returns:
+            DataFrame with vectorized text
+        """
+        try:
+            corpus = df.text
+            vectorizer = TfidfVectorizer(
+                ngram_range=ngram_range,
+                stop_words='english',
+                lowercase=True,
+                vocabulary=self.vocabulary,
+                use_idf=False,
+                norm=None,
+                binary=True
+            )
+            
+            bow = vectorizer.fit_transform(corpus)
+            return pd.DataFrame(bow.toarray(), columns=self.vocabulary.keys())
+            
+        except Exception as e:
+            logger.error(f"Error in vectorizing corpus: {str(e)}")
+            raise
+    
+    def prepare_data(
+        self, 
+        df: pd.DataFrame
+    ) -> Tuple[pd.DataFrame, List[str]]:
+        """
+        Prepare data for visualization.
+        
+        Args:
+            df: DataFrame with vectorized text and time information
+            
+        Returns:
+            Tuple of processed DataFrame and x-axis labels
+        """
+        try:
+            # Lemmatize feature names and handle grouping
+            x_label = "time"
+            x = df[x_label]
+            feature_df = df[list(self.vocabulary.keys())]
+            unique_kw = [self.lemmatizer.lemmatize(t) for t in feature_df.columns]
+            feature_df.columns = unique_kw
+            feature_df = feature_df.groupby(feature_df.columns, axis=1).agg(sum)
+            self.features = feature_df.columns
+            feature_df[x_label] = x
+            indiv_df = df.groupby(['time', 'month_year']).agg(np.mean)*100
+            indiv_df = indiv_df.reset_index()
 
-    wnl = WordNetLemmatizer()
-    x_label = "time"
-    x = df.time
-    feature_df = df[list(vocabulary.keys())]
-    unique_kw = [wnl.lemmatize(t) for t in feature_df.columns]
-    feature_df.columns = unique_kw
-    feature_df = feature_df.groupby(feature_df.columns, axis=1).agg(sum)
-    features = feature_df.columns
-    feature_df[x_label] = x
-    indiv_df = df.groupby('time').agg(np.mean)*100
-    indiv_df = indiv_df.reset_index()
-    breakpoint()
-    xlabels = []
-    current_yr = ''
-    for m in df.month_year.unique().tolist():
-        year = m.split('-')[1]
-        if current_yr != year:
-            xlabels.append(str(year))
-            current_yr = year
-        else:
-            xlabels.append('')
-    for word in features:
-        plt.figure(figsize=(8, 6))
-        # breakpoint()
-        sns.barplot(data=indiv_df, x=x_label, y=word, width=1, edgecolor='black')
-        # sns.histplot(data=df[df.word == word], x=x_label, stat='probability', discrete=True)
-        plt.xticks(list(set(x)), xlabels)
-        plt.xlabel("Year")
-        plt.ylabel(f"% of articles that mention {word}")
-        plt.savefig(f'/data/mourad/narratives/ngrams/{save_mod}/{word}.png', dpi=300)
-        plt.clf()
+            xlabels = []
+            current_yr = ''
+            for m in df.month_year.unique().tolist():
+                year = m.split('-')[1]
+                if current_yr != year:
+                    xlabels.append(str(year))
+                    current_yr = year
+                else:
+                    xlabels.append('')
+            
+            return indiv_df, xlabels
+            
+        except Exception as e:
+            logger.error(f"Error in data preparation: {str(e)}")
+            raise
+    
+    def plot_word_frequencies(
+        self, 
+        indiv_df: pd.DataFrame, 
+        xlabels: List[str]
+    ) -> None:
+        """
+        Generate individual bar plots for each word's frequency.
+        
+        Args:
+            indiv_df: DataFrame with processed frequency data
+            xlabels: Labels for x-axis
+        """
+        try:
+            for word in self.features:
+                plt.figure(figsize=(8, 6))
+                # Convert inf values to NaN before plotting
+                plot_data = indiv_df.copy()
+                plot_data[word] = plot_data[word].replace([np.inf, -np.inf], np.nan)
+                
+                sns.barplot(
+                    data=plot_data,
+                    x='time',
+                    y=word,
+                    width=1,
+                    edgecolor='black'
+                )
+                plt.xticks(list(set(indiv_df.time)), xlabels)
+                plt.xlabel("Year")
+                plt.ylabel(f"% of articles that mention {word}")
+                
+                output_path = self.output_dir / f"{word}.png"
+                plt.savefig(output_path, dpi=300, bbox_inches='tight')
+                plt.close()
+                
+        except Exception as e:
+            logger.error(f"Error in plotting word frequencies: {str(e)}")
+            raise
+    
+    def plot_comparison(
+        self, 
+        df: pd.DataFrame, 
+        xlabels: List[str]
+    ) -> None:
+        """
+        Generate comparison plot of all words.
+        
+        Args:
+            df: DataFrame with processed data
+            xlabels: Labels for x-axis
+        """
+        try:
+            df_melted = pd.melt(
+                df,
+                id_vars=['time'],
+                value_vars=self.features,
+                var_name="word",
+                value_name='counts'
+            )
+            # Handle inf values
+            df_melted['counts'] = df_melted['counts'].replace([np.inf, -np.inf], np.nan)
+            df_melted = df_melted[df_melted.counts != 0]
+            
+            plt.figure(figsize=(8, 6))
+            # Use newer seaborn API
+            sns.kdeplot(
+                data=df_melted[df_melted.word != 'inflation'],
+                x='time',
+                hue='word',
+                multiple="fill",
+                bw_adjust=1,
+                clip=(0, len(xlabels)-1)
+            )
+            plt.xticks(list(set(df.time)), xlabels)
+            plt.xlabel("Year")
+            plt.ylabel("Words related to inflation")
+            
+            output_path = self.output_dir / "compare.png"
+            plt.savefig(output_path, dpi=300, bbox_inches='tight')
+            plt.close()
+            
+        except Exception as e:
+            logger.error(f"Error in plotting comparison: {str(e)}")
+            raise
 
-    df = pd.melt(df, id_vars=[x_label], value_vars=features, var_name="word", value_name='counts')
-    df = df[df.counts != 0]
-    plt.figure(figsize=(8, 6))
-    sns.kdeplot(data=df[df.word != 'inflation'], x=x_label, hue='word', multiple="fill", bw_adjust=1, clip=(0,len(xlabels)))
-    plt.xticks(list(set(x)), xlabels)
-    plt.xlabel("Year")
-    plt.ylabel(f"Words related to inflation")    
-    plt.savefig(f'/data/mourad/narratives/ngrams/{save_mod}/compare.png', dpi=300)
-    plt.clf()
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-rw", "--rewrite", action='store_true', help='rewrite count vectorized corpus')
-    parser.add_argument("-f", "--filtered", action='store_true', help='use sentences filtered by inflation')
-    parser.add_argument("-d", "--debug", action='store_true', help="debug don't save")
+def main():
+    parser = argparse.ArgumentParser(description='Analyze n-grams in text corpus')
+    parser.add_argument(
+        "-i",
+        "--input_file",
+        type=str,
+        default="/data/mourad/narratives/inflation/all_filtered.jsonl.gz",
+        help='Path to input JSON lines file'
+    )
+    parser.add_argument(
+        "-o",
+        "--output_dir",
+        type=str,
+        default='output/ngrams',
+        help='Directory for output files'
+    )
+    parser.add_argument(
+        "-d",
+        "--debug",
+        action='store_true',
+        help="Enable debug mode"
+    )
     args = parser.parse_args()
 
-    if args.filtered:
-        save_mod = 'inflation_filtered'
-    else:
-        save_mod = 'all'
+    if args.debug:
+        logging.getLogger().setLevel(logging.DEBUG)
 
-    # if args.filtered:
-    #     vectorizer_base = f"/data/mourad/narratives/ngrams/count_vectorizer/inflation_filtered/"
-    #     if args.rewrite:
-    #         os.system("rm /data/mourad/narratives/ngrams/count_vectorizer/inflation_filtered/*")
-    # else:
-    #     vectorizer_base = f"/data/mourad/narratives/ngrams/count_vectorizer/all/"
-    #     if args.rewrite:
-    #         os.system("rm /data/mourad/narratives/ngrams/count_vectorizer/all/*")
-
+    # Define vocabulary with indices
     vocabulary = {
         "inflation": 0,
         "demand": 1,
@@ -111,7 +232,7 @@ if __name__ == "__main__":
         "supplies": 3,
         "cost": 4,
         "costs": 5,
-        "wage": 6, 
+        "wage": 6,
         "wages": 7,
         "uncertainty": 8,
         "uncertainties": 9,
@@ -119,52 +240,40 @@ if __name__ == "__main__":
         "savings": 11,
         "investment": 12,
         "investments": 13
-        # "interest rate": 7
     }
 
-    if args.filtered:
-        df = pd.read_json('/data/mourad/narratives/inflation/all_filtered.jsonl.gz', orient='records', lines=True, compression='gzip')
+    try:
+        # Initialize analyzer
+        analyzer = NgramAnalyzer(vocabulary, args.output_dir)
+        
+        # Load and preprocess data
+        logger.info("Loading data...")
+        df = pd.read_json(
+            args.input_file,
+            orient='records',
+            lines=True,
+            compression='gzip'
+        )
         df = df.sort_values(['year', 'month'])
         df['time'] = df.groupby(['year', 'month']).ngroup()
-        counts = vectorize_corpus(df, vocabulary)
-        counts.columns = vocabulary.keys()
-        counts = counts.astype(int)
-        month_year = df.month.astype(str) + '-' + df.year.astype(str)
-        counts['time'] = df.time
-        counts['month_year'] = month_year
-        plot_lineplot(counts) #, df.time, month_year.unique().tolist())
-    else:
-        dfs = []
-        for i, (month, year, df) in enumerate(utils.read_now_by_month(years=None, simple=True, iter_only=False)):
-            if args.debug and year == "2013": break
-            if df is None: continue
-            month_year_label = f"{month}-{year[-2:]}"
-            print(month_year_label)
-            vectorizer_base = f"/data/mourad/narratives/ngrams/count_vectorizer/{save_mod}/"
-            if args.rewrite:
-                os.system(f"rm /data/mourad/narratives/ngrams/count_vectorizer/{save_mod}/*")
-
-            vectorizer_path = os.path.join(vectorizer_base, f"{month_year_label}.pkl")
-            if (not os.path.exists(vectorizer_path) or args.rewrite) and not args.debug:
-                print('rewrite')
-                counts = vectorize_corpus(df, vocabulary)
-                counts.columns = vocabulary.keys()
-                counts = counts.astype(int)
-                counts['year'] = int(year)
-                counts['month'] = int(month)
-                counts = counts.sort_values(['year', 'month'])
-                counts['time'] = i
-                with open(vectorizer_path, "wb") as f:
-                    pickle.dump(counts, f)
-            else:
-                print('existing')
-                with open(vectorizer_path, "rb") as f:
-                    counts = pickle.load(f)
-            dfs.append(counts)
-            # keyword_counts.append(bow)
-            # months.append(month_year_label)
         
-        df = pd.concat(dfs, axis=0)
-        # df = pd.DataFrame(keyword_counts, columns=vocabulary.keys())
-        df['month_year'] = df.month.astype(str) + '-' + df.year.astype(str)
-        plot_lineplot(df)
+        # Vectorize corpus
+        logger.info("Vectorizing corpus...")
+        counts = analyzer.vectorize_corpus(df)
+        counts['time'] = df.time
+        counts['month_year'] = df.month.astype(str) + '-' + df.year.astype(str)
+        
+        # Generate visualizations
+        logger.info("Generating visualizations...")
+        indiv_df, xlabels = analyzer.prepare_data(counts)
+        analyzer.plot_word_frequencies(indiv_df, xlabels)
+        analyzer.plot_comparison(counts, xlabels)
+        
+        logger.info("Analysis completed successfully!")
+        
+    except Exception as e:
+        logger.error(f"An error occurred: {str(e)}")
+        raise
+
+if __name__ == "__main__":
+    main() 

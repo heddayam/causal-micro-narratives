@@ -12,7 +12,7 @@ from datasets import load_from_disk, Dataset, DatasetDict
 import subprocess
 import json
 import os
-
+from pathlib import Path
 PROQUEST_MAX_LEN = 150
 
 synonyms = set(['recession', 'depression', 'slump', 'contraction', 'downturn', 'slowdown', 'decline', 'trough', 
@@ -222,7 +222,11 @@ model_mapping = {
     'gpt35': 'gpt-3.5-turbo-1106',
     'o1-mini': 'o1-mini',
     'claude2': 'claude-2',
-    'claude': 'claude-3-opus-20240229'
+    'claude': 'claude-3-opus-20240229',
+    'mistral': 'mistralai/Mistral-7B-Instruct-v0.2',
+    'phi2': 'microsoft/phi-2',
+    'phi3': 'microsoft/Phi-3-mini-4k-instruct',
+    'llama31': 'meta-llama/Meta-Llama-3.1-8B'
 }
 
 def michigan_survey_state_to_region():
@@ -233,13 +237,16 @@ def michigan_survey_state_to_region():
 def reconstruct_training_input(instance):
     template = instance['template'].split("#")
     data = instance['data'].split("#")
-    
-    # breakpoint()
 
     # if str(instance['id']) == "23232402":
     #     breakpoint()
     interleaved = [item for pair in zip(template, data) for item in pair]
     input = "".join(interleaved) + template[-1]
+
+    try:
+        json.loads(input)
+    except:
+        breakpoint()
     
     return input
 
@@ -267,11 +274,11 @@ def scp_file(local_file,  remote_path, remote_host='dsi', local_host=None):
         print(f'Error: {e}')
 
 def load_hf_dataset(path="/data/mourad/narratives/sft_data", split=None, model=None, binary=False, dataset='now', test_ds=None, fewshot_seed=None):
-    if model:
-        if binary:
-            path = f"/data/mourad/narratives/model_json_binary_preds/{model}"
-        else:
-            path = f"/data/mourad/narratives/model_json_preds/{model}"
+    # if model:
+    #     if binary:
+    #         path = f"/data/mourad/narratives/model_json_binary_preds/{model}"
+    #     else:
+    #         path = f"/data/mourad/narratives/model_json_preds/{model}"
     
     # breakpoint()
     if dataset and test_ds is None:
@@ -284,6 +291,17 @@ def load_hf_dataset(path="/data/mourad/narratives/sft_data", split=None, model=N
     dataset = load_from_disk(path)
     if split:
         return dataset[split]
+    return dataset
+
+def load_labeled_data(dataset: str, path="/data/mourad/narratives/labeled_data"):
+    base_path = Path(path)
+    dataset_path = base_path / dataset
+    dataset = load_from_disk(dataset_path)
+    return dataset
+
+def load_model_preds(model, train_ds, test_ds):
+    path = f"/data/mourad/narratives/model_json_preds/{model}_train-{train_ds}_test-{test_ds}"
+    dataset = load_from_disk(path)
     return dataset
 
 def read_all_data(path="/data/mourad/narratives/inflation", location=True):
@@ -449,11 +467,12 @@ def init_llm(model):
     if model.startswith('gpt') or model.startswith('o1'):
         from src.utils.llm_cache import OpenAIAPICache
         # openai.api_key_path = "./openai_key.txt"
-        openai.api_key = "API_KEY"
+        print('ERROR DEPRECATED')
+        openai.api_key = None #redacted
         cache = OpenAIAPICache(mode="chat", port=redis_port)
     elif model.startswith('claude'):
         from src.utils.llm_cache import ClaudeAPICache
-        anthropic_client = anthropic.Anthropic(api_key="API_KEY")
+        anthropic_client = anthropic.Anthropic(api_key="REDACTED")
         cache = ClaudeAPICache(anthropic_client, port=redis_port)
     return cache
 

@@ -102,14 +102,6 @@ class LabelStudioDataInterpreter:
             response = response['choices']
         return response
     
-    # def keep_most_updated_annotation(self, instance):
-    #     if len(instance) > 1:
-    #         if '*' in instance.assigned:
-    #             instance = instance[instance.assigned == 'az*']
-    #         else:
-    #             instance.updated_at = instance.updated_at.apply(lambda x: datetime.strptime(x, "%Y-%m-%dT%H:%M:%S.%fZ"))
-    #             instance = instance[instance.updated_at == instance.updated_at.max()]
-    #     return instance
 
     def keep_most_updated_annotation(self, instance):
         if len(instance) > 1:
@@ -247,55 +239,14 @@ class LabelStudioDataInterpreter:
         return records
 
 
-    # def extract_and_structure_annotations_min(self):
-    #     records = []
-    #     for instance in self.data:
-    #         try:
-    #             id = instance['id']
-    #             if 'counter-narrative' in instance and instance['counter-narrative'] == 'counter_narrative':
-    #                 counter_narrative = True
-    #             else:
-    #                 counter_narrative = False
-    #             categories = self.extract_choices(instance['narrative-type'])
-    #             foreign = 'foreign' in categories
-    #             selections = {}
-    #             if 'none' not in categories:
-    #                 temporality = instance['temporality']
-
-    #                 for cat in categories:
-    #                     if cat == 'foreign':
-    #                         foreign = True
-    #                     else:
-    #                         selections[cat] = []
-    #                         types = self.extract_choices(instance[cat])
-    #                         for t in types:
-    #                             if t not in self.temps:
-    #                                 selections[cat].append((t, instance[f"{t}-time"]))
-    #             records.append(
-    #                 {
-    #                     'id': id,
-    #                     'foreign': foreign,
-    #                     'counter_narrative': counter_narrative,
-    #                     'temporality': temporality,
-    #                     'selections': selections
-    #                 }
-    #             )
-    #         except:
-    #             print(instance['id'], instance['assigned'])
-    #     return records
-
-
-
 if __name__ == "__main__":
     parse_args = argparse.ArgumentParser()
     parse_args.add_argument("--labelstudio_export", "-ls", type=str, default='export_tsv_proquest_0721.tsv', help="Filename of the LabelStudio export")
     parse_args.add_argument("--export_format", "-f", type=str, default="standard", choices=["min", "standard"])
     args = parse_args.parse_args()
 
-    # data_filename = "labelstudio_export_02_05.json"
     interpreter = LabelStudioDataInterpreter(args.labelstudio_export, args.export_format)
     records = interpreter.make_dataset()
 
     breakpoint()
     ds = interpreter.write_dataset(records)
-    # utils.scp_file(OUT_BASE, remote_path='/net/projects/chai-lab/mourad/narratives-data/', remote_host='dsi')

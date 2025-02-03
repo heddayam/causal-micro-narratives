@@ -8,3 +8,8 @@ src/utils/wandb
 src/utils/wandb/*
 wandb*
 data/phi2_predictions_*.tsv
+
+# Environment Variables
+.env
+.env.local
+.env.*.local

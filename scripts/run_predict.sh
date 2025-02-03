@@ -20,18 +20,9 @@ cd /net/scratch/mourad/economic-narratives/src/finetune
 source /net/projects/chai-lab/miniconda3/etc/profile.d/conda.sh
 conda activate /net/scratch/mourad/env-py310-a40
 
-# An example to use SLURM_ARRAY_TASK_ID
-# when you submit jobs in sbatch -a 0-7, SLURM will create 8 jobs with SLURM_ARRAY_TASK_ID set to be 0,1,2,3,4,5,6,7
-# root_dir="/net/scratch/mourad/legal/"
-# readarray -t domains < <(find "${root_dir}" -maxdepth 1 -type d ! -path "${root_dir}" -exec basename {} \;)
+if [ "$1" == "llama31" ]; then
+    python predict_proquest_llama31.py --model llama31 --gpu a100 --ckpt=checkpoint-600 --split PROQUEST_filtered --train_ds now_and_proquest --test_ds proquest --debug --reuse --sample $2
+else
+    python predict.py --model phi2 --gpu a40 --ckpt= --split NOW_filtered --reuse --debug --sample $2
+fi
 
-# localhost=${CUDA_VISIBLE_DEVICES}
-# domain=${domains[${SLURM_ARRAY_TASK_ID}]}
-# echo "domain-${domain}"
-# echo "localhost-${localhost}"
-
-# Now you can write your own bash codes
-# python predict.py --model phi2 --ckpt= 
-python predict.py --model phi2 --gpu a40 --ckpt= --split NOW_filtered --reuse --debug --sample $1
-
-# 84022

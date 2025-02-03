@@ -1,31 +1,6 @@
-# torchrun --nproc_per_node=1 --master_port=12340 sft_train.py \
-#     --model_name_or_path microsoft/phi-2 \
-#     --model_max_length 2048 \
-#     --data_path /net/projects/chai-lab/mourad/narratives-data/sft_data \
-#     --output_dir /net/projects/chai-lab/mourad/narratives-data/sft_out/phi2 \
-#     --max_steps 5 \
-#     --per_device_train_batch_size 2 \
-#     --per_device_eval_batch_size 2 \
-#     --gradient_accumulation_steps 16 \
-#     --evaluation_strategy "steps" \
-#     --eval_steps 500 \
-#     --save_strategy "steps" \
-#     --save_steps 5 \
-#     --save_total_limit 1 \
-#     --learning_rate 1e-4 \
-#     --weight_decay 0. \
-#     --warmup_ratio 0.03 \
-#     --lr_scheduler_type "cosine" \
-#     --logging_steps 1 \
-#     --deepspeed "configs/ds_config.json" \
-#     --tf32 True \
-#     --run_name "test_1"
-    # --gradient_checkpointing True
-    # --bf16 True \
+#!/bin/bash
 
-
-#    --use_reentrant False \
-# Now you can write your own bash codes
+# Script for interactive SLURM sessions or local debugging
 
 accelerate launch --config_file configs/ds_config.yml /net/scratch/mourad/economic-narratives/src/finetune/phi3_sft_train.py \
    --data_path /net/projects/chai-lab/mourad/narratives-data/sft_data \
