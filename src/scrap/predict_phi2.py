@@ -1,0 +1,201 @@
+# Use a pipeline as a high-level helper
+from transformers import pipeline
+from transformers import AutoTokenizer, AutoModelForCausalLM
+import time
+from transformers import BitsAndBytesConfig, TextStreamer
+import torch
+from peft import PeftModel, PeftConfig
+
+from phi2_sft_train import PROMPT_DICT
+
+from vllm import LLM, SamplingParams
+import shutil
+import json
+from pathlib import Path
+import argparse
+import pandas as pd
+import datasets
+from guidance import models, gen, select
+import guidance
+from nltk.tokenize.treebank import TreebankWordDetokenizer
+from tqdm.auto import tqdm
+
+from src.utils import utils
+
+from glob import glob
+import os
+
+
+cats = ['demand', 'supply', 'wage', 'expect', 'monetary', 'fiscal', 'international', 'other-cause', 'cost', 'govt', 'purchase', 'rates', 'redistribution', 'savings', 'social', 'trade', 'cost-push', 'uncertain', 'other-effect']
+
+@guidance(stateless=False)
+def narrative_maker(lm, sentence):
+    instr = PROMPT_DICT['prompt'].format(SENTENCE=sentence)
+    lm += instr
+    lm += f"""\
+    {{
+    "foreign": "{select(['true', 'false'], 'foreign')}",
+    "contains-narrative": "{select(['true', 'false'], 'contains-narrative')}",
+    """
+    if lm['contains-narrative'].lower() == "true":
+        lm += f"""\
+        "inflation-narratives": {{
+            "inflation-time": "{select(['past', 'present', 'future', 'general'],'inflation-time')}",
+            "inflation-direction": "{select(['up', 'down', 'same'], 'inflation-direction')}",
+            "narratives": [{{"{select(['cause', 'effect'], 'cause_effect')}": "{select(['demand', 'supply', 'wage', 'expect', 'monetary', 'fiscal', 'international', 'other-cause', 'cost', 'govt', 'purchase', 'rates', 'redistribution', 'savings', 'social', 'trade', 'cost-push', 'uncertain', 'other-effect'], 'narrative_category')}", "time": "{select(['past', 'present', 'future', 'general'], 'narrative_time')}"}}]
+            }},
+        """
+    else:
+        lm += f"""\
+        "inflation-narratives": None,
+        """
+    lm += f"""\
+    }}
+    """
+    return lm
+
+class NarrativeGenerator:
+    def __init__(self, model, gpu, reuse, sample, ckpt=None, sampling_params=None, max_tokens=1000, split=None, debug=False):
+        ckpt_base = Path('/net/projects/chai-lab/mourad/narratives-data/sft_out')
+        
+        self.model = model
+        self.debug = debug
+        self.split = split
+        self.sample = sample
+
+        if model == 'mistral':
+            model_str = 'mistralai/Mistral-7B-Instruct-v0.2'
+        elif 'phi2' in model:
+            model_str = 'microsoft/phi-2'
+        elif 'phi3' in model:
+            model_str = 'microsoft/Phi-3-mini-4k-instruct'
+        elif 'llama3' in model:
+            model_str = 'meta-llama/Meta-Llama-3.1-8B-Instruct'
+        else:
+            raise ValueError("Model not supported")
+        
+        if split == 'NOW_filtered':
+            self.dataset = utils.read_all_data("/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/", location=False)
+            print(self.dataset)
+        else:
+            self.dataset = utils.load_hf_dataset(path="/net/projects/chai-lab/mourad/narratives-data/sft_data_proquest", split=split)
+        if self.debug:
+            if split == 'NOW_filtered':
+                per_job_sample = 71055
+                self.dataset = self.dataset.select(list(range(per_job_sample * sample, per_job_sample * (sample + 1))))
+            else:
+                self.dataset = self.dataset.select(list(range(20)))
+
+        if ckpt is not None:
+            if model == 'mistral':
+                ckpt_path = ckpt_base / (model + f"_{gpu}") / ckpt  
+            else:
+                ckpt_path = ckpt_base / (model + "_proquest") / ckpt
+            self.llm = self.load_finetuned_model(model_str, ckpt_path, reuse)
+        else:
+            self.llm = models.Transformers(model_str, device_map='auto')
+
+    def load_finetuned_model(self, model_str, ckpt_path, reuse):
+        model_path = f"/net/projects/chai-lab/mourad/narratives-data/merged_model/{self.model}"
+        if not reuse:
+            cache_dir="/net/projects/chai-lab/mourad/data/models_cache"
+            model = AutoModelForCausalLM.from_pretrained(
+                        model_str, 
+                        device_map="auto",
+                        trust_remote_code=True,
+                        token = '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',
+                        cache_dir=cache_dir)
+            model = PeftModel.from_pretrained(model, ckpt_path, trust_remote_code=True)
+            
+            tok = AutoTokenizer.from_pretrained(ckpt_path, use_fast=False)
+
+            merged_model = model.merge_and_unload()
+            
+            merged_model.save_pretrained(model_path)
+
+            for file in glob(f"{ckpt_path}/*token*"):
+                print(file)
+                shutil.copy(file, model_path)
+
+            if 'phi2' in model_str.lower():
+                shutil.copy(f"{ckpt_path}/vocab.json", model_path)
+                shutil.copy(f"{ckpt_path}/merges.txt", model_path)
+        tok = AutoTokenizer.from_pretrained(ckpt_path, use_fast=False)
+        llm = models.Transformers(model_path, tok, device_map='auto', trust_remote_code=True, echo=False)
+        return llm
+    
+    def generate(self):
+        generated = []        
+        for instance in tqdm(self.dataset):
+            sentence = instance['text']
+            id = instance['id']
+
+            try:
+                outputs = self.llm + narrative_maker(sentence)
+                contains = outputs['contains-narrative'].lower() == 'true'
+                foreign = outputs['foreign'].lower() == 'true'
+                if contains:
+                    narratives = {
+                        "inflation-time": outputs['inflation-time'],
+                        "inflation-direction":  outputs['inflation-direction'].lower(),
+                        "narratives": [{
+                            outputs['cause_effect']: outputs['narrative_category'],
+                            "time": outputs['narrative_time']
+                        }]
+                    }
+                else:
+                    narratives = None
+            except Exception as e:
+                print(e)
+                breakpoint()
+                
+            record = {
+                'foreign': foreign,
+                'contains-narrative': contains,
+                "inflation-narratives": narratives
+            }
+            generated.append(json.dumps(record))
+
+        return generated
+    
+    def save_outputs(self, generated, model_type):
+        self.dataset = self.dataset.add_column('completion', generated)
+        
+        model = self.model
+        out_path = f"/net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/{model}_{model_type}_{self.split}_sample_{self.sample}"
+        os.makedirs(out_path, exist_ok=True)
+        self.dataset.save_to_disk(out_path)
+        print("Saved dataset to disk = ", out_path)
+
+
+def main(**kwargs):
+    generator = NarrativeGenerator(**kwargs)
+    generated = generator.generate()
+
+    if not kwargs['debug'] or kwargs['split'] == 'NOW_filtered':
+        if kwargs['ckpt'] is None:
+            model_type = 'base'
+        else:
+            model_type = 'ft'
+    else:
+        breakpoint()
+    
+    generator.save_outputs(generated, model_type)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--model', choices=['mistral', 'phi2', 'phi2_first_run', 'phi3', 'llama3'], required=True)
+    parser.add_argument('--gpu', type=str, choices=['a100', 'a40'], default='a100')
+    parser.add_argument('--ckpt', default = None, required=False)
+    parser.add_argument('--split', choices=['train', 'dev', 'test', 'NOW_filtered'], required=True, help='NOW_filtered is for doing predictions on entire NOW dataset')
+    parser.add_argument('--debug', action='store_true')
+    parser.add_argument('--sample', type=int, default=0)
+    parser.add_argument('--reuse', action='store_true')
+
+    args=parser.parse_args()
+
+    if args.split == 'dev':
+        raise ValueError("No dev split right now. Use test or train.")
+
+    main(**vars(args))
