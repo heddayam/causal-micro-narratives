@@ -52,7 +52,7 @@ def true_false_check(gold, pred, trace=None):
 
 def run_dspy(dev_ds, test_ds, model, fewshot=False):
     if model == 'claude':
-        os.environ['ANTHROPIC_API_KEY'] = 'API_KEY'
+        os.environ['ANTHROPIC_API_KEY'] = "API_KEY_HERE"
         model = dspy.dsp.anthropic.Claude(model='claude-3-sonnet-20240229', max_tokens=200)#, model_type='chat')
         # model = dspy.dsp.anthropic.Claude(model='claude-3-opus-20240229', max_tokens=200)#, model_type='chat')
         NUM_THREADS = 1
@@ -60,7 +60,7 @@ def run_dspy(dev_ds, test_ds, model, fewshot=False):
         model = dspy.HFModel(model = 'mistralai/Mistral-7B-Instruct-v0.1', max_tokens=200)
         NUM_THREADS = 32
     else:
-        os.environ['OPENAI_API_KEY'] = "API_KEY"
+        os.environ['OPENAI_API_KEY'] = "API_KEY_KERE"
         # turbo = dspy.OpenAI(model='gpt-4-1106-preview', max_tokens=200, model_type='chat')
         model = dspy.OpenAI(model='gpt-3.5-turbo-16k', max_tokens=200, model_type='chat')
         NUM_THREADS = 32
