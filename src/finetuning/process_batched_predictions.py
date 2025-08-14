@@ -11,6 +11,7 @@ import logging
 from glob import glob
 from os import path
 from typing import List
+import swifter
 
 import pandas as pd
 from datasets import Dataset, concatenate_datasets, load_from_disk
@@ -24,6 +25,33 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+national_news_outlets = [
+    "New York Times",
+    "Wall Street Journal",
+    "Washington Post",
+    "USA TODAY",
+    "Christian Science Monitor",
+    "Newsday",
+    "U.S. Newswire",
+    "Voice of America News",
+    "Politico",
+    "ProPublica",
+    "New York Post",
+    "NPR Programs",
+    "PR Newswire",
+    "Business Wire",
+    "Knight Ridder",
+    "McClatchy",
+    "Gannett News Service",
+    "Targeted News Service",
+    "Newhouse News Service",
+    "Cox News Service",
+    "Voice of America News / FIND",
+    "University Wire",
+    "Noticias",
+    "Religion News Service"
+]
 
 def process_dataset_predictions(
     dataset_name: str,
@@ -43,7 +71,7 @@ def process_dataset_predictions(
     """
     logger.info(f"Processing predictions for {dataset_name} dataset")
     
-    dir_base = f"/data/mourad/narratives/model_json_preds/full_{dataset_name}"
+    dir_base = f"/data/mourad/narratives/model_json_preds/{dataset_name}"
     batch_files = glob(path.join(dir_base, f"{model}_train-{train_ds}_sample_*"))
     
     if not batch_files:
@@ -78,7 +106,7 @@ def process_narratives(df: pd.DataFrame) -> pd.DataFrame:
     """Extract and process narrative categories from predictions."""
     logger.info("Processing narrative categories...")
     
-    df['narrative'] = df['prediction'].apply(utils.extract_narrative_category)
+    df['narrative'] = df['prediction'].swifter.apply(utils.extract_narrative_category)
     df = df[~df.narrative.isna()]
     df['contains'] = df['narrative'].apply(lambda x: len(x) > 0).astype(int)
     
@@ -124,7 +152,7 @@ def main(dataset: str, model: str, train_ds: str):
     
     # Process predictions for each dataset type
     all_predictions = []
-    for dataset_name in ['proquest', 'now']:
+    for dataset_name in [dataset.lower()]: #['proquest', 'now']:
         df = process_dataset_predictions(dataset_name, model, train_ds)
         if df is not None:
             all_predictions.append(df)
@@ -133,6 +161,7 @@ def main(dataset: str, model: str, train_ds: str):
         logger.error("No predictions were processed successfully")
         return
     
+
     # Combine and process all predictions
     combined_df = pd.concat(all_predictions)
     processed_df = process_narratives(combined_df)
@@ -140,16 +169,31 @@ def main(dataset: str, model: str, train_ds: str):
     # Prepare final datasets
     full_df, analysis_df = prepare_final_data(processed_df)
     
+
     # Save full dataset
     full_data_path = "/data/mourad/narratives/regression_data/all_news_data_llama_preds.csv"
     full_df.to_csv(full_data_path)
     logger.info(f"Saved full dataset to {full_data_path}")
-
-    # Save analysis dataset
-    analysis_path = "/data/mourad/narratives/regression_data/all_news_data_llama_preds_for_regression.csv"
-    analysis_df.drop('text', axis=1).to_csv(analysis_path)
-    logger.info(f"Saved analysis dataset to {analysis_path}")
     
+  
+    
+    def return_national_news_outlets(row):
+        for outlet in national_news_outlets:
+            if outlet in row['title']:
+                return True
+        return False
+    analysis_df['national'] = analysis_df.swifter.apply(return_national_news_outlets, axis=1)
+    breakpoint()
+    
+    assert len(analysis_df.state.dropna()) == len(analysis_df), "Some location data is missing"   
+
+    
+    # Save analysis dataset
+    analysis_path = f"/data/mourad/narratives/regression_data/all_{dataset.lower()}_data_llama_preds_for_regression.csv"
+    analysis_df = analysis_df.sort_values(by='year')
+    analysis_df.drop(['text', 'source'], axis=1).to_csv(analysis_path+".gzip", compression='gzip', index=False)
+    logger.info(f"Saved analysis dataset to {analysis_path}")
+    breakpoint()
     logger.info("Batch prediction processing completed successfully")
 
 if __name__ == "__main__":

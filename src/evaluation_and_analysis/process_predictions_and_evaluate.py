@@ -44,6 +44,8 @@ from sklearn.preprocessing import MultiLabelBinarizer
 import numpy as np
 from src.utils.utils import time, causes, effects, categories
 import os
+from tqdm.auto import tqdm
+
 def clean_completion(completion):
     pattern = r"```json(.*?)```"
     completion = completion.replace("not-applicable", "general")
@@ -82,6 +84,8 @@ def flatten_json_to_df(json_input):
     
     # Extract inflation narratives data
     narratives_data = data.get('inflation-narratives', {})
+    if isinstance(narratives_data, list):
+        narratives_data = narratives_data[0]
     if narratives_data is not None:
         metadata['inflation-time'] = narratives_data.get('inflation-time', '')
         metadata['inflation-direction'] = narratives_data.get('inflation-direction', '')
@@ -206,13 +210,70 @@ def track_wrong_predictions(instance, pred_narrative, gold_narrative, wrong_pred
             wrong_preds[instance['text']] = ['none']
         else:
             wrong_preds[instance['text']] = pred_narrative.category.tolist()
+            
+def find_human_disagree(mh_data, qz_data, az_data):
+    """Find instances where majority human and another
+    annotator disagree."""
+    cols_to_keep = ['text', 'data']
+    mh = mh_data.to_pandas()[cols_to_keep]
+    qz = qz_data.to_pandas()[cols_to_keep]
+    az = az_data.to_pandas()[cols_to_keep]
+    # maj = majority.to_pandas()[cols_to_keep]
+    
+    def extract_narrative_cls_only(data):
+        if isinstance(data, bool):
+            return set(['none'])
+        
+        new_data = []
+        for d in data:
+            if 'cause' in d:
+                new_data.append(d['cause'])
+            elif 'effect' in d:
+                new_data.append(d['effect'])
+        
+        return set(new_data)
+    
+    # fix data
+    for df in [mh, qz, az]:
+        df['data'] = df['data'].apply(lambda x: json.loads(x.split("#")[-1]))
+        
+        #only keep the narrative classification
+        df['data'] = df['data'].apply(extract_narrative_cls_only)
+    
+    # Merge dataframes
+    merged = pd.merge(mh, qz, on='text', suffixes=('_mh', '_qz'))
+    merged = pd.merge(merged, az, on='text')
+    merged = merged.rename(columns={'data': 'data_az'})
+    
+    
+    # There  may not be a majority: find overlapping sets in the three annotators
+    merged['majority'] = merged.apply(lambda x: list((x['data_mh'].intersection(x['data_qz'])).union(x['data_mh'].intersection(x['data_az'])).union(x['data_qz'].intersection(x['data_az']))), axis=1)
+    merged['disagree'] = merged.apply(lambda x: list(x['data_mh'].union(x['data_qz']).union(x['data_az'])), axis=1)# - set(x['majority'])), axis=1)
+    
+    merged = merged.rename({'majority': 'gold', 'disagree':'pred'}, axis=1)
+    
+    merged[['text', 'gold', 'pred']].to_pickle("output/gold_vs_preds/human_disagree.pkl")
+    
+    return merged
 
 def main(model, do_oracle, annotator, avg_type, train_ds, test_ds):
     """Main evaluation function."""
     # Initialize data and binarizers
-    prediction_data = utils.load_model_preds(model, train_ds, test_ds)
+    
+    if model == 'human': # compare majority human with other preds
+        mh_data = utils.load_labeled_data(dataset=test_ds)['test_mh']
+        qz_data = utils.load_labeled_data(dataset=test_ds)['test_qz']
+        az_data = utils.load_labeled_data(dataset=test_ds)['test_az']
+            
+        find_human_disagree(mh_data, qz_data, az_data)
+        breakpoint()
+    else:
+        prediction_data = utils.load_model_preds(model, train_ds, test_ds)
     gold_data = utils.load_labeled_data(dataset=test_ds)[annotator]
     
+    # breakpoint()
+    
+
     category_mlb = MultiLabelBinarizer().fit([categories['cause_category']+categories['effect_category']])
     time_mlb = MultiLabelBinarizer().fit([time])
     binary_mlb = MultiLabelBinarizer().fit([[True, False]])
@@ -222,21 +283,23 @@ def main(model, do_oracle, annotator, avg_type, train_ds, test_ds):
     wrong_preds = {}
     
     failed_to_parse = 0
-    for instance in prediction_data:
+    for instance in tqdm(prediction_data):
         # Parse gold and predicted data
         try:
             # TODO fix now_and_proquest template processing
             # TODO add gpt support
-            gold = json.loads(utils.reconstruct_training_input(instance))
+            gold = utils.reconstruct_training_input(instance)
             pred = clean_completion(instance['completion'])
         except Exception as e:
             print(e)
             failed_to_parse += 1
             continue
             
-    
-        pred_general, pred_narrative = flatten_json_to_df(pred)
-        gold_general, gold_narrative = flatten_json_to_df(gold)
+        try:
+            pred_general, pred_narrative = flatten_json_to_df(pred)
+            gold_general, gold_narrative = flatten_json_to_df(gold)
+        except Exception as e:
+            breakpoint()
         
         # Skip if oracle mode and conditions not met
         if do_oracle and (not gold_general['contains-narrative'].iloc[0] or 
@@ -249,6 +312,7 @@ def main(model, do_oracle, annotator, avg_type, train_ds, test_ds):
         # Track wrong predictions
         track_wrong_predictions(instance, pred_narrative, gold_narrative, wrong_preds)
         
+        
         # Compute metrics for this instance
         instance_metrics = compute_metrics(
             gold_narrative, pred_narrative, gold_general, pred_general,
@@ -259,6 +323,8 @@ def main(model, do_oracle, annotator, avg_type, train_ds, test_ds):
     # Calculate and format results
     if avg_type == 'none':
         avg_type = None
+    
+    breakpoint()
     
     f1_scores = calculate_f1_scores(metrics_list, category_mlb, avg_type)
     results_df = format_results(f1_scores, model, category_mlb, avg_type)
@@ -278,7 +344,7 @@ def main(model, do_oracle, annotator, avg_type, train_ds, test_ds):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', choices=['gpt35', 'gpt4t', "gpt4", "phi2_ft", "llama31_ft_300s", "llama31_ft_600s", "all"], default='gpt4t')
+    parser.add_argument('--model', choices=['human', 'gpt35', 'gpt4t', "gpt4o-mini", "phi2_ft", "llama31_ft_300s", "llama31_ft_600s", "all"], default='gpt4t')
     parser.add_argument("--debug", type=bool, default=False)
     parser.add_argument("--oracle", action="store_true", help="only evaluate on instances where both models have a narrative")
     parser.add_argument("--annotator", type=str, default="test", choices=['test', 'test_az', 'test_qz', 'test_mh'])

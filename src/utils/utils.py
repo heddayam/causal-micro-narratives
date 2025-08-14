@@ -1,5 +1,5 @@
 import openai
-import anthropic
+# import anthropic
 import json5
 import re
 import swifter
@@ -13,7 +13,12 @@ import subprocess
 import json
 import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 PROQUEST_MAX_LEN = 150
+
+client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 synonyms = set(['recession', 'depression', 'slump', 'contraction', 'downturn', 'slowdown', 'decline', 'trough', 
                 'collapse', 'bad times', 'hard times', 'crash', 'slide', 'downswing', 'downtrend', 'shrinking', 'withdrawal', 
@@ -243,12 +248,66 @@ def reconstruct_training_input(instance):
     interleaved = [item for pair in zip(template, data) for item in pair]
     input = "".join(interleaved) + template[-1]
 
-    try:
-        json.loads(input)
-    except:
-        breakpoint()
+    def fix_json_string(json_string):
+        """
+        Use GPT-4 to fix malformed JSON strings.
+        
+        Args:
+            json_string (str): Potentially malformed JSON string
+            
+        Returns:
+            str: Corrected JSON string, or None if fixing failed
+        """
+        try:
+            # First try to parse as-is
+            result = json.loads(json_string)
+            return result
+        except:
+            # If parsing fails, try to fix with GPT-4
+            try:
+                prompt = f"""Fix this malformed JSON string. Only return the fixed JSON string with no additional text or explanation. {json_string}"""
+
+                completion = client.chat.completions.create(
+                            model="gpt-4o-mini",
+                            messages=[
+                                {
+                                "role": "user",
+                                "content": [
+                                    {
+                                    "type": "text",
+                                    "text": prompt
+                                    }
+                                ]
+                                }
+                            ],
+                            response_format={
+                                "type": "json_object"
+                            },
+                            temperature=0,
+                            max_tokens=400
+                        )
+
+                fixed_json = completion.choices[0].message.content  # Extract the response
+                fixed_json = fixed_json.replace("```json\n", "").replace("```", "").strip()  # Remove code block formatting
+                # print(f"Fixed JSON: {fixed_json}")
+                # Verify the fixed JSON is valid
+                print('gpt fixed')
+                return json.loads(fixed_json)
+            except Exception as e:
+                print(f"Failed to fix JSON: {e}")
+                
+                return None
     
-    return input
+    res = fix_json_string(input)
+    if res is None:
+        breakpoint()
+    # try:
+    #     json.loads(input)
+    # except:
+    #     json.loads
+    #     breakpoint()
+    
+    return res
 
 
 def scp_file(local_file,  remote_path, remote_host='dsi', local_host=None):
@@ -300,8 +359,11 @@ def load_labeled_data(dataset: str, path="/data/mourad/narratives/labeled_data")
     return dataset
 
 def load_model_preds(model, train_ds, test_ds):
-    path = f"/data/mourad/narratives/model_json_preds/{model}_train-{train_ds}_test-{test_ds}"
-    dataset = load_from_disk(path)
+    if model == 'gpt4o-mini':
+        dataset = load_from_disk("/data/mourad/narratives/model_json_preds/gpt-4o-mini_instruction_v3_proquest")
+    else:
+        path = f"/data/mourad/narratives/model_json_preds/{model}_train-{train_ds}_test-{test_ds}"
+        dataset = load_from_disk(path)
     return dataset
 
 def read_all_data(path="/data/mourad/narratives/inflation", location=True):
