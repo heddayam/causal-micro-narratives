@@ -13,3 +13,4 @@ data/phi2_predictions_*.tsv
 .env
 .env.local
 .env.*.local
+src/utils/openai_key.txt
