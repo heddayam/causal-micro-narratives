@@ -52,7 +52,6 @@ national_news_outlets = [
     "Noticias",
     "Religion News Service"
 ]
-
 def process_dataset_predictions(
     dataset_name: str,
     model: str,
@@ -161,7 +160,6 @@ def main(dataset: str, model: str, train_ds: str):
         logger.error("No predictions were processed successfully")
         return
     
-
     # Combine and process all predictions
     combined_df = pd.concat(all_predictions)
     processed_df = process_narratives(combined_df)
@@ -169,31 +167,16 @@ def main(dataset: str, model: str, train_ds: str):
     # Prepare final datasets
     full_df, analysis_df = prepare_final_data(processed_df)
     
-
     # Save full dataset
     full_data_path = "/data/mourad/narratives/regression_data/all_news_data_llama_preds.csv"
     full_df.to_csv(full_data_path)
     logger.info(f"Saved full dataset to {full_data_path}")
-    
-  
-    
-    def return_national_news_outlets(row):
-        for outlet in national_news_outlets:
-            if outlet in row['title']:
-                return True
-        return False
-    analysis_df['national'] = analysis_df.swifter.apply(return_national_news_outlets, axis=1)
-    breakpoint()
-    
-    assert len(analysis_df.state.dropna()) == len(analysis_df), "Some location data is missing"   
 
-    
     # Save analysis dataset
-    analysis_path = f"/data/mourad/narratives/regression_data/all_{dataset.lower()}_data_llama_preds_for_regression.csv"
-    analysis_df = analysis_df.sort_values(by='year')
-    analysis_df.drop(['text', 'source'], axis=1).to_csv(analysis_path+".gzip", compression='gzip', index=False)
+    analysis_path = "/data/mourad/narratives/regression_data/all_news_data_llama_preds_for_regression.csv"
+    analysis_df.drop('text', axis=1).to_csv(analysis_path)
     logger.info(f"Saved analysis dataset to {analysis_path}")
-    breakpoint()
+    
     logger.info("Batch prediction processing completed successfully")
 
 if __name__ == "__main__":

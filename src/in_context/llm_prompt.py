@@ -106,7 +106,6 @@ def get_completion(sentence: str, client: OpenRouterClient,
                 "type": "json_object"
                 }
         )
-        # breakpoint()
         completion = response['choices'][0]['message']['content'].strip()
         return completion
         
@@ -153,8 +152,7 @@ def main():
     
     parser.add_argument("-rw", "--rewrite", action='store_true', 
                        help='Rewrite the output (cached results still used)')
-    parser.add_argument('--model', choices=['anthropic/claude-2', 'openai/gpt-3.5-turbo', 
-                                          'openai/gpt-4o-mini', "openai/gpt-4o"], 
+    parser.add_argument('--model', choices=['anthropic/claude-2', 'openai/gpt-3.5-turbo', 'openai/gpt-4o-mini', 'openai/gpt-4-turbo', "openai/gpt-4o"], 
                        default='openai/gpt-4o')
     parser.add_argument('--instr_path', default='prompts/gpt/instruction_v3.txt', help='Path to instruction prompt')
     parser.add_argument('--fewshot_path', required=False, help='Path to few-shot prompt')
