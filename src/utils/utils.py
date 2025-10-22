@@ -299,16 +299,8 @@ def load_labeled_data(dataset: str, path="/data/mourad/narratives/labeled_data")
     return dataset
 
 def load_model_preds(model, train_ds, test_ds):
-<<<<<<< HEAD
-    if model == 'gpt4o-mini':
-        dataset = load_from_disk("/data/mourad/narratives/model_json_preds/gpt-4o-mini_instruction_v3_proquest")
-    else:
-        path = f"/data/mourad/narratives/model_json_preds/{model}_train-{train_ds}_test-{test_ds}"
-        dataset = load_from_disk(path)
-=======
     path = f"/data/mourad/narratives/model_json_preds/{model}_train-{train_ds}_test-{test_ds}"
     dataset = load_from_disk(path)
->>>>>>> bfd6aa2f467244963a00f935c3ff970f790f566a
     return dataset
 
 def read_all_data(path="/data/mourad/narratives/inflation", location=True):
