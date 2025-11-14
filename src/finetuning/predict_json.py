@@ -28,10 +28,7 @@ from dotenv import load_dotenv
 
 # Local imports
 from src.utils import utils
-try:
-    from phi2_sft_train import PROMPT_DICT
-except ModuleNotFoundError:
-    from src.scrap.phi2_sft_train import PROMPT_DICT
+from src.finetuning.sft_train import PROMPT_DICT
 
 # Load environment variables
 load_dotenv()
