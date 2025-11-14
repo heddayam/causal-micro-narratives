@@ -18,7 +18,8 @@ echo $PATH
 
 cd /home/mourad/causal-micro-narratives/src/finetuning
 source /net/projects/chai-lab/miniconda3/etc/profile.d/conda.sh
-conda activate /net/scratch/mourad/env-py310-a40
+conda activate /net/scratch/mourad/env-py310-a100
+poetry install
 
 python predict_json.py \
   --model llama31 \
@@ -26,7 +27,7 @@ python predict_json.py \
   --train_ds now_and_proquest \
   --test_ds proquest \
   --ckpt checkpoint-600 \
-  --sample $1 \
+  --sample /net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_sample_0_2010-2025_updated \
   --gpu a100 \
   --reuse
 

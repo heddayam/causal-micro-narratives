@@ -6,15 +6,15 @@
 # First, determine how many chunks you have in your dataset
 # You can adjust the range {0..N} based on your dataset size
 
-for i in {0..10}; do
+for i in {0..15}; do
     # Check if output directory already exists (skip if already processed)
-    output_dir="/net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_sample_"$i"_2010-2025"
+    output_dir="/net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_sample_"$i"_2010-2025_updated"
 
     if [ -d "$output_dir" ]; then
         echo "Chunk $i already processed, skipping..."
     else
         echo "Submitting chunk $i"
-        sbatch scripts/run_predict_2010_2025_updated.sh $i
+        sbatch run_predict_2010_2025_updated.sh $i
     fi
 done
 
