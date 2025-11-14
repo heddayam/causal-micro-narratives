@@ -18,8 +18,8 @@
 echo $PATH
 
 
-source /net/projects/chai-lab/miniconda3/etc/profile.d/conda.sh
-conda activate /net/scratch/mourad/env-py310-a40
+# source /net/projects/chai-lab/miniconda3/etc/profile.d/conda.sh
+# conda activate /net/scratch/mourad/env-py310-a40
 pip install -e .
 cd /home/mourad/causal-micro-narratives/src/finetuning
 
