@@ -52,6 +52,11 @@ FULL_DATASET_PATHS = {
         'path': "/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/{test_ds}",
         'chunk_size': 50000,
         'filename': "processed_data_1923-2025.jsonl.gz"
+    },
+    'PROQUEST_2010_2025_UPDATED': {
+        'path': "/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/proquest_2010-2025_updated",
+        'chunk_size': 50000,
+        'filename': "processed_data_2010-2025_updated.jsonl.gz"
     }
 }
 
@@ -378,8 +383,8 @@ if __name__ == "__main__":
     parser.add_argument('--model', choices=['phi2', 'phi2_first_run', 'llama31'], required=True)
     parser.add_argument('--gpu', type=str, choices=['a100', 'a40'], default='a100')
     parser.add_argument('--ckpt', default=None)
-    parser.add_argument('--split', choices=['train', 'test', 'NOW_filtered', 'PROQUEST_filtered'], 
-                      required=True, help='NOW_filtered/PROQUEST_filtered are full datasets processed in chunks')
+    parser.add_argument('--split', choices=['train', 'test', 'NOW_filtered', 'PROQUEST_filtered', 'PROQUEST_2010_2025_UPDATED'],
+                      required=True, help='NOW_filtered/PROQUEST_filtered/PROQUEST_2010_2025_UPDATED are full datasets processed in chunks')
     parser.add_argument('--debug', action='store_true')
     parser.add_argument('--sample', type=int, default=-1,
                       help='For full datasets: chunk index to process (required for NOW_filtered/PROQUEST_filtered)')

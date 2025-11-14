@@ -303,11 +303,16 @@ def load_model_preds(model, train_ds, test_ds):
     dataset = load_from_disk(path)
     return dataset
 
-def read_all_data(path="/data/mourad/narratives/inflation", location=True):
-    if location:
-        df = pd.read_json(os.path.join(path, 'all_filtered_with_location.jsonl.gz'), orient='records', lines=True, compression='gzip')
+def read_all_data(path="/data/mourad/narratives/inflation", location=True, filename=None):
+    if filename:
+        # Use custom filename if provided
+        file_path = os.path.join(path, filename)
+    elif location:
+        file_path = os.path.join(path, 'all_filtered_with_location.jsonl.gz')
     else:
-        df = pd.read_json(os.path.join(path, 'all_filtered.jsonl.gz'), orient='records', lines=True, compression='gzip')
+        file_path = os.path.join(path, 'all_filtered.jsonl.gz')
+
+    df = pd.read_json(file_path, orient='records', lines=True, compression='gzip')
     ds = Dataset.from_pandas(df, preserve_index=False)
     return ds
  
