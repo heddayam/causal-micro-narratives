@@ -8,7 +8,7 @@ import os
 import json
 from dataclasses import dataclass
 
-# Ensure outlines cache directory exists before importing libraries that rely on it.
+# Ensure outlines cache directory is usable before outlines/vllm imports.
 DEFAULT_OUTLINES_CACHE = Path("/net/scratch/mourad/outlines-cache")
 
 
