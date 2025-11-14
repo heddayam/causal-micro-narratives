@@ -27,7 +27,7 @@ python predict_json.py \
   --train_ds now_and_proquest \
   --test_ds proquest \
   --ckpt checkpoint-600 \
-  --sample /net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_sample_0_2010-2025_updated \
+  --sample 0 \
   --gpu a100 \
   --reuse
 

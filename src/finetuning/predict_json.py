@@ -357,7 +357,7 @@ class NarrativeGenerator:
         ckpt_steps = f"_{self.ckpt.split('-')[1]}s" if self.ckpt and self.ckpt != '' else ""
         
         if self.sample >= 0:
-            out_path = Path(OUTPUT_BASE) / self.test_ds / f"full_{self.test_ds}" / f"{self.model}_{model_type}_{ckpt_steps}_train-{self.train_ds}_sample_{self.sample}_2010-2025"
+            out_path = Path(OUTPUT_BASE) / self.test_ds / f"full_{self.test_ds}" / f"{self.model}_{model_type}_{ckpt_steps}_train-{self.train_ds}_sample_{self.sample}_2010-2025_updated"
         else:
             out_path = Path(OUTPUT_BASE) / f"{self.model}_{model_type}{ckpt_steps}_train-{self.train_ds}_test-{self.test_ds}"
                 
