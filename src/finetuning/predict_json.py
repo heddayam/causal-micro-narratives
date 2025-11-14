@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Dict, List, Optional, Union, Any
 import os
 import json
+import shutil
 from dataclasses import dataclass
 
 # Ensure outlines cache directory is usable before outlines/vllm imports.
@@ -280,11 +281,11 @@ class NarrativeGenerator:
 
         for file in Path(ckpt_path).glob('*token*'):
             print(f"Copying {file}")
-            Path(file).copy(model_path)
+            shutil.copy2(file, model_path)
 
         if 'phi2' in model_str.lower():
-            Path(ckpt_path / "vocab.json").copy(model_path)
-            Path(ckpt_path / "merges.txt").copy(model_path)
+            shutil.copy2(ckpt_path / "vocab.json", model_path)
+            shutil.copy2(ckpt_path / "merges.txt", model_path)
 
     @staticmethod
     def _setup_byte_decoder() -> Dict[str, int]:

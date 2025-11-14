@@ -6,6 +6,25 @@ authors = ["Mourad Heddaya <mourad@uchicago.edu>"]
 readme = "README.md"
 packages = [{include = "src"}]
 
+[tool.poetry.dependencies]
+python = "*"
+torch = "*"
+transformers = "*"
+peft = "*"
+vllm = "*"
+guidance = "*"
+datasets = "*"
+tqdm = "*"
+tokenizers = "*"
+python-dotenv = "*"
+pandas = "*"
+json5 = "*"
+swifter = "*"
+nltk = "*"
+openai = "*"
+anthropic = "*"
+inflection = "*"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
