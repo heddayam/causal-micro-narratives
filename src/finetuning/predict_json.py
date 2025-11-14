@@ -69,7 +69,7 @@ FULL_DATASET_PATHS = {
     },
     'PROQUEST_2010_2025_UPDATED': {
         'path': "/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/proquest_2010-2025_updated",
-        'chunk_size': 50000,
+        'chunk_size': 20000,
         'filename': "processed_data_2010-2025_updated.jsonl.gz"
     }
 }
