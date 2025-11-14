@@ -5,3 +5,7 @@ description = "Econ narrative utilities"
 authors = ["Mourad Heddaya <mourad@uchicago.edu>"]
 readme = "README.md"
 packages = [{include = "src"}]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
