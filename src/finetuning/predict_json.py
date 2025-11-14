@@ -8,6 +8,19 @@ import os
 import json
 from dataclasses import dataclass
 
+# Ensure outlines cache directory exists before importing libraries that rely on it.
+DEFAULT_OUTLINES_CACHE = Path("/net/scratch/mourad/outlines-cache")
+
+
+def _configure_outlines_cache() -> None:
+    cache_dir = os.environ.get("OUTLINES_CACHE_DIR")
+    cache_path = Path(cache_dir).expanduser() if cache_dir else DEFAULT_OUTLINES_CACHE
+    cache_path.mkdir(parents=True, exist_ok=True)
+    os.environ["OUTLINES_CACHE_DIR"] = str(cache_path)
+
+
+_configure_outlines_cache()
+
 # Third-party imports
 import torch
 from transformers import (

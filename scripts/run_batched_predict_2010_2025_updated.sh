@@ -6,7 +6,7 @@
 # First, determine how many chunks you have in your dataset
 # You can adjust the range {0..N} based on your dataset size
 
-for i in {0..15}; do
+for i in {0..10}; do
     # Check if output directory already exists (skip if already processed)
     output_dir="/net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_sample_"$i"_2010-2025_updated"
 

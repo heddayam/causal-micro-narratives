@@ -5,12 +5,13 @@
 #SBATCH --error=/net/scratch/mourad/legal/slurm_output/%A_%a.%N.stderr
 #SBATCH --chdir=/net/scratch/mourad/legal/slurm_output
 #SBATCH --partition=general
-#SBATCH --gres=gpu:a100:1
+#SBATCH --gres=gpu:4
+#SBATCH --constraint="a100|h100|h200"
 #SBATCH --job-name=proquest_2010_2025_updated
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --mem=100gb
-#SBATCH --time=11:00:00
+#SBATCH --time=12:00:00
 #SBATCH --signal=SIGUSR1@120
 
 
@@ -19,7 +20,7 @@ echo $PATH
 cd /home/mourad/causal-micro-narratives/src/finetuning
 source /net/projects/chai-lab/miniconda3/etc/profile.d/conda.sh
 conda activate /net/scratch/mourad/env-py310-a100
-poetry install
+pip install -e .
 
 python predict_json.py \
   --model llama31 \
@@ -27,7 +28,7 @@ python predict_json.py \
   --train_ds now_and_proquest \
   --test_ds proquest \
   --ckpt checkpoint-600 \
-  --sample 0 \
+  --sample $1 \
   --gpu a100 \
   --reuse
 
