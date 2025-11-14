@@ -236,6 +236,7 @@ class NarrativeGenerator:
     def _load_finetuned_model(self, model_str: str, ckpt_path: Path, reuse: bool) -> models.Transformers:
         """Load a fine-tuned model from checkpoint."""
         model_path = Path(MODEL_PATH_BASE) / self.model
+        model_path_str = str(model_path)
         
         if not reuse:
             self._prepare_model_files(model_str, ckpt_path, model_path)
@@ -244,9 +245,9 @@ class NarrativeGenerator:
         
         if 'llama' in model_str:
             tokenizer.byte_decoder = self._setup_byte_decoder()
-            return models.Transformers(model_path, tokenizer=tokenizer, device_map='auto', trust_remote_code=True, echo=False)
+            return models.Transformers(model_path_str, tokenizer=tokenizer, device_map='auto', trust_remote_code=True, echo=False)
         
-        return models.Transformers(model_path, device_map='auto', trust_remote_code=True, echo=False)
+        return models.Transformers(model_path_str, device_map='auto', trust_remote_code=True, echo=False)
 
     def _prepare_model_files(self, model_str: str, ckpt_path: Path, model_path: Path) -> None:
         """Prepare model files by loading and merging weights."""
