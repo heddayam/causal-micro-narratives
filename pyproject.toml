@@ -19,7 +19,9 @@ spacy = "^3.7.0"
 nltk = "^3.8.0"
 
 # Deep Learning & LLM
-torch = "^2.0.0"
+# Pin Torch <2.0 for DeepSpeed sparse_attn compatibility
+torch = ">=1.5,<2.0"
+triton = "==1.0.0"
 transformers = "^4.35.0"
 datasets = "^2.14.0"
 anthropic = "^0.3.0"
