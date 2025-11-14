@@ -17,10 +17,11 @@
 
 echo $PATH
 
-cd /home/mourad/causal-micro-narratives/src/finetuning
+
 source /net/projects/chai-lab/miniconda3/etc/profile.d/conda.sh
-conda activate /net/scratch/mourad/env-py310-a100
+conda activate /net/scratch/mourad/env-py310-a40
 pip install -e .
+cd /home/mourad/causal-micro-narratives/src/finetuning
 
 python predict_json.py \
   --model llama31 \
