@@ -12,7 +12,7 @@ NUM_CHUNKS=$(( (TOTAL_SENTENCES + CHUNK_SIZE - 1) / CHUNK_SIZE ))
 echo "Processing Fed data: $TOTAL_SENTENCES sentences in $NUM_CHUNKS chunks"
 
 for i in $(seq 0 $((NUM_CHUNKS - 1))); do
-    output_dir="/net/projects/chai-lab/mourad/narratives-data/model_json_preds/fed/full_fed/llama31_ft__600s_train-now_and_proquest_sample_${i}"
+    output_dir="/net/projects2/chai-lab/mourad/narratives-data/model_json_preds/fed/full_fed/llama31_ft__600s_train-now_and_proquest_sample_${i}"
 
     if [ -d "$output_dir" ]; then
         echo "Chunk $i already processed, skipping..."

@@ -51,7 +51,7 @@ load_dotenv()
 CACHE_DIR = "/net/projects/chai-lab/mourad/data/models_cache"
 MODEL_PATH_BASE = "/net/projects/chai-lab/mourad/narratives-data/merged_model"
 CKPT_BASE = Path('/net/projects/chai-lab/mourad/narratives-data/sft_out')
-OUTPUT_BASE = "/net/projects/chai-lab/mourad/narratives-data/model_json_preds"
+OUTPUT_BASE = "/net/projects2/chai-lab/mourad/narratives-data/model_json_preds"
 
 # Dataset constants
 MAX_SENTENCE_LENGTH = 400  # Maximum number of words in a sequence
@@ -73,9 +73,9 @@ FULL_DATASET_PATHS = {
         'filename': "processed_data_2010-2025_updated.jsonl.gz"
     },
     'FED_DATA': {
-        'path': "/data/mourad/narratives/fed_data",
+        'path': "/net/projects2/chai-lab/mourad/narratives-data/fed_data",
         'chunk_size': 8000,
-        'filename': "fed_processed.jsonl.gz"
+        'filename': "fed_processed_20260120_215833.jsonl.gz"
     }
 }
 

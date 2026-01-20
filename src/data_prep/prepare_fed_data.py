@@ -6,29 +6,44 @@ that can be processed by predict_json.py.
 
 Usage:
     python -m src.data_prep.prepare_fed_data
+    python -m src.data_prep.prepare_fed_data --input /path/to/fed_inflation_sentences_TIMESTAMP.csv
 """
 
+import argparse
 import csv
 import gzip
 import json
+import re
 from pathlib import Path
 
 # Constants
-INPUT_PATH = "/data/mourad/narratives/fed_data/fed_inflation_sentences_20260107_063031.csv"
-OUTPUT_PATH = "/data/mourad/narratives/fed_data/fed_processed.jsonl.gz"
+DEFAULT_INPUT_DIR = "/data/mourad/narratives/fed_data"
 
 
-def prepare_fed_data(input_path: str = INPUT_PATH, output_path: str = OUTPUT_PATH) -> int:
+def prepare_fed_data(input_path: str, output_path: str = None) -> int:
     """
     Convert Fed CSV to pipeline-compatible JSONL.gz format.
 
     Args:
         input_path: Path to input CSV file
-        output_path: Path to output JSONL.gz file
+        output_path: Path to output JSONL.gz file (auto-generated if not provided)
 
     Returns:
         Number of records written
     """
+    input_path = Path(input_path)
+
+    # Auto-generate output path preserving timestamp from input filename
+    if output_path is None:
+        # Extract timestamp from input filename (e.g., fed_inflation_sentences_20260120_215833.csv)
+        match = re.search(r'_(\d{8}_\d{6})\.csv$', input_path.name)
+        if match:
+            timestamp = match.group(1)
+            output_filename = f"fed_processed_{timestamp}.jsonl.gz"
+        else:
+            output_filename = "fed_processed.jsonl.gz"
+        output_path = input_path.parent / output_filename
+
     print(f"Reading Fed data from {input_path}")
 
     records_written = 0
@@ -65,6 +80,7 @@ def prepare_fed_data(input_path: str = INPUT_PATH, output_path: str = OUTPUT_PAT
 
                 # Build output record
                 record = {
+                    'index': row.get('index', ''),  # Preserve original index
                     'text': sentence,
                     'file_id': file_id,
                     'year_month': year_month,
@@ -88,4 +104,18 @@ def prepare_fed_data(input_path: str = INPUT_PATH, output_path: str = OUTPUT_PAT
 
 
 if __name__ == "__main__":
-    prepare_fed_data()
+    parser = argparse.ArgumentParser(description="Prepare Fed data for inference pipeline")
+    parser.add_argument(
+        "--input", "-i",
+        type=str,
+        required=True,
+        help="Path to input CSV file (e.g., fed_inflation_sentences_20260120_215833.csv)"
+    )
+    parser.add_argument(
+        "--output", "-o",
+        type=str,
+        default=None,
+        help="Path to output JSONL.gz file (auto-generated if not provided)"
+    )
+    args = parser.parse_args()
+    prepare_fed_data(args.input, args.output)

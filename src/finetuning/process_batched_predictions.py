@@ -105,7 +105,7 @@ def process_dataset_predictions(
     # Determine paths based on dataset type
     if dataset_name.lower() in ['fed', 'full_fed']:
         # Fed data paths - check both remote and local
-        dir_base = "/net/projects/chai-lab/mourad/narratives-data/model_json_preds/fed/full_fed"
+        dir_base = "/net/projects2/chai-lab/mourad/narratives-data/model_json_preds/fed/full_fed"
         batch_files = glob(path.join(dir_base, f"{model}_train-{train_ds}_sample_*"))
         # Also check local tmp_batched for transferred files
         if not batch_files:
