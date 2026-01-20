@@ -64,5 +64,31 @@ poetry install
    - Generate visualizations and metrics
    - Analyze economic narrative patterns
 
+## Batch Prediction Pipeline
+
+For large-scale inference on the full ProQuest dataset (2010-2025):
+
+1. **Run batch predictions** (on compute cluster with GPUs):
+   ```bash
+   ./scripts/run_batched_predict_2010_2025_updated.sh
+   ```
+   This submits SLURM jobs that save predictions to `/net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/`
+
+2. **Transfer predictions to local server** (if running aggregation on a different machine):
+   ```bash
+   scp -r mourad@fe01.ds.uchicago.edu:/net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_*_2010-2025_updated /home/mourad/causal-micro-narratives/tmp_batched/
+   ```
+
+3. **Aggregate predictions** to get shares of narratives per time/location:
+   ```bash
+   conda activate mourad-econ-py310
+   python -m src.finetuning.process_batched_predictions \
+     --dataset full_proquest \
+     --model llama31_ft__600s \
+     --train_ds now_and_proquest \
+     --updated
+   ```
+   Output saved to `/data/mourad/narratives/regression_data/`
+
 ## License
 

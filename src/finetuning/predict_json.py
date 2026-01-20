@@ -71,6 +71,11 @@ FULL_DATASET_PATHS = {
         'path': "/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/proquest_2010-2025_updated",
         'chunk_size': 8000,
         'filename': "processed_data_2010-2025_updated.jsonl.gz"
+    },
+    'FED_DATA': {
+        'path': "/data/mourad/narratives/fed_data",
+        'chunk_size': 8000,
+        'filename': "fed_processed.jsonl.gz"
     }
 }
 
@@ -382,18 +387,26 @@ class NarrativeGenerator:
     def save_outputs(self, generated: List[str], model_type: str) -> None:
         """Save generated predictions to disk."""
         self.dataset = self.dataset.add_column('completion', generated)
-        
+
         ckpt_steps = f"_{self.ckpt.split('-')[1]}s" if self.ckpt and self.ckpt != '' else ""
-        
+
+        # Determine base directory and suffix based on dataset type
+        if self.test_ds == 'fed':
+            base_dir = Path(OUTPUT_BASE) / "fed" / "full_fed"
+            suffix = ""  # Fed data doesn't need the 2010-2025_updated suffix
+        else:
+            base_dir = Path(OUTPUT_BASE) / self.test_ds / f"full_{self.test_ds}"
+            suffix = "_2010-2025_updated"
+
         if self.start_idx is not None or self.end_idx is not None:
             start_idx = self.start_idx if self.start_idx is not None else 0
             end_idx = self.end_idx if self.end_idx is not None else (len(self.dataset) - 1)
-            out_path = Path(OUTPUT_BASE) / self.test_ds / f"full_{self.test_ds}" / f"{self.model}_{model_type}_{ckpt_steps}_train-{self.train_ds}_range_{start_idx}_{end_idx}_2010-2025_updated"
+            out_path = base_dir / f"{self.model}_{model_type}_{ckpt_steps}_train-{self.train_ds}_range_{start_idx}_{end_idx}{suffix}"
         elif self.sample >= 0:
-            out_path = Path(OUTPUT_BASE) / self.test_ds / f"full_{self.test_ds}" / f"{self.model}_{model_type}_{ckpt_steps}_train-{self.train_ds}_sample_{self.sample}_2010-2025_updated"
+            out_path = base_dir / f"{self.model}_{model_type}_{ckpt_steps}_train-{self.train_ds}_sample_{self.sample}{suffix}"
         else:
             out_path = Path(OUTPUT_BASE) / f"{self.model}_{model_type}{ckpt_steps}_train-{self.train_ds}_test-{self.test_ds}"
-                
+
         out_path.mkdir(parents=True, exist_ok=True)
         self.dataset.save_to_disk(out_path)
         print(f"Saved dataset to disk = {out_path}")
@@ -416,8 +429,8 @@ if __name__ == "__main__":
     parser.add_argument('--model', choices=['phi2', 'phi2_first_run', 'llama31'], required=True)
     parser.add_argument('--gpu', type=str, choices=['a100', 'a40'], default='a100')
     parser.add_argument('--ckpt', default=None)
-    parser.add_argument('--split', choices=['train', 'test', 'NOW_filtered', 'PROQUEST_filtered', 'PROQUEST_2010_2025_UPDATED'],
-                      required=True, help='NOW_filtered/PROQUEST_filtered/PROQUEST_2010_2025_UPDATED are full datasets processed in chunks')
+    parser.add_argument('--split', choices=['train', 'test', 'NOW_filtered', 'PROQUEST_filtered', 'PROQUEST_2010_2025_UPDATED', 'FED_DATA'],
+                      required=True, help='NOW_filtered/PROQUEST_filtered/PROQUEST_2010_2025_UPDATED/FED_DATA are full datasets processed in chunks')
     parser.add_argument('--debug', action='store_true')
     parser.add_argument('--sample', type=int, default=-1,
                       help='For full datasets: chunk index to process')
@@ -426,7 +439,7 @@ if __name__ == "__main__":
     parser.add_argument('--end_idx', type=int, default=None,
                       help='For full datasets: explicit end index (inclusive)')
     parser.add_argument("--train_ds", choices=['now', 'proquest', 'now_and_proquest'], required=True)
-    parser.add_argument("--test_ds", choices=['now', 'proquest', 'processed_data_1960-1980'], required=True)
+    parser.add_argument("--test_ds", choices=['now', 'proquest', 'now_and_proquest', 'fed', 'processed_data_1960-1980'], required=True)
     parser.add_argument('--reuse', action='store_true')
 
     args = parser.parse_args()

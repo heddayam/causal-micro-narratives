@@ -1,0 +1,56 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "file_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "year_month": {
+      "dtype": "null",
+      "_type": "Value"
+    },
+    "title": {
+      "dtype": "null",
+      "_type": "Value"
+    },
+    "loc": {
+      "dtype": "null",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "null",
+      "_type": "Value"
+    },
+    "year": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "month": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "city": {
+      "dtype": "null",
+      "_type": "Value"
+    },
+    "state": {
+      "dtype": "null",
+      "_type": "Value"
+    },
+    "region": {
+      "dtype": "null",
+      "_type": "Value"
+    },
+    "lens": {
+      "dtype": "null",
+      "_type": "Value"
+    },
+    "completion": {
+      "dtype": "null",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
