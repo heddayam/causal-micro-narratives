@@ -29,7 +29,9 @@ python predict_json.py \
   --train_ds now_and_proquest \
   --test_ds proquest \
   --ckpt checkpoint-600 \
-  --sample $1 \
+  --sample ${1:--1} \
   --gpu a100 \
-  --reuse
+  --reuse \
+  ${2:+--start_idx $2} \
+  ${3:+--end_idx $3}
 

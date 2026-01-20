@@ -69,7 +69,7 @@ FULL_DATASET_PATHS = {
     },
     'PROQUEST_2010_2025_UPDATED': {
         'path': "/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/proquest_2010-2025_updated",
-        'chunk_size': 20000,
+        'chunk_size': 8000,
         'filename': "processed_data_2010-2025_updated.jsonl.gz"
     }
 }
@@ -81,6 +81,8 @@ class NarrativeConfig:
     gpu: str
     reuse: bool
     sample: int  # For full datasets: chunk index to process
+    start_idx: Optional[int] = None  # For full datasets: explicit start index
+    end_idx: Optional[int] = None  # For full datasets: explicit end index (inclusive)
     train_ds: str
     test_ds: str
     ckpt: Optional[str] = None
@@ -151,6 +153,8 @@ class NarrativeGenerator:
         self.debug = config.debug
         self.split = config.split
         self.sample = config.sample
+        self.start_idx = config.start_idx
+        self.end_idx = config.end_idx
         self.train_ds = config.train_ds
         self.test_ds = config.test_ds
         self.ckpt = config.ckpt
@@ -219,16 +223,26 @@ class NarrativeGenerator:
         )
 
         # Select the appropriate chunk for this job
-        chunk_size = dataset_config['chunk_size']
-        start_idx = chunk_size * self.sample
-        try:
-            end_idx = chunk_size * (self.sample + 1)
-            self.dataset = self.dataset.select(list(range(start_idx, end_idx)))
-        except:
-            # Handle last chunk which might be smaller
-            self.dataset = self.dataset.select(list(range(start_idx, len(self.dataset))))
+        if self.start_idx is not None or self.end_idx is not None:
+            start_idx = self.start_idx if self.start_idx is not None else 0
+            end_idx = self.end_idx if self.end_idx is not None else len(self.dataset) - 1
+            start_idx = max(start_idx, 0)
+            end_idx = min(end_idx, len(self.dataset) - 1)
+            if start_idx > end_idx:
+                raise ValueError(f"Invalid range: start_idx={start_idx}, end_idx={end_idx}")
+            self.dataset = self.dataset.select(list(range(start_idx, end_idx + 1)))
+            print(f"Processing {self.split} range {start_idx}-{end_idx}: {len(self.dataset)} instances")
+        else:
+            chunk_size = dataset_config['chunk_size']
+            start_idx = chunk_size * self.sample
+            try:
+                end_idx = chunk_size * (self.sample + 1)
+                self.dataset = self.dataset.select(list(range(start_idx, end_idx)))
+            except:
+                # Handle last chunk which might be smaller
+                self.dataset = self.dataset.select(list(range(start_idx, len(self.dataset))))
 
-        print(f"Processing {self.split} chunk {self.sample}: {len(self.dataset)} instances")
+            print(f"Processing {self.split} chunk {self.sample}: {len(self.dataset)} instances")
 
     def _load_dataset_split(self) -> None:
         """Load a standard train/test split dataset."""
@@ -371,7 +385,11 @@ class NarrativeGenerator:
         
         ckpt_steps = f"_{self.ckpt.split('-')[1]}s" if self.ckpt and self.ckpt != '' else ""
         
-        if self.sample >= 0:
+        if self.start_idx is not None or self.end_idx is not None:
+            start_idx = self.start_idx if self.start_idx is not None else 0
+            end_idx = self.end_idx if self.end_idx is not None else (len(self.dataset) - 1)
+            out_path = Path(OUTPUT_BASE) / self.test_ds / f"full_{self.test_ds}" / f"{self.model}_{model_type}_{ckpt_steps}_train-{self.train_ds}_range_{start_idx}_{end_idx}_2010-2025_updated"
+        elif self.sample >= 0:
             out_path = Path(OUTPUT_BASE) / self.test_ds / f"full_{self.test_ds}" / f"{self.model}_{model_type}_{ckpt_steps}_train-{self.train_ds}_sample_{self.sample}_2010-2025_updated"
         else:
             out_path = Path(OUTPUT_BASE) / f"{self.model}_{model_type}{ckpt_steps}_train-{self.train_ds}_test-{self.test_ds}"
@@ -402,7 +420,11 @@ if __name__ == "__main__":
                       required=True, help='NOW_filtered/PROQUEST_filtered/PROQUEST_2010_2025_UPDATED are full datasets processed in chunks')
     parser.add_argument('--debug', action='store_true')
     parser.add_argument('--sample', type=int, default=-1,
-                      help='For full datasets: chunk index to process (required for NOW_filtered/PROQUEST_filtered)')
+                      help='For full datasets: chunk index to process')
+    parser.add_argument('--start_idx', type=int, default=None,
+                      help='For full datasets: explicit start index (inclusive)')
+    parser.add_argument('--end_idx', type=int, default=None,
+                      help='For full datasets: explicit end index (inclusive)')
     parser.add_argument("--train_ds", choices=['now', 'proquest', 'now_and_proquest'], required=True)
     parser.add_argument("--test_ds", choices=['now', 'proquest', 'processed_data_1960-1980'], required=True)
     parser.add_argument('--reuse', action='store_true')
@@ -410,8 +432,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     # Validate arguments
-    if args.split in FULL_DATASET_PATHS and args.sample < 0:
-        raise ValueError(f"Must specify chunk index (--sample) when processing full datasets ({args.split})")
+    if args.split in FULL_DATASET_PATHS and args.sample < 0 and args.start_idx is None and args.end_idx is None:
+        raise ValueError(
+            f"Must specify --sample or --start_idx/--end_idx when processing full datasets ({args.split})"
+        )
     if args.split == 'dev':
         raise ValueError("No dev split right now. Use test or train.")
 
