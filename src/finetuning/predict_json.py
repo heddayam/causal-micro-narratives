@@ -81,14 +81,14 @@ class NarrativeConfig:
     gpu: str
     reuse: bool
     sample: int  # For full datasets: chunk index to process
-    start_idx: Optional[int] = None  # For full datasets: explicit start index
-    end_idx: Optional[int] = None  # For full datasets: explicit end index (inclusive)
     train_ds: str
     test_ds: str
     ckpt: Optional[str] = None
     max_tokens: int = 1000
     split: Optional[str] = None  # Can be train/test or NOW_filtered/PROQUEST_filtered
     debug: bool = False
+    start_idx: Optional[int] = None  # For full datasets: explicit start index
+    end_idx: Optional[int] = None  # For full datasets: explicit end index (inclusive)
 
 @guidance(stateless=False)
 def narrative_maker(lm: Any, sentence: str, dataset: str) -> Any:
