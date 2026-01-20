@@ -2,7 +2,7 @@
 #SBATCH --mail-user=mourad@uchicago.edu
 #SBATCH --mail-type=ALL
 #SBATCH --output=/net/scratch/mourad/legal/slurm_output/%A_%a.%N.stdout
-#SBATCH --error=/net/scratch/mourad/legal/slurm_output/%A_%a.%N.stderr
+#SBATCH --error=wai%A_%a.%N.stderr
 #SBATCH --chdir=/net/scratch/mourad/legal/slurm_output
 #SBATCH --partition=general
 #SBATCH --gres=gpu:4

@@ -19,3 +19,6 @@ src/utils/openai_key.txt
 data/
 data/*
 data/**/*
+
+# Temporary batched data
+tmp_batched/
