@@ -56,7 +56,7 @@ def narrative_maker(lm, sentence):
 
 class NarrativeGenerator:
     def __init__(self, model, gpu, reuse, sample, ckpt=None, sampling_params=None, max_tokens=1000, split=None, debug=False):
-        ckpt_base = Path('/net/projects/chai-lab/mourad/narratives-data/sft_out')
+        ckpt_base = Path('/net/projects2/chai-lab/mourad/narratives-data/sft_out')
         
         self.model = model
         self.debug = debug
@@ -75,10 +75,10 @@ class NarrativeGenerator:
             raise ValueError("Model not supported")
         
         if split == 'NOW_filtered':
-            self.dataset = utils.read_all_data("/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/", location=False)
+            self.dataset = utils.read_all_data("/net/projects2/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/", location=False)
             print(self.dataset)
         else:
-            self.dataset = utils.load_hf_dataset(path="/net/projects/chai-lab/mourad/narratives-data/sft_data_proquest", split=split)
+            self.dataset = utils.load_hf_dataset(path="/net/projects2/chai-lab/mourad/narratives-data/sft_data_proquest", split=split)
         if self.debug:
             if split == 'NOW_filtered':
                 per_job_sample = 71055
@@ -96,9 +96,9 @@ class NarrativeGenerator:
             self.llm = models.Transformers(model_str, device_map='auto')
 
     def load_finetuned_model(self, model_str, ckpt_path, reuse):
-        model_path = f"/net/projects/chai-lab/mourad/narratives-data/merged_model/{self.model}"
+        model_path = f"/net/projects2/chai-lab/mourad/narratives-data/merged_model/{self.model}"
         if not reuse:
-            cache_dir="/net/projects/chai-lab/mourad/data/models_cache"
+            cache_dir="/net/projects2/chai-lab/mourad/data/models_cache"
             model = AutoModelForCausalLM.from_pretrained(
                         model_str, 
                         device_map="auto",
@@ -162,7 +162,7 @@ class NarrativeGenerator:
         self.dataset = self.dataset.add_column('completion', generated)
         
         model = self.model
-        out_path = f"/net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/{model}_{model_type}_{self.split}_sample_{self.sample}"
+        out_path = f"/net/projects2/chai-lab/mourad/narratives-data/model_json_preds/proquest/{model}_{model_type}_{self.split}_sample_{self.sample}"
         os.makedirs(out_path, exist_ok=True)
         self.dataset.save_to_disk(out_path)
         print("Saved dataset to disk = ", out_path)

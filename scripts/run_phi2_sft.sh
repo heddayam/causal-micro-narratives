@@ -17,14 +17,14 @@
 echo $PATH
 
 cd /net/scratch/mourad/economic-narratives/src/finetune
-source /net/projects/chai-lab/miniconda3/etc/profile.d/conda.sh
+source /net/projects2/chai-lab/miniconda3/etc/profile.d/conda.sh
 conda activate /net/scratch/mourad/env-py310-a100
 
 accelerate launch --config_file configs/ds_config.yml /net/scratch/mourad/economic-narratives/src/finetune/sft_train.py \
    --model_name_or_path microsoft/phi-2 \
    --model_max_length 2048 \
-   --data_path /net/projects/chai-lab/mourad/narratives-data/sft_data_proquest \
-   --output_dir /net/projects/chai-lab/mourad/narratives-data/sft_out/phi2_proquest \
+   --data_path /net/projects2/chai-lab/mourad/narratives-data/sft_data_proquest \
+   --output_dir /net/projects2/chai-lab/mourad/narratives-data/sft_out/phi2_proquest \
    --max_steps 300 \
    --per_device_train_batch_size 4 \
    --per_device_eval_batch_size 4 \

@@ -17,7 +17,7 @@
 echo $PATH
 
 cd /net/scratch/mourad/economic-narratives/src/finetune
-source /net/projects/chai-lab/miniconda3/etc/profile.d/conda.sh
+source /net/projects2/chai-lab/miniconda3/etc/profile.d/conda.sh
 conda activate /net/scratch/mourad/env-py310-a40
 
 if [ "$1" == "llama31" ]; then

@@ -15,14 +15,14 @@
 echo $PATH
 
 cd /net/scratch/mourad/economic-narratives/src/finetune
-source /net/projects/chai-lab/miniconda3/etc/profile.d/conda.sh
+source /net/projects2/chai-lab/miniconda3/etc/profile.d/conda.sh
 conda activate /net/scratch/mourad/env-py310-a100
 
 accelerate launch --main_process_port 0 --config_file configs/ds_config.yml /net/scratch/mourad/economic-narratives/src/finetune/sft_train.py \
    --model_name_or_path meta-llama/Meta-Llama-3.1-8B \
    --model_max_length 2048 \
-   --data_path /net/projects/chai-lab/mourad/narratives-data/sft_data_now_and_proquest \
-   --output_dir /net/projects/chai-lab/mourad/narratives-data/sft_out/llama31_now_and_proquest \
+   --data_path /net/projects2/chai-lab/mourad/narratives-data/sft_data_now_and_proquest \
+   --output_dir /net/projects2/chai-lab/mourad/narratives-data/sft_out/llama31_now_and_proquest \
    --max_steps 600 \
    --per_device_train_batch_size 4 \
    --per_device_eval_batch_size 4 \

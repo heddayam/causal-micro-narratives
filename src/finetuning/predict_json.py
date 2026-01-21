@@ -48,9 +48,9 @@ from src.finetuning.sft_train import PROMPT_DICT
 load_dotenv()
 
 # Constants
-CACHE_DIR = "/net/projects/chai-lab/mourad/data/models_cache"
-MODEL_PATH_BASE = "/net/projects/chai-lab/mourad/narratives-data/merged_model"
-CKPT_BASE = Path('/net/projects/chai-lab/mourad/narratives-data/sft_out')
+CACHE_DIR = "/net/projects2/chai-lab/mourad/data/models_cache"
+MODEL_PATH_BASE = "/net/projects2/chai-lab/mourad/narratives-data/merged_model"
+CKPT_BASE = Path('/net/projects2/chai-lab/mourad/narratives-data/sft_out')
 OUTPUT_BASE = "/net/projects2/chai-lab/mourad/narratives-data/model_json_preds"
 
 # Dataset constants
@@ -58,17 +58,17 @@ MAX_SENTENCE_LENGTH = 400  # Maximum number of words in a sequence
 
 FULL_DATASET_PATHS = {
     'NOW_filtered': {
-        'path': "/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/",
+        'path': "/net/projects2/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/",
         'chunk_size': 60000,
         'filename': None
     },
     'PROQUEST_filtered': {
-        'path': "/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/{test_ds}",
+        'path': "/net/projects2/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/{test_ds}",
         'chunk_size': 50000,
         'filename': "processed_data_1923-2025.jsonl.gz"
     },
     'PROQUEST_2010_2025_UPDATED': {
-        'path': "/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/proquest_2010-2025_updated",
+        'path': "/net/projects2/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/proquest_2010-2025_updated",
         'chunk_size': 8000,
         'filename': "processed_data_2010-2025_updated.jsonl.gz"
     },
@@ -116,7 +116,7 @@ def narrative_maker(lm: Any, sentence: str, dataset: str) -> Any:
     "contains-narrative": {select(['true', 'false'], 'contains-narrative')},
     """
     if lm['contains-narrative'].lower() == "true":
-        if dataset == 'proquest':
+        if dataset in ['proquest', 'fed']:
             lm += f"""\
             "inflation-narratives": {{
                 "inflation-time": "{select(['past', 'present', 'future', 'general'],'inflation-time')}",
@@ -132,7 +132,7 @@ def narrative_maker(lm: Any, sentence: str, dataset: str) -> Any:
                 "narratives": [{gen('narratives', stop_regex=stop_regex, max_tokens=256)}]
             }},
         """
-        elif dataset in ['now_and_proquest', 'fed']:
+        elif dataset == 'now_and_proquest':
             lm += f"""\
             "inflation-narratives": {{
             "inflation-time": "{select(['past', 'present', 'future', 'general'],'inflation-time')}",
@@ -255,7 +255,7 @@ class NarrativeGenerator:
             raise ValueError(f"Invalid split {self.split} for standard dataset")
             
         self.dataset = utils.load_hf_dataset(
-            path=f"/net/projects/chai-lab/mourad/narratives-data/sft_data_{self.test_ds}",
+            path=f"/net/projects2/chai-lab/mourad/narratives-data/sft_data_{self.test_ds}",
             split=self.split
         )
         print(f"Loaded {self.split} split: {len(self.dataset)} instances")

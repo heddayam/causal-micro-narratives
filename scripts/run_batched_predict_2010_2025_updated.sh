@@ -48,7 +48,7 @@ for i in {0..44}; do
     fi
 
     if (( start == i * new_chunk_size && end == ((i + 1) * new_chunk_size - 1) )); then
-        output_dir="/net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_sample_"$i"_2010-2025_updated"
+        output_dir="/net/projects2/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_sample_"$i"_2010-2025_updated"
         if [ -d "$output_dir" ]; then
             echo "Chunk $i already processed, skipping..."
         else
@@ -56,7 +56,7 @@ for i in {0..44}; do
             sbatch run_predict_2010_2025_updated.sh $i
         fi
     else
-        output_dir="/net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_range_"$start"_"$end"_2010-2025_updated"
+        output_dir="/net/projects2/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_range_"$start"_"$end"_2010-2025_updated"
         if [ -d "$output_dir" ]; then
             echo "Range $start-$end already processed, skipping..."
         else

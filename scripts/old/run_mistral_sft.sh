@@ -18,7 +18,7 @@
 echo $PATH
 
 cd /net/scratch/mourad/economic-narratives/src/finetune
-source /net/projects/chai-lab/miniconda3/etc/profile.d/conda.sh
+source /net/projects2/chai-lab/miniconda3/etc/profile.d/conda.sh
 conda activate /net/scratch/mourad/env-py38-$1
 
 # An example to use SLURM_ARRAY_TASK_ID
@@ -36,8 +36,8 @@ conda activate /net/scratch/mourad/env-py38-$1
 torchrun --nproc_per_node=2 --master_port=45969 /net/scratch/mourad/economic-narratives/src/finetune/mistral_sft_train.py \
    --model_name_or_path mistralai/Mistral-7B-Instruct-v0.2 \
     --model_max_length 8096 \
-    --data_path /net/projects/chai-lab/mourad/narratives-data/sft_data \
-    --output_dir /net/projects/chai-lab/mourad/narratives-data/sft_out/mistral_$1 \
+    --data_path /net/projects2/chai-lab/mourad/narratives-data/sft_data \
+    --output_dir /net/projects2/chai-lab/mourad/narratives-data/sft_out/mistral_$1 \
     --max_steps 500 \
     --per_device_train_batch_size 2 \
     --per_device_eval_batch_size 2 \

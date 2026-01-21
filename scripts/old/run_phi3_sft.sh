@@ -18,7 +18,7 @@
 echo $PATH
 
 cd /net/scratch/mourad/economic-narratives/src/finetune
-source /net/projects/chai-lab/miniconda3/etc/profile.d/conda.sh
+source /net/projects2/chai-lab/miniconda3/etc/profile.d/conda.sh
 conda activate /net/scratch/mourad/env-py310-$1
 chmod 777 /net/scratch/mourad/economic-narratives/scripts/interactive_run.sh
 
@@ -35,7 +35,7 @@ chmod 777 /net/scratch/mourad/economic-narratives/scripts/interactive_run.sh
 # Now you can write your own bash codes
 
 torchrun --nproc_per_node=4 --master_port=45283 /net/scratch/mourad/economic-narratives/src/finetune/phi2_sft_train.py \
-   --data_path /net/projects/chai-lab/mourad/narratives-data/sft_data \
+   --data_path /net/projects2/chai-lab/mourad/narratives-data/sft_data \
    --model_name_or_path microsoft/Phi-3-mini-4k-instruct \
    --bf16 True \
    --learning_rate 1e-4 \
@@ -44,7 +44,7 @@ torchrun --nproc_per_node=4 --master_port=45283 /net/scratch/mourad/economic-nar
    --logging_strategy "steps" \
    --lr_scheduler_type "cosine" \
    --max_steps 300 \
-   --output_dir /net/projects/chai-lab/mourad/narratives-data/sft_out/phi3 \
+   --output_dir /net/projects2/chai-lab/mourad/narratives-data/sft_out/phi3 \
    --overwrite_output_dir True \
    --per_device_train_batch_size 4 \
    --per_device_eval_batch_size 4 \
@@ -60,8 +60,8 @@ torchrun --nproc_per_node=4 --master_port=45283 /net/scratch/mourad/economic-nar
    --run_name "phi3_binary_300steps_${1}"
     
    #  --model_max_length 4000 \
-   #  --data_path /net/projects/chai-lab/mourad/narratives-data/sft_data \
-   #  --output_dir /net/projects/chai-lab/mourad/narratives-data/sft_out/phi3 \
+   #  --data_path /net/projects2/chai-lab/mourad/narratives-data/sft_data \
+   #  --output_dir /net/projects2/chai-lab/mourad/narratives-data/sft_out/phi3 \
    #  --max_steps 300 \
    #  --per_device_train_batch_size 2 \
    #  --per_device_eval_batch_size 2 \

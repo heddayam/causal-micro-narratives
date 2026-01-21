@@ -83,7 +83,7 @@ def narrative_maker(lm, sentence, dataset):
 
 class NarrativeGenerator:
     def __init__(self, model, gpu, reuse, sample, train_ds, test_ds, ckpt=None, sampling_params=None, max_tokens=1000, split=None, debug=False):
-        ckpt_base = Path('/net/projects/chai-lab/mourad/narratives-data/sft_out')
+        ckpt_base = Path('/net/projects2/chai-lab/mourad/narratives-data/sft_out')
         
         self.model = model
         self.debug = debug
@@ -109,13 +109,13 @@ class NarrativeGenerator:
             raise ValueError("Model not supported")
         
         if split == 'NOW_filtered':
-            self.dataset = utils.read_all_data("/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/", location=False)
+            self.dataset = utils.read_all_data("/net/projects2/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/", location=False)
             print(self.dataset)
         elif split == 'PROQUEST_filtered':
-            self.dataset = utils.read_all_data(f"/net/projects/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/{test_ds}", location=False, filename=f"processed_data_2010-2025.jsonl.gz")
+            self.dataset = utils.read_all_data(f"/net/projects2/chai-lab/mourad/narratives-data/filtered_sentences_for_prediction/{test_ds}", location=False, filename=f"processed_data_2010-2025.jsonl.gz")
             print(self.dataset)
         else:
-            self.dataset = utils.load_hf_dataset(path=f"/net/projects/chai-lab/mourad/narratives-data/sft_data_{test_ds}", split=split)
+            self.dataset = utils.load_hf_dataset(path=f"/net/projects2/chai-lab/mourad/narratives-data/sft_data_{test_ds}", split=split)
         if self.debug:
             if split == 'NOW_filtered':
                 per_job_sample = 60000
@@ -149,9 +149,9 @@ class NarrativeGenerator:
             self.llm = models.Transformers(model_str, device_map='auto')
 
     def load_finetuned_model(self, model_str, ckpt_path, reuse):
-        model_path = f"/net/projects/chai-lab/mourad/narratives-data/merged_model/{self.model}"
+        model_path = f"/net/projects2/chai-lab/mourad/narratives-data/merged_model/{self.model}"
         if not reuse:
-            cache_dir="/net/projects/chai-lab/mourad/data/models_cache"
+            cache_dir="/net/projects2/chai-lab/mourad/data/models_cache"
             model = AutoModelForCausalLM.from_pretrained(
                         model_str, 
                         device_map="auto",
@@ -292,9 +292,9 @@ class NarrativeGenerator:
         if self.ckpt != '' and self.ckpt is not None:
             ckpt_steps = "_" + self.ckpt.split('-')[1] + "s"
         if self.sample >= 0:
-            out_path = f"/net/projects/chai-lab/mourad/narratives-data/model_json_preds/{self.test_ds}/full_{self.test_ds}/{model}_{model_type}_{ckpt_steps}_train-{self.train_ds}_sample_{self.sample}_2010-2025"
+            out_path = f"/net/projects2/chai-lab/mourad/narratives-data/model_json_preds/{self.test_ds}/full_{self.test_ds}/{model}_{model_type}_{ckpt_steps}_train-{self.train_ds}_sample_{self.sample}_2010-2025"
         else:
-            out_path = f"/net/projects/chai-lab/mourad/narratives-data/model_json_preds/{model}_{model_type}{ckpt_steps}_train-{self.train_ds}_test-{self.test_ds}"
+            out_path = f"/net/projects2/chai-lab/mourad/narratives-data/model_json_preds/{model}_{model_type}{ckpt_steps}_train-{self.train_ds}_test-{self.test_ds}"
                 
         os.makedirs(out_path, exist_ok=True)
         self.dataset.save_to_disk(out_path)

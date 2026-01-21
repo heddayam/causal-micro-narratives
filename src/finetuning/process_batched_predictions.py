@@ -13,7 +13,7 @@ Usage:
         --updated
 
 Note: If predictions were generated on a remote cluster, transfer them first:
-    scp -r mourad@fe01.ds.uchicago.edu:/net/projects/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_*_2010-2025_updated /home/mourad/causal-micro-narratives/tmp_batched/
+    scp -r mourad@fe01.ds.uchicago.edu:/net/projects2/chai-lab/mourad/narratives-data/model_json_preds/proquest/full_proquest/llama31_ft__600s_train-now_and_proquest_*_2010-2025_updated /home/mourad/causal-micro-narratives/tmp_batched/
 """
 
 import argparse
@@ -45,7 +45,7 @@ national_news_outlets = [
     "Wall Street Journal",
     "Washington Post",
     "USA Today",
-    "Los Angeles Times",
+    # "Los Angeles Times",
     "Christian Science Monitor",
     "Newsday",
     "U.S. Newswire",
@@ -69,11 +69,15 @@ national_news_outlets = [
     "Axios",
     "Barron's",
     "Insider",
-    # NPR shows (titles don't contain "NPR")
-    "Morning Edition",
-    "All Things Considered",
-    "Planet Money",
 ]
+
+
+to_exclude = [
+    "Morning Edition", 
+    "All Things Considered", 
+    "Planet Money"
+    # check for more shows/podcasts
+    ]
 
 
 def is_national_outlet(title: str) -> bool:
@@ -104,16 +108,18 @@ def process_dataset_predictions(
 
     # Determine paths based on dataset type
     if dataset_name.lower() in ['fed', 'full_fed']:
-        # Fed data paths - check both remote and local
-        dir_base = "/net/projects2/chai-lab/mourad/narratives-data/model_json_preds/fed/full_fed"
+        # Fed data paths - check local first, then remote
+        dir_base = "/data/mourad/narratives/model_json_preds/llama31_fed/batches"
         batch_files = glob(path.join(dir_base, f"{model}_train-{train_ds}_sample_*"))
-        # Also check local tmp_batched for transferred files
+        # Also check remote paths
         if not batch_files:
-            dir_base = "/home/mourad/causal-micro-narratives/tmp_batched"
-            batch_files = glob(path.join(dir_base, f"{model}_train-{train_ds}_sample_*_fed"))
+            dir_base = "/net/projects2/chai-lab/mourad/narratives-data/model_json_preds/fed/full_fed"
+            batch_files = glob(path.join(dir_base, f"{model}_train-{train_ds}_sample_*"))
     elif updated:
-        dir_base = f"/home/mourad/causal-micro-narratives/tmp_batched"
+        dir_base = "/data/mourad/narratives/model_json_preds/llama31_proquest_2010-2025_updated/batches"
+        # Get both sample_* and range_* files
         batch_files = glob(path.join(dir_base, f"{model}_train-{train_ds}_sample_*_2010-2025_updated"))
+        batch_files += glob(path.join(dir_base, f"{model}_train-{train_ds}_range_*_2010-2025_updated"))
     else:
         dir_base = f"/data/mourad/narratives/model_json_preds/{dataset_name}"
         batch_files = glob(path.join(dir_base, f"{model}_train-{train_ds}_sample_*"))
