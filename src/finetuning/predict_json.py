@@ -132,7 +132,7 @@ def narrative_maker(lm: Any, sentence: str, dataset: str) -> Any:
                 "narratives": [{gen('narratives', stop_regex=stop_regex, max_tokens=256)}]
             }},
         """
-        elif dataset == 'now_and_proquest':
+        elif dataset in ['now_and_proquest', 'fed']:
             lm += f"""\
             "inflation-narratives": {{
             "inflation-time": "{select(['past', 'present', 'future', 'general'],'inflation-time')}",
@@ -351,7 +351,7 @@ class NarrativeGenerator:
                 generated.append(json.dumps(record))
             except Exception as e:
                 print(f"Error processing instance: {e}")
-                breakpoint()
+                generated.append(json.dumps({'error': str(e), 'contains-narrative': False}))
         return generated
 
     def _process_single_instance(self, sentence: str) -> Dict[str, Any]:
