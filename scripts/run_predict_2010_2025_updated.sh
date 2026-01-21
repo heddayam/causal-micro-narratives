@@ -4,8 +4,8 @@
 #SBATCH --output=/net/scratch/mourad/legal/slurm_output/%A_%a.%N.stdout
 #SBATCH --error=wai%A_%a.%N.stderr
 #SBATCH --chdir=/net/scratch/mourad/legal/slurm_output
-#SBATCH --partition=general
-#SBATCH --gres=gpu:4
+#SBATCH --partition=general,complementary-ai
+#SBATCH --gres=gpu:2
 #SBATCH --constraint="a100|h100|h200"
 #SBATCH --job-name=proquest_2010_2025_updated
 #SBATCH --nodes=1
