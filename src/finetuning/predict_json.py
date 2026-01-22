@@ -377,7 +377,7 @@ class NarrativeGenerator:
             "narratives": [outputs['narratives']]
         }
         
-        if self.test_ds == 'proquest':
+        if self.test_ds in ['proquest', 'fed']:
             base_structure["inflation-direction"] = outputs['inflation-direction'].lower()
         elif self.test_ds == 'now':
             base_structure["counter-narrative"] = outputs['counter-narrative'].lower() == 'true'
